@@ -5,7 +5,7 @@ This package is modified for tracking humans and small moving obstacles for trac
 
 $ Launch Gazebo file
 ```
-roslaunch turtlebot3_gazebo turtlebot3_open_spaces_wsh.launch 
+roslaunch turtlebot3_gazebo turtlebot3_env.launch 
 ```
 
 $ Launch Laser scan spliter to split the Laser scan into front and back scan
