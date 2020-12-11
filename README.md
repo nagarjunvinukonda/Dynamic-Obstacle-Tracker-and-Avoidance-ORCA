@@ -15,7 +15,7 @@ roslaunch split_scan split_scan.launch
 
 $ Launch obstcale detector package
 ```
-roslaunch obstacle_detector demo.launch
+roslaunch obstacle_detector detector.launch
 ```
 
 $ Launch turtlebot teteoperation
