@@ -7,24 +7,18 @@
 ros::Publisher pub_frt;
 ros::Publisher pub_rear;
 
+//For my package I dont require intensities. So commented it out.
+
 void clbk_laser(const sensor_msgs::LaserScan::ConstPtr& msg){
 
-	// std::cout << "Hello World1 \n";
+    //create sensor messages
 	sensor_msgs::LaserScan scan_f;
 	sensor_msgs::LaserScan scan_r;
 	sensor_msgs::LaserScan scan;
 
 	int Rgn = msg->ranges.size();
-  	// double laser_frequency = 40;  // change
 
-	// std::cout << "Hello World2 \n";
-
-    // scan_f.angle_increment = M_PI / (Rgn/2);
-    // scan_f.time_increment = (1 / laser_frequency) / (Rgn/2);
-    //scan_f._ranges_type(Rgn/2);
-    //scan_f.set_intensities_size(Rgn/2);
-
-	// std::cout << "Hello World3 \n";
+	//dividing scan data for front scan
 	for(int i=0; i<Rgn/2 ;i++){
 		
 		scan_f.header.stamp = ros::Time::now();
@@ -37,17 +31,16 @@ void clbk_laser(const sensor_msgs::LaserScan::ConstPtr& msg){
     	scan_f.range_min = msg->range_min;
         scan_f.range_max = msg->range_max;         
         (scan_f.ranges).push_back(msg->ranges[i]) ;
-		// std::cout << msg->ranges[i] << "\n";
-		// scan_f.intensities = msg->intensities;
+
+		// scan_f.intensities = msg->intensities;         
 
 	}
-	// std::cout << "Hello World4 \n";
-	// std::cout<<scan_f.ranges.size();
+
+	//dividing scan data for rear scan
 	for(int i=0; i<Rgn/2 ;i++){
 		
 		scan_r.header.stamp = ros::Time::now();
     	scan_r.header.frame_id = "rear_scanner";
-    	//scan_r.angle_min = M_PI/2;
         scan_r.angle_min = 0.0;
     	scan_r.angle_max = M_PI;
 		scan_r.angle_increment = msg->angle_increment;
@@ -56,13 +49,12 @@ void clbk_laser(const sensor_msgs::LaserScan::ConstPtr& msg){
     	scan_r.range_min = msg->range_min;
         scan_r.range_max = msg->range_max;  
 		(scan_r.ranges).push_back(msg->ranges[Rgn/2 + i]);
-		// std::cout << (msg->ranges)[Rgn/2+i] << "\n";
+
 		// scan_r.intensities = msg->intensities;
 		
 	}
 
-	// std::cout << "Hello World5 \n";
-	// std::cout<<scan_r.ranges.size();
+
 	pub_frt.publish(scan_f);
 	pub_rear.publish(scan_r);
 
@@ -70,7 +62,7 @@ void clbk_laser(const sensor_msgs::LaserScan::ConstPtr& msg){
 
 int main(int argc, char **argv){
 
-	ros::init(argc,argv,"my_node");
+	ros::init(argc,argv,"laser_split");
 	ros::NodeHandle n;
 	ros::Subscriber sub_laser = n.subscribe("/scan", 10, clbk_laser);
 	pub_frt = n.advertise<sensor_msgs::LaserScan>("frt_scan",10);
