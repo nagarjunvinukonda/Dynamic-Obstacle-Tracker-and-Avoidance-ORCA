@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<launch>
-    <node pkg="split_scan" name = "scan_values" type="split_scan_node" output="screen">
-
-    </node>
-</launch>
