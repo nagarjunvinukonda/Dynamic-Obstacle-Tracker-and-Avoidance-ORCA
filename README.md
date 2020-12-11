@@ -10,7 +10,7 @@ roslaunch turtlebot3_gazebo turtlebot3_env.launch
 
 $ Launch Laser scan spliter to split the Laser scan into front and back scan
 ```
-roslaunch split_scan laser_spliter.launch 
+roslaunch split_scan split_scan.launch 
 ```
 
 $ Launch obstcale detector package
