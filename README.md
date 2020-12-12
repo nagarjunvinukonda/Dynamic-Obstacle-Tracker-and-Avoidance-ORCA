@@ -25,4 +25,8 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 ![obstacle_detect](https://user-images.githubusercontent.com/49041896/101849358-89672880-3b25-11eb-8dc6-33262c6d647f.gif)
 
+# References & Useful resources
+* M.Przybyła, “Detection and tracking of 2d geometric obstacles from lrfdata,” in2017 11th International Workshop on Robot Motion and Control(RoMoCo). IEEE, 2017, pp. 135–141.
+* https://github.com/tysik/obstacle_detector
+
 
