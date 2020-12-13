@@ -39,4 +39,6 @@ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 * M.Przybyła, “Detection and tracking of 2d geometric obstacles from lrfdata,” in2017 11th International Workshop on Robot Motion and Control(RoMoCo). IEEE, 2017, pp. 135–141.
 * https://github.com/tysik/obstacle_detector
 
-
+* The package requires to install Armadillo and OpenBlas, which can be found here:
+[Armadillo](http://arma.sourceforge.net/download.html) ,
+[OpenBlas](https://www.openblas.net/)
