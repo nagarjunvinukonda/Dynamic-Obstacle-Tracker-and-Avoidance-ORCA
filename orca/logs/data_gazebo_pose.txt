@@ -1,0 +1,2058 @@
+Test_Sim Constructor 
+setupScenario 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -500   0
+RVOSim Position:  -500   0
+Velocity Before Transformation:  0.964863   0.263104
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -500   0
+RVOSim Position:  -500   0
+Velocity Before Transformation:  0.964771   0.263087
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -498.031   0.0245908
+RVOSim Position:  -500   0
+Velocity Before Transformation:  0.964784   0.263169
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -497.946   0.0304792
+RVOSim Position:  -498.031   0.0245891
+Velocity Before Transformation:  0.964665   0.263551
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -497.305   0.0844327
+RVOSim Position:  -497.946   0.0304792
+Velocity Before Transformation:  0.964568   0.263584
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -496.173   0.235774
+RVOSim Position:  -497.305   0.0844327
+Velocity Before Transformation:  0.964671   0.263665
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -494.17   0.5785
+RVOSim Position:  -495.892   0.280576
+Velocity Before Transformation:  0.964618   0.263799
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -491.516   1.09582
+RVOSim Position:  -494.17   0.5785
+Velocity Before Transformation:  0.964505   0.263916
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -488.252   1.88165
+RVOSim Position:  -491.516   1.09582
+Velocity Before Transformation:  0.964532   0.264167
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -485.031   2.73791
+RVOSim Position:  -488.252   1.88165
+Velocity Before Transformation:  0.964466   0.264209
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -480.877   3.92943
+RVOSim Position:  -484.338   2.93102
+Velocity Before Transformation:  0.964507   0.264272
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -476.586   5.19543
+RVOSim Position:  -480.877   3.92943
+Velocity Before Transformation:  0.964491   0.264201
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -473.023   6.25917
+RVOSim Position:  -476.586   5.19543
+Velocity Before Transformation:  0.964494   0.264127
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -468.78   7.5428
+RVOSim Position:  -472.334   6.46638
+Velocity Before Transformation:  0.964515   0.263931
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -464.531   8.83791
+RVOSim Position:  -468.78   7.5428
+Velocity Before Transformation:  0.964596   0.263984
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -461.017   9.91695
+RVOSim Position:  -464.531   8.83791
+Velocity Before Transformation:  0.964581   0.263822
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -456.778   11.225
+RVOSim Position:  -460.293   10.1402
+Velocity Before Transformation:  0.964602   0.263622
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -452.538   12.5388
+RVOSim Position:  -456.778   11.225
+Velocity Before Transformation:  0.964554   0.263646
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -448.381   13.8348
+RVOSim Position:  -452.538   12.5388
+Velocity Before Transformation:  0.96464   0.263508
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -444.788   14.9557
+RVOSim Position:  -448.342   13.8467
+Velocity Before Transformation:  0.964753   0.263387
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -440.556   16.2789
+RVOSim Position:  -444.102   15.1701
+Velocity Before Transformation:  0.964732   0.263195
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -436.316   17.6005
+RVOSim Position:  -440.556   16.2789
+Velocity Before Transformation:  0.964764   0.263091
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -432.765   18.7051
+RVOSim Position:  -436.316   17.6005
+Velocity Before Transformation:  0.96475   0.262851
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -428.529   20.0215
+RVOSim Position:  -432.039   18.9306
+Velocity Before Transformation:  0.964881   0.262701
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -424.286   21.3353
+RVOSim Position:  -428.529   20.0215
+Velocity Before Transformation:  0.964889   0.262655
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -420.735   22.434
+RVOSim Position:  -424.286   21.3353
+Velocity Before Transformation:  0.964934   0.262445
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -416.376   23.7775
+RVOSim Position:  -420.048   22.6464
+Velocity Before Transformation:  0.964916   0.262305
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -412.133   25.0808
+RVOSim Position:  -416.376   23.7775
+Velocity Before Transformation:  0.965083   0.262234
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -408.58   26.1701
+RVOSim Position:  -412.133   25.0808
+Velocity Before Transformation:  0.965101   0.262146
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -404.294   27.4784
+RVOSim Position:  -408.58   26.1701
+Velocity Before Transformation:  0.965067   0.261999
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -400.738   28.5627
+RVOSim Position:  -404.294   27.4784
+Velocity Before Transformation:  0.965024   0.26191
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -396.489   29.854
+RVOSim Position:  -400.05   28.7723
+Velocity Before Transformation:  0.965133   0.261777
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -392.241   31.1416
+RVOSim Position:  -396.489   29.854
+Velocity Before Transformation:  0.965103   0.261621
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -388.225   32.3576
+RVOSim Position:  -392.241   31.1416
+Velocity Before Transformation:  0.965258   0.261598
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -384.471   33.4898
+RVOSim Position:  -387.995   32.4271
+Velocity Before Transformation:  0.965237   0.261434
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -380.185   34.7825
+RVOSim Position:  -383.743   33.7094
+Velocity Before Transformation:  0.965243   0.261233
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -375.892   36.0724
+RVOSim Position:  -380.185   34.7825
+Velocity Before Transformation:  0.965286   0.261187
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -372.332   37.141
+RVOSim Position:  -375.892   36.0724
+Velocity Before Transformation:  0.965329   0.261064
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -368.043   38.4257
+RVOSim Position:  -372.332   37.141
+Velocity Before Transformation:  0.965418   0.260956
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -364.478   39.4895
+RVOSim Position:  -368.043   38.4257
+Velocity Before Transformation:  0.965412   0.26081
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -360.227   40.758
+RVOSim Position:  -364.478   39.4895
+Velocity Before Transformation:  0.965398   0.260699
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -356.007   42.0123
+RVOSim Position:  -360.227   40.758
+Velocity Before Transformation:  0.965431   0.260687
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -352.443   43.0705
+RVOSim Position:  -355.968   42.0236
+Velocity Before Transformation:  0.965442   0.26054
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -348.189   44.332
+RVOSim Position:  -352.443   43.0705
+Velocity Before Transformation:  0.965478   0.260501
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -344.66   45.3748
+RVOSim Position:  -348.189   44.332
+Velocity Before Transformation:  0.965522   0.260337
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -340.367   46.6437
+RVOSim Position:  -343.931   45.5904
+Velocity Before Transformation:  0.965534   0.2602
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -336.105   47.8985
+RVOSim Position:  -340.367   46.6437
+Velocity Before Transformation:  0.965625   0.260068
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -332.501   48.9593
+RVOSim Position:  -336.105   47.8985
+Velocity Before Transformation:  0.965558   0.260027
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -328.244   50.2107
+RVOSim Position:  -332.501   48.9593
+Velocity Before Transformation:  0.965573   0.259906
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -324.674   51.2565
+RVOSim Position:  -328.244   50.2107
+Velocity Before Transformation:  0.965599   0.259922
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -320.416   52.5041
+RVOSim Position:  -323.944   51.4703
+Velocity Before Transformation:  0.965679   0.259754
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -316.152   53.749
+RVOSim Position:  -320.416   52.5041
+Velocity Before Transformation:  0.965659   0.259697
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -312.622   54.779
+RVOSim Position:  -316.152   53.749
+Velocity Before Transformation:  0.965753   0.25959
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -308.362   56.0208
+RVOSim Position:  -311.893   54.992
+Velocity Before Transformation:  0.965745   0.259477
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -304.099   57.2604
+RVOSim Position:  -308.362   56.0208
+Velocity Before Transformation:  0.965808   0.259415
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -300.492   58.3102
+RVOSim Position:  -304.099   57.2604
+Velocity Before Transformation:  0.965729   0.25926
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -296.264   59.5373
+RVOSim Position:  -300.492   58.3102
+Velocity Before Transformation:  0.965902   0.259237
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -292.656   60.5849
+RVOSim Position:  -296.264   59.5373
+Velocity Before Transformation:  0.965862   0.259178
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -288.433   61.8108
+RVOSim Position:  -292.656   60.5849
+Velocity Before Transformation:  0.965905   0.259071
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -284.86   62.8456
+RVOSim Position:  -288.433   61.8108
+Velocity Before Transformation:  0.965982   0.25899
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -280.561   64.0926
+RVOSim Position:  -284.86   62.8456
+Velocity Before Transformation:  0.965835   0.258864
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -276.986   65.1269
+RVOSim Position:  -280.561   64.0926
+Velocity Before Transformation:  0.965911   0.258808
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -272.685   66.3712
+RVOSim Position:  -276.986   65.1269
+Velocity Before Transformation:  0.965941   0.25861
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -269.115   67.4044
+RVOSim Position:  -272.685   66.3712
+Velocity Before Transformation:  0.965994   0.258572
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -264.81   68.647
+RVOSim Position:  -269.115   67.4044
+Velocity Before Transformation:  0.965994   0.258515
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -261.24   69.6802
+RVOSim Position:  -264.81   68.647
+Velocity Before Transformation:  0.966055   0.258487
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -256.976   70.9177
+RVOSim Position:  -261.24   69.6802
+Velocity Before Transformation:  0.96607   0.258405
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -253.331   71.9819
+RVOSim Position:  -256.976   70.9177
+Velocity Before Transformation:  0.966103   0.258258
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -249.116   73.2229
+RVOSim Position:  -253.331   71.9819
+Velocity Before Transformation:  0.966159   0.258123
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -245.548   74.2785
+RVOSim Position:  -249.116   73.2229
+Velocity Before Transformation:  0.966101   0.258122
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -241.261   75.5574
+RVOSim Position:  -244.859   74.4833
+Velocity Before Transformation:  0.966261   0.257914
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -237.698   76.6263
+RVOSim Position:  -241.261   75.5574
+Velocity Before Transformation:  0.966206   0.257772
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -233.415   77.9275
+RVOSim Position:  -237.008   76.8344
+Velocity Before Transformation:  0.966252   0.257526
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -229.905   79.0095
+RVOSim Position:  -233.415   77.9275
+Velocity Before Transformation:  0.966209   0.25744
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -225.626   80.3397
+RVOSim Position:  -229.179   79.2342
+Velocity Before Transformation:  0.966278   0.257307
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -221.436   81.6599
+RVOSim Position:  -225.626   80.3397
+Velocity Before Transformation:  0.966429   0.257024
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -217.89   82.7833
+RVOSim Position:  -221.398   81.6719
+Velocity Before Transformation:  0.966428   0.256894
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -213.663   84.1329
+RVOSim Position:  -217.89   82.7833
+Velocity Before Transformation:  0.966489   0.256693
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -210.166   85.2588
+RVOSim Position:  -213.663   84.1329
+Velocity Before Transformation:  0.966572   0.256442
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -205.941   86.6294
+RVOSim Position:  -210.166   85.2588
+Velocity Before Transformation:  0.966547   0.256228
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -202.378   87.8045
+RVOSim Position:  -205.941   86.6294
+Velocity Before Transformation:  0.966677   0.255992
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -198.203   89.1928
+RVOSim Position:  -202.378   87.8045
+Velocity Before Transformation:  0.96673   0.255705
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -194.635   90.3793
+RVOSim Position:  -198.203   89.1928
+Velocity Before Transformation:  0.966854   0.255391
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -190.472   91.7706
+RVOSim Position:  -194.635   90.3793
+Velocity Before Transformation:  0.966924   0.255054
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -186.943   92.9577
+RVOSim Position:  -190.472   91.7706
+Velocity Before Transformation:  0.967018   0.254737
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -182.747   94.387
+RVOSim Position:  -186.943   92.9577
+Velocity Before Transformation:  0.967095   0.254445
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -179.272   95.5859
+RVOSim Position:  -182.747   94.387
+Velocity Before Transformation:  0.96728   0.254049
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -175.042   97.0636
+RVOSim Position:  -179.272   95.5859
+Velocity Before Transformation:  0.967321   0.253788
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -171.543   98.3023
+RVOSim Position:  -175.042   97.0636
+Velocity Before Transformation:  0.967445   0.253258
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -167.358   99.7952
+RVOSim Position:  -171.543   98.3023
+Velocity Before Transformation:  0.967456   0.252907
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -163.861   101.051
+RVOSim Position:  -167.358   99.7952
+Velocity Before Transformation:  0.967587   0.252485
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -159.65   102.571
+RVOSim Position:  -163.861   101.051
+Velocity Before Transformation:  0.967691   0.252112
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -156.111   103.849
+RVOSim Position:  -159.65   102.571
+Velocity Before Transformation:  0.967795   0.2515
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -151.942   105.36
+RVOSim Position:  -156.111   103.849
+Velocity Before Transformation:  0.967999   0.251048
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -148.477   106.612
+RVOSim Position:  -151.942   105.36
+Velocity Before Transformation:  0.968101   0.250561
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -144.305   108.118
+RVOSim Position:  -147.799   106.857
+Velocity Before Transformation:  0.968218   0.250076
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -140.165   109.602
+RVOSim Position:  -144.305   108.118
+Velocity Before Transformation:  0.968421   0.249613
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -136.656   110.852
+RVOSim Position:  -140.165   109.602
+Velocity Before Transformation:  0.968455   0.249117
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -132.4   112.359
+RVOSim Position:  -136.656   110.852
+Velocity Before Transformation:  0.968571   0.248731
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -128.926   113.584
+RVOSim Position:  -132.4   112.359
+Velocity Before Transformation:  0.968694   0.248214
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -124.703   115.068
+RVOSim Position:  -128.926   113.584
+Velocity Before Transformation:  0.968777   0.247791
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -121.19   116.288
+RVOSim Position:  -124.703   115.068
+Velocity Before Transformation:  0.968912   0.247273
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -116.983   117.729
+RVOSim Position:  -121.19   116.288
+Velocity Before Transformation:  0.969004   0.246883
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -113.498   118.905
+RVOSim Position:  -116.983   117.729
+Velocity Before Transformation:  0.969193   0.246405
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -109.277   120.302
+RVOSim Position:  -112.816   119.133
+Velocity Before Transformation:  0.969261   0.24601
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -105.093   121.665
+RVOSim Position:  -109.277   120.302
+Velocity Before Transformation:  0.969335   0.245542
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -101.825   122.724
+RVOSim Position:  -105.093   121.665
+Velocity Before Transformation:  0.969545   0.245265
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -98.5927   123.77
+RVOSim Position:  -101.825   122.724
+Velocity Before Transformation:  0.969496   0.24495
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -96.199   124.452
+RVOSim Position:  -98.5927   123.77
+Velocity Before Transformation:  0.969606   0.244588
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -92.6697   125.292
+RVOSim Position:  -96.199   124.452
+Velocity Before Transformation:  0.969613   0.244513
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -89.4849   125.924
+RVOSim Position:  -92.6697   125.292
+Velocity Before Transformation:  0.969541   0.244548
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -85.1731   126.724
+RVOSim Position:  -88.7899   126.053
+Velocity Before Transformation:  0.969512   0.244858
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -80.9728   127.545
+RVOSim Position:  -85.1731   126.724
+Velocity Before Transformation:  0.969481   0.245168
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -77.939   128.195
+RVOSim Position:  -80.9728   127.545
+Velocity Before Transformation:  0.969393   0.24549
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -74.8412   128.831
+RVOSim Position:  -77.939   128.195
+Velocity Before Transformation:  0.969356   0.245657
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -72.1707   129.371
+RVOSim Position:  -74.8412   128.831
+Velocity Before Transformation:  0.969227   0.245884
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -68.4004   130.118
+RVOSim Position:  -72.1707   129.371
+Velocity Before Transformation:  0.969169   0.24605
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -64.785   130.804
+RVOSim Position:  -68.4004   130.118
+Velocity Before Transformation:  0.969199   0.246419
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -60.4331   131.661
+RVOSim Position:  -64.785   130.804
+Velocity Before Transformation:  0.969069   0.246652
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -56.7909   132.398
+RVOSim Position:  -60.4331   131.661
+Velocity Before Transformation:  0.969036   0.247071
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -52.4496   133.302
+RVOSim Position:  -56.7909   132.398
+Velocity Before Transformation:  0.969028   0.247295
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -48.8543   134.068
+RVOSim Position:  -52.4496   133.302
+Velocity Before Transformation:  0.96886   0.247551
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -44.644   134.977
+RVOSim Position:  -48.1113   134.228
+Velocity Before Transformation:  0.968844   0.247725
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -41.1118   135.732
+RVOSim Position:  -44.644   134.977
+Velocity Before Transformation:  0.968794   0.247967
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -38.6459   136.331
+RVOSim Position:  -41.1118   135.732
+Velocity Before Transformation:  0.96874   0.248213
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -35.2523   137.236
+RVOSim Position:  -38.6459   136.331
+Velocity Before Transformation:  0.968718   0.248201
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -32.2936   138.118
+RVOSim Position:  -35.2523   137.236
+Velocity Before Transformation:  0.968706   0.248232
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -29.126   139.153
+RVOSim Position:  -32.2936   138.118
+Velocity Before Transformation:  0.968759   0.248026
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -27.2109   139.876
+RVOSim Position:  -29.126   139.153
+Velocity Before Transformation:  0.96879   0.247754
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -25.7895   140.481
+RVOSim Position:  -26.9208   139.994
+Velocity Before Transformation:  0.968988   0.247358
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -24.2696   141.175
+RVOSim Position:  -25.7895   140.481
+Velocity Before Transformation:  0.969002   0.246951
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -22.689   141.977
+RVOSim Position:  -24.2696   141.175
+Velocity Before Transformation:  0.96911   0.24655
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -20.3896   143.292
+RVOSim Position:  -22.689   141.977
+Velocity Before Transformation:  0.969192   0.245986
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -18.0455   144.743
+RVOSim Position:  -20.3896   143.292
+Velocity Before Transformation:  0.969623   0.244965
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -15.0189   146.768
+RVOSim Position:  -17.5502   145.065
+Velocity Before Transformation:  0.969951   0.243375
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -11.5334   149.127
+RVOSim Position:  -15.0189   146.768
+Velocity Before Transformation:  0.970337   0.241733
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -8.43995   151.137
+RVOSim Position:  -11.5334   149.127
+Velocity Before Transformation:  0.970897   0.239548
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -4.63522   153.471
+RVOSim Position:  -8.43995   151.137
+Velocity Before Transformation:  0.971258   0.237691
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  -1.44137   155.32
+RVOSim Position:  -4.63522   153.471
+Velocity Before Transformation:  0.971901   0.235526
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  2.4717   157.467
+RVOSim Position:  -1.44137   155.32
+Velocity Before Transformation:  0.972261   0.233886
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  5.74452   159.174
+RVOSim Position:  2.4717   157.467
+Velocity Before Transformation:  0.972697   0.232008
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  9.73033   161.154
+RVOSim Position:  6.42254   159.518
+Velocity Before Transformation:  0.973044   0.230252
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  13.7667   163.06
+RVOSim Position:  9.73033   161.154
+Velocity Before Transformation:  0.973368   0.228964
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  17.1203   164.578
+RVOSim Position:  13.7667   163.06
+Velocity Before Transformation:  0.973874   0.227459
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  21.2458   166.368
+RVOSim Position:  17.1203   164.578
+Velocity Before Transformation:  0.974048   0.226315
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  24.6507   167.789
+RVOSim Position:  21.2458   166.368
+Velocity Before Transformation:  0.97436   0.224969
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  28.8122   169.463
+RVOSim Position:  24.6507   167.789
+Velocity Before Transformation:  0.974593   0.223929
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  32.2945   170.813
+RVOSim Position:  28.8122   169.463
+Velocity Before Transformation:  0.974861   0.222812
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  36.4124   172.359
+RVOSim Position:  32.9677   171.069
+Velocity Before Transformation:  0.975142   0.221744
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  40.5987   173.875
+RVOSim Position:  36.4124   172.359
+Velocity Before Transformation:  0.975314   0.220912
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  44.0743   175.097
+RVOSim Position:  40.5987   173.875
+Velocity Before Transformation:  0.975496   0.219853
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  48.3157   176.547
+RVOSim Position:  44.0743   175.097
+Velocity Before Transformation:  0.975594   0.219178
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  51.8154   177.71
+RVOSim Position:  48.3157   176.547
+Velocity Before Transformation:  0.97594   0.218441
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  56.0764   179.092
+RVOSim Position:  51.8154   177.71
+Velocity Before Transformation:  0.976018   0.217723
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  59.6299   180.215
+RVOSim Position:  56.0764   179.092
+Velocity Before Transformation:  0.976158   0.217019
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  63.8751   181.527
+RVOSim Position:  60.3571   180.442
+Velocity Before Transformation:  0.97638   0.216389
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  68.1266   182.811
+RVOSim Position:  63.8751   181.527
+Velocity Before Transformation:  0.976369   0.215758
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  71.6971   183.867
+RVOSim Position:  68.1266   182.811
+Velocity Before Transformation:  0.976582   0.215168
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  75.9992   185.119
+RVOSim Position:  71.6971   183.867
+Velocity Before Transformation:  0.976603   0.214742
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  79.5807   186.141
+RVOSim Position:  75.9992   185.119
+Velocity Before Transformation:  0.976876   0.214132
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  83.817   187.332
+RVOSim Position:  79.5807   186.141
+Velocity Before Transformation:  0.976955   0.213738
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  87.4016   188.326
+RVOSim Position:  83.817   187.332
+Velocity Before Transformation:  0.977046   0.213194
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  91.7255   189.506
+RVOSim Position:  87.4016   188.326
+Velocity Before Transformation:  0.977094   0.212857
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  95.2791   190.465
+RVOSim Position:  91.7255   189.506
+Velocity Before Transformation:  0.977177   0.212429
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  99.6102   191.62
+RVOSim Position:  95.2791   190.465
+Velocity Before Transformation:  0.977241   0.21208
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  103.205   192.569
+RVOSim Position:  99.6102   191.62
+Velocity Before Transformation:  0.977328   0.211709
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  107.54   193.703
+RVOSim Position:  103.205   192.569
+Velocity Before Transformation:  0.977492   0.211383
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  111.101   194.625
+RVOSim Position:  107.54   193.703
+Velocity Before Transformation:  0.977495   0.211003
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  115.402   195.731
+RVOSim Position:  111.799   194.805
+Velocity Before Transformation:  0.977569   0.210635
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  119.668   196.817
+RVOSim Position:  115.402   195.731
+Velocity Before Transformation:  0.977623   0.210372
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  123.271   197.73
+RVOSim Position:  119.668   196.817
+Velocity Before Transformation:  0.977665   0.210053
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  127.577   198.813
+RVOSim Position:  123.271   197.73
+Velocity Before Transformation:  0.977786   0.209839
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  131.224   199.724
+RVOSim Position:  127.616   198.823
+Velocity Before Transformation:  0.977827   0.209445
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  135.572   200.805
+RVOSim Position:  131.224   199.724
+Velocity Before Transformation:  0.977938   0.209171
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  139.145   201.688
+RVOSim Position:  135.572   200.805
+Velocity Before Transformation:  0.978036   0.208885
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  143.454   202.748
+RVOSim Position:  139.145   201.688
+Velocity Before Transformation:  0.977991   0.208634
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  147.027   203.626
+RVOSim Position:  143.454   202.748
+Velocity Before Transformation:  0.978033   0.208331
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  151.339   204.679
+RVOSim Position:  147.027   203.626
+Velocity Before Transformation:  0.978119   0.208055
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  154.915   205.551
+RVOSim Position:  151.339   204.679
+Velocity Before Transformation:  0.978106   0.207857
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  159.307   206.618
+RVOSim Position:  154.915   205.551
+Velocity Before Transformation:  0.978122   0.207593
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  162.88   207.484
+RVOSim Position:  159.307   206.618
+Velocity Before Transformation:  0.978322   0.207228
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  167.234   208.538
+RVOSim Position:  163.58   207.653
+Velocity Before Transformation:  0.978339   0.207104
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  171.509   209.57
+RVOSim Position:  167.234   208.538
+Velocity Before Transformation:  0.978367   0.206738
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  175.164   210.452
+RVOSim Position:  171.548   209.579
+Velocity Before Transformation:  0.978501   0.206502
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  179.481   211.492
+RVOSim Position:  175.164   210.452
+Velocity Before Transformation:  0.978469   0.206251
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  183.055   212.352
+RVOSim Position:  179.481   211.492
+Velocity Before Transformation:  0.978552   0.205873
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  187.372   213.39
+RVOSim Position:  183.055   212.352
+Velocity Before Transformation:  0.978602   0.205627
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  190.949   214.248
+RVOSim Position:  187.372   213.39
+Velocity Before Transformation:  0.9787   0.205333
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  195.266   215.283
+RVOSim Position:  190.949   214.248
+Velocity Before Transformation:  0.978799   0.205199
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  198.845   216.14
+RVOSim Position:  195.266   215.283
+Velocity Before Transformation:  0.978782   0.204874
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  203.159   217.171
+RVOSim Position:  198.845   216.14
+Velocity Before Transformation:  0.978822   0.204532
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  206.778   218.037
+RVOSim Position:  203.159   217.171
+Velocity Before Transformation:  0.978926   0.204336
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  211.134   219.075
+RVOSim Position:  206.778   218.037
+Velocity Before Transformation:  0.978999   0.204136
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  214.752   219.937
+RVOSim Position:  211.134   219.075
+Velocity Before Transformation:  0.979027   0.203681
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  219.071   220.965
+RVOSim Position:  214.752   219.937
+Velocity Before Transformation:  0.979064   0.203457
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  222.648   221.814
+RVOSim Position:  219.071   220.965
+Velocity Before Transformation:  0.979103   0.203137
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  226.969   222.84
+RVOSim Position:  222.648   221.814
+Velocity Before Transformation:  0.979281   0.202903
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  230.55   223.687
+RVOSim Position:  226.969   222.84
+Velocity Before Transformation:  0.979229   0.202615
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  234.868   224.708
+RVOSim Position:  230.55   223.687
+Velocity Before Transformation:  0.979332   0.202326
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  238.45   225.552
+RVOSim Position:  234.868   224.708
+Velocity Before Transformation:  0.979403   0.20203
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  242.77   226.567
+RVOSim Position:  239.152   225.717
+Velocity Before Transformation:  0.979423   0.20154
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  247.132   227.59
+RVOSim Position:  242.77   226.567
+Velocity Before Transformation:  0.979486   0.201327
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  250.755   228.435
+RVOSim Position:  247.132   227.59
+Velocity Before Transformation:  0.97962   0.200992
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  255.076   229.443
+RVOSim Position:  250.755   228.435
+Velocity Before Transformation:  0.979591   0.200819
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  258.699   230.287
+RVOSim Position:  255.115   229.452
+Velocity Before Transformation:  0.979752   0.200485
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  263.021   231.29
+RVOSim Position:  258.699   230.287
+Velocity Before Transformation:  0.979859   0.200131
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  266.607   232.123
+RVOSim Position:  263.021   231.29
+Velocity Before Transformation:  0.979843   0.199779
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  270.932   233.124
+RVOSim Position:  266.607   232.123
+Velocity Before Transformation:  0.97994   0.199592
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  274.553   233.962
+RVOSim Position:  270.932   233.124
+Velocity Before Transformation:  0.98006   0.199168
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  278.918   234.972
+RVOSim Position:  274.553   233.962
+Velocity Before Transformation:  0.97997   0.198832
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  282.5   235.799
+RVOSim Position:  278.918   234.972
+Velocity Before Transformation:  0.980107   0.198509
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  286.865   236.808
+RVOSim Position:  282.5   235.799
+Velocity Before Transformation:  0.980177   0.198211
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  290.49   237.646
+RVOSim Position:  286.865   236.808
+Velocity Before Transformation:  0.980282   0.197796
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  294.812   238.645
+RVOSim Position:  290.49   237.646
+Velocity Before Transformation:  0.980317   0.197483
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  298.436   239.483
+RVOSim Position:  294.812   238.645
+Velocity Before Transformation:  0.980392   0.197087
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  302.759   240.482
+RVOSim Position:  298.436   239.483
+Velocity Before Transformation:  0.980494   0.196718
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  306.423   241.328
+RVOSim Position:  302.759   240.482
+Velocity Before Transformation:  0.980577   0.196366
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  310.749   242.327
+RVOSim Position:  306.423   241.328
+Velocity Before Transformation:  0.980704   0.195949
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  314.409   243.171
+RVOSim Position:  310.749   242.327
+Velocity Before Transformation:  0.980719   0.19552
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  318.736   244.169
+RVOSim Position:  314.409   243.171
+Velocity Before Transformation:  0.980777   0.19516
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  322.359   245.002
+RVOSim Position:  318.736   244.169
+Velocity Before Transformation:  0.980899   0.194789
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  326.686   245.997
+RVOSim Position:  322.359   245.002
+Velocity Before Transformation:  0.981036   0.194292
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  330.273   246.821
+RVOSim Position:  326.686   245.997
+Velocity Before Transformation:  0.981046   0.193844
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  334.596   247.812
+RVOSim Position:  330.273   246.821
+Velocity Before Transformation:  0.981121   0.193434
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  338.184   248.635
+RVOSim Position:  334.596   247.812
+Velocity Before Transformation:  0.981261   0.192965
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  342.51   249.624
+RVOSim Position:  338.184   248.635
+Velocity Before Transformation:  0.981291   0.192492
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  346.097   250.444
+RVOSim Position:  342.51   249.624
+Velocity Before Transformation:  0.981364   0.191922
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  350.426   251.433
+RVOSim Position:  346.8   250.605
+Velocity Before Transformation:  0.981438   0.191495
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  354.088   252.268
+RVOSim Position:  350.426   251.433
+Velocity Before Transformation:  0.981571   0.191048
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  358.417   253.257
+RVOSim Position:  354.088   252.268
+Velocity Before Transformation:  0.981682   0.190529
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  362.043   254.083
+RVOSim Position:  358.417   253.257
+Velocity Before Transformation:  0.981725   0.189975
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  366.37   255.07
+RVOSim Position:  362.043   254.083
+Velocity Before Transformation:  0.981876   0.189412
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  370.036   255.906
+RVOSim Position:  366.37   255.07
+Velocity Before Transformation:  0.982041   0.18891
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  374.352   256.894
+RVOSim Position:  370.036   255.906
+Velocity Before Transformation:  0.982104   0.18831
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  377.902   257.777
+RVOSim Position:  374.352   256.894
+Velocity Before Transformation:  0.982287   0.187633
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  382.154   258.936
+RVOSim Position:  377.902   257.777
+Velocity Before Transformation:  0.982416   0.186778
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  385.773   259.933
+RVOSim Position:  382.154   258.936
+Velocity Before Transformation:  0.982686   0.18524
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  389.363   260.909
+RVOSim Position:  385.773   259.933
+Velocity Before Transformation:  0.982983   0.183885
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  393.693   262.065
+RVOSim Position:  390.097   261.106
+Velocity Before Transformation:  0.983265   0.182208
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  397.988   263.194
+RVOSim Position:  393.693   262.065
+Velocity Before Transformation:  0.983485   0.180833
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  401.593   264.127
+RVOSim Position:  397.988   263.194
+Velocity Before Transformation:  0.983796   0.179215
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  405.895   265.224
+RVOSim Position:  401.593   264.127
+Velocity Before Transformation:  0.984006   0.17791
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  409.502   266.133
+RVOSim Position:  405.895   265.224
+Velocity Before Transformation:  0.984379   0.176436
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  413.812   267.202
+RVOSim Position:  409.502   266.133
+Velocity Before Transformation:  0.98461   0.175045
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  417.388   268.078
+RVOSim Position:  413.812   267.202
+Velocity Before Transformation:  0.984794   0.173556
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  421.668   269.111
+RVOSim Position:  417.388   268.078
+Velocity Before Transformation:  0.985023   0.172126
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  425.324   269.98
+RVOSim Position:  421.668   269.111
+Velocity Before Transformation:  0.98529   0.170675
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  429.649   270.994
+RVOSim Position:  425.324   269.98
+Velocity Before Transformation:  0.985504   0.16942
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  433.273   271.83
+RVOSim Position:  429.649   270.994
+Velocity Before Transformation:  0.985899   0.16789
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  437.605   272.817
+RVOSim Position:  433.273   271.83
+Velocity Before Transformation:  0.986024   0.166593
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  441.939   273.789
+RVOSim Position:  437.605   272.817
+Velocity Before Transformation:  0.986203   0.165122
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  445.53   274.582
+RVOSim Position:  441.939   273.789
+Velocity Before Transformation:  0.986555   0.163676
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  449.872   275.527
+RVOSim Position:  445.53   274.582
+Velocity Before Transformation:  0.98676   0.162342
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  453.469   276.296
+RVOSim Position:  449.872   275.527
+Velocity Before Transformation:  0.986964   0.160897
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  457.817   277.212
+RVOSim Position:  454.173   276.445
+Velocity Before Transformation:  0.98711   0.159459
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  462.166   278.113
+RVOSim Position:  457.817   277.212
+Velocity Before Transformation:  0.987381   0.158264
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  465.847   278.864
+RVOSim Position:  462.206   278.121
+Velocity Before Transformation:  0.987625   0.156911
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  470.244   279.748
+RVOSim Position:  465.847   278.864
+Velocity Before Transformation:  0.987782   0.155606
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  473.852   280.461
+RVOSim Position:  470.244   279.748
+Velocity Before Transformation:  0.988097   0.154187
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  478.213   281.31
+RVOSim Position:  474.597   280.607
+Velocity Before Transformation:  0.988276   0.152815
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  482.576   282.145
+RVOSim Position:  478.213   281.31
+Velocity Before Transformation:  0.988376   0.151715
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  486.268   282.841
+RVOSim Position:  482.576   282.145
+Velocity Before Transformation:  0.988712   0.150378
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  490.638   283.654
+RVOSim Position:  486.976   282.974
+Velocity Before Transformation:  0.988889   0.148953
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  495.042   284.457
+RVOSim Position:  490.638   283.654
+Velocity Before Transformation:  0.98901   0.147827
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  498.707   285.115
+RVOSim Position:  495.042   284.457
+Velocity Before Transformation:  0.98919   0.146506
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  503.081   285.888
+RVOSim Position:  498.707   285.115
+Velocity Before Transformation:  0.989452   0.145425
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  507.493   286.654
+RVOSim Position:  503.081   285.888
+Velocity Before Transformation:  0.98959   0.144099
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  511.164   287.283
+RVOSim Position:  507.493   286.654
+Velocity Before Transformation:  0.98974   0.142695
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  515.538   288.019
+RVOSim Position:  511.875   287.404
+Velocity Before Transformation:  0.989931   0.141493
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  519.884   288.739
+RVOSim Position:  515.538   288.019
+Velocity Before Transformation:  0.9901   0.140448
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  524.304   289.457
+RVOSim Position:  519.884   288.739
+Velocity Before Transformation:  0.990312   0.139209
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  527.938   290.038
+RVOSim Position:  524.304   289.457
+Velocity Before Transformation:  0.990424   0.137981
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  532.369   290.736
+RVOSim Position:  528.69   290.157
+Velocity Before Transformation:  0.99052   0.136763
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  536.751   291.414
+RVOSim Position:  532.369   290.736
+Velocity Before Transformation:  0.99074   0.135674
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  541.187   292.091
+RVOSim Position:  536.751   291.414
+Velocity Before Transformation:  0.990853   0.134491
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  544.823   292.636
+RVOSim Position:  541.187   292.091
+Velocity Before Transformation:  0.991034   0.133195
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  549.216   293.286
+RVOSim Position:  545.573   292.748
+Velocity Before Transformation:  0.991262   0.132152
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  553.614   293.927
+RVOSim Position:  549.93   293.391
+Velocity Before Transformation:  0.991414   0.130849
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  557.964   294.551
+RVOSim Position:  553.614   293.927
+Velocity Before Transformation:  0.99154   0.129855
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  562.368   295.174
+RVOSim Position:  557.964   294.551
+Velocity Before Transformation:  0.991725   0.128606
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  566.007   295.682
+RVOSim Position:  562.368   295.174
+Velocity Before Transformation:  0.991868   0.127165
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  570.409   296.287
+RVOSim Position:  566.759   295.786
+Velocity Before Transformation:  0.991985   0.125764
+Model _States _Callback _Function 
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  574.888   296.894
+RVOSim Position:  571.164   296.39
+Velocity Before Transformation:  0.992231   0.12421
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  579.248   297.476
+RVOSim Position:  574.888   296.894
+Velocity Before Transformation:  0.992433   0.122732
+Model _States _Callback _Function 
+reachedGoal_ 
+updateVisualization 
+ setPreferredVelocitties 
+Gazebo Position:  583.697   298.061
+RVOSim Position:  579.248   297.476
+Velocity Before Transformation:  0.992639   0.120803
+Model _States _Callback _Function 
+reachedGoal_ 
+Test_Sim Destructor 

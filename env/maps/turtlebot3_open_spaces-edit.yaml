@@ -1,0 +1,7 @@
+image: turtlebot3_open_spaces-edit.pgm
+resolution: 0.050000
+origin: [-14.500000, -14.50000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

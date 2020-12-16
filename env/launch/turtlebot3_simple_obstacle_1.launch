@@ -1,0 +1,37 @@
+<!-- -->
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="-5.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+  <arg name="roll" default="0.0"/>
+  <arg name="pitch" default="0.0"/>
+  <arg name="yaw" default="0.0"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find env)/worlds/simple_obs1.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>
+
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+  <!--node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen"/-->
+
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -R $(arg roll) -P $(arg pitch) -Y $(arg yaw) -param robot_description" />
+
+  <include file="$(find env)/launch/turtlebot3_env_navigation.launch">
+    <arg name="model" value="$(arg model)"/>
+    <arg name="map_file" value="$(find env)/maps/simple_obs1.yaml"/>
+    <arg name="open_rviz" value="true"/>
+    <arg name="move_forward_only" value="false"/>
+    <arg name="initial_pose_x" value="$(arg x_pos)"/>
+    <arg name="initial_pose_y" value="$(arg y_pos)"/>
+    <arg name="initial_pose_a" value="0.0"/>
+  </include>
+
+
+</launch>

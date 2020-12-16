@@ -1,0 +1,171 @@
+
+Test_Sim(ros::NodeHandle& nh)
+
+Process Flow :  
+   1.  Wait till 1st instance of laser scan is received
+   2.  Initialize the publishers and subscribers, setup RVO::Simulator, the agent(s) & obstacles
+
+
+
+
+~Test_Sim()
+
+Process Flow :  
+  1.  Publish 0 velocity for 0.1 secs to ensure that robot stops after cycle completion
+  2.  Deallocate resources
+
+
+
+void setupAgent_()
+
+Process Flow :  
+   1.  Initialise the default agent attributes. Add the start and goal for agent
+
+
+
+
+void setupObstacle_()
+
+Process Flow :  
+  1.  Process the obstacles obtained from laser scans
+
+
+
+
+void setupScenario_()
+
+Process Flow :  
+  1.  Setup time_step and agent data for beginning simulation
+
+
+
+
+void updateVisualization_()
+
+
+
+
+void setPreferredVelocities_()
+
+Process Flow :  
+  1.  Get current goal vector for the robot with unit magnitude and set it as current preferred velocity
+  2.  Using ORCA, find the change in velocity for the robot
+  3.  Update the current preferred velocity by adding the change in velocity
+
+
+
+bool Test::Sim::runORCA_()
+
+Process Flow:
+  1.  Setup Obstacles at every step based on new laser points at that step
+  2.  Set robot preferred velocity
+  3.  Perform one iteration of ORCA to compute new robot velocity
+  4.  Transform velocity from World frame to robot frame  .....  WHY?  ---- Refer "Important Pointers" -> point 4.
+  5.  Publish velocity
+
+
+
+
+bool reachedGoal_()
+  
+Process Flow :  
+  1.  If all agents have reached their goals return true, else return false
+
+
+
+
+RVO::Vector2 getRobotCurrentPosition()
+
+Process Flow :  
+  1.  returns current robot position
+
+
+
+
+void modelStatesCallbackFunction_(const gazebo_msgs::ModelStates::ConstPtr&)
+
+Process Flow :  
+  1.  Get index for robot and obstacle from model_states_publisher
+  2.  Publish robot position and velocity on /my_robot/modelStates
+
+
+
+
+void staticObstaclesCallBackFunction_(const sensor_msgs::LaserScanConstPtr&)
+ 
+Process Flow :  
+  1.  Setup tf transform & tf listener to get transformation from /base_scan to /map frames
+  2.  For every scan line in (r, theta) -> Convert it into (x,y) which is in robot's /base_scan -> convert the (x,y) from /base_scan to /map frame as a Vector2 object
+  3.  Add the Vector2 object to std::vector<Vector> obstData_ which will be passed into simulation from addObstacle()
+
+
+
+
+void velocityPublisher_(const geometry_msgs::Twist& )
+
+Process Flow :  
+ * 1.  Modify the control velocities (v_x & w_z) to ensure no drift
+ * 2.  Publish the robot velocities with 0.1s sleep
+
+
+
+
+tf::Vector3 transformVelocity_(tf::Matrix3x3& mat, tf::Vector3& velInWorld)
+
+Process Flow :  
+  1.  Using transformation between /map and /base_footprint, transfrom velocity to base_footprint
+  2.  return tf::Vector3 velocity object
+
+
+
+
+geometry_msgs::Twist transformVelToRobotFrame_(geometry_msgs::Twist& )
+
+Process Flow :  
+  1.  Using transformation between /map and /base_footprint, transfrom velocity to base_footprint
+  2.  Convert the tf::vector3 robot velocity into geometry_msgs::Twist
+
+
+
+
+void dispTransformationMat_(tf::Matrix3x3& mat)
+
+Process Flow :  
+  1.  Display the tf::Matrix3x3 type of transformation matrix
+
+
+
+void printObstacleVector(std::vector<RVO::Vector2>&)
+
+Process Flow :  
+  1.  Prints the vector of obstacle points 
+
+
+
+
+double norm2 (RVO::Vector2& , RVO::Vector2& )
+
+Process Flow :  
+  1.  Computes distance between two points passed as RVO::Vector2 objects
+
+
+
+
+RVO::Vector2 transformPointToWorldFrame(tf::Matrix3x3& mat, const tf::Vector3& origin  , const tf::Vector3& point)
+
+Process Flow :  
+  1.  Convert the tf::Vector3 point from robot frame to /map frame and return as RVO::Vector2 object
+
+
+
+
+
+
+
+
+*** Important Pointers 
+
+1. The data obtained from GAZEBO is in meters, while the data passed to ORCA is in centimeters
+2. The ORCA algorithm requires obstacle information (for every obstacle) as a sequence of points on obstacle surface in ANTICLOCKWISE direction
+3. The obstacle points are transformed from robot's laser frame (/base_scan) to /odom frame instead of /map frame due to the issue of odom drifting (happening due to AMCL trying to relocalize the robot)
+4. The ORCA Algorithm computes agent velocities in the World (/odom ) coordinate frame and it needs to be transformed back into the Robot (/base_footprint) co-ordinate frame

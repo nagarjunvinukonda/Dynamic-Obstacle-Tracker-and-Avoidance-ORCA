@@ -1,0 +1,3705 @@
+GlobalTime: 0
+Robot Curr Position:  -200   0
+
+GlobalTime: 0.25
+Robot Curr Position:  -199.763   0.0790409
+
+GlobalTime: 0.5
+Robot Curr Position:  -199.526   0.158098
+
+GlobalTime: 0.75
+Robot Curr Position:  -199.288   0.237142
+
+GlobalTime: 1
+Robot Curr Position:  -199.051   0.316203
+
+GlobalTime: 1.25
+Robot Curr Position:  -198.814   0.395261
+
+GlobalTime: 1.5
+Robot Curr Position:  -198.577   0.474321
+
+GlobalTime: 1.75
+Robot Curr Position:  -198.34   0.553377
+
+GlobalTime: 2
+Robot Curr Position:  -198.103   0.632426
+
+GlobalTime: 2.25
+Robot Curr Position:  -197.865   0.711484
+
+GlobalTime: 2.5
+Robot Curr Position:  -197.628   0.790541
+
+GlobalTime: 2.75
+Robot Curr Position:  -197.391   0.869616
+
+GlobalTime: 3
+Robot Curr Position:  -197.154   0.948657
+
+GlobalTime: 3.25
+Robot Curr Position:  -196.917   1.02773
+
+GlobalTime: 3.5
+Robot Curr Position:  -196.68   1.10679
+
+GlobalTime: 3.75
+Robot Curr Position:  -196.442   1.18583
+
+GlobalTime: 4
+Robot Curr Position:  -196.205   1.2649
+
+GlobalTime: 4.25
+Robot Curr Position:  -195.968   1.34397
+
+GlobalTime: 4.5
+Robot Curr Position:  -195.731   1.42302
+
+GlobalTime: 4.75
+Robot Curr Position:  -195.494   1.50209
+
+GlobalTime: 5
+Robot Curr Position:  -195.257   1.58115
+
+GlobalTime: 5.25
+Robot Curr Position:  -195.019   1.6602
+
+GlobalTime: 5.5
+Robot Curr Position:  -194.782   1.73926
+
+GlobalTime: 5.75
+Robot Curr Position:  -194.545   1.8183
+
+GlobalTime: 6
+Robot Curr Position:  -194.308   1.89735
+
+GlobalTime: 6.25
+Robot Curr Position:  -194.071   1.97641
+
+GlobalTime: 6.5
+Robot Curr Position:  -193.834   2.05547
+
+GlobalTime: 6.75
+Robot Curr Position:  -193.596   2.13453
+
+GlobalTime: 7
+Robot Curr Position:  -193.359   2.2136
+
+GlobalTime: 7.25
+Robot Curr Position:  -193.122   2.29265
+
+GlobalTime: 7.5
+Robot Curr Position:  -192.885   2.37169
+
+GlobalTime: 7.75
+Robot Curr Position:  -192.648   2.45076
+
+GlobalTime: 8
+Robot Curr Position:  -192.411   2.52983
+
+GlobalTime: 8.25
+Robot Curr Position:  -192.173   2.60887
+
+GlobalTime: 8.5
+Robot Curr Position:  -191.936   2.68793
+
+GlobalTime: 8.75
+Robot Curr Position:  -191.699   2.767
+
+GlobalTime: 9
+Robot Curr Position:  -191.462   2.84605
+
+GlobalTime: 9.25
+Robot Curr Position:  -191.225   2.92511
+
+GlobalTime: 9.5
+Robot Curr Position:  -190.988   3.00418
+
+GlobalTime: 9.75
+Robot Curr Position:  -190.75   3.08325
+
+GlobalTime: 10
+Robot Curr Position:  -190.513   3.16231
+
+GlobalTime: 10.25
+Robot Curr Position:  -190.276   3.24136
+
+GlobalTime: 10.5
+Robot Curr Position:  -190.039   3.32042
+
+GlobalTime: 10.75
+Robot Curr Position:  -189.802   3.39946
+
+GlobalTime: 11
+Robot Curr Position:  -189.565   3.47851
+
+GlobalTime: 11.25
+Robot Curr Position:  -189.327   3.55756
+
+GlobalTime: 11.5
+Robot Curr Position:  -189.09   3.63662
+
+GlobalTime: 11.75
+Robot Curr Position:  -188.853   3.71569
+
+GlobalTime: 12
+Robot Curr Position:  -188.616   3.79472
+
+GlobalTime: 12.25
+Robot Curr Position:  -188.379   3.8738
+
+GlobalTime: 12.5
+Robot Curr Position:  -188.142   3.95286
+
+GlobalTime: 12.75
+Robot Curr Position:  -187.904   4.03193
+
+GlobalTime: 13
+Robot Curr Position:  -187.667   4.11098
+
+GlobalTime: 13.25
+Robot Curr Position:  -187.43   4.19005
+
+GlobalTime: 13.5
+Robot Curr Position:  -187.193   4.2691
+
+GlobalTime: 13.75
+Robot Curr Position:  -186.956   4.34816
+
+GlobalTime: 14
+Robot Curr Position:  -186.719   4.42722
+
+GlobalTime: 14.25
+Robot Curr Position:  -186.481   4.5063
+
+GlobalTime: 14.5
+Robot Curr Position:  -186.244   4.58536
+
+GlobalTime: 14.75
+Robot Curr Position:  -186.007   4.66441
+
+GlobalTime: 15
+Robot Curr Position:  -185.77   4.74347
+
+GlobalTime: 15.25
+Robot Curr Position:  -185.533   4.82253
+
+GlobalTime: 15.5
+Robot Curr Position:  -185.296   4.90159
+
+GlobalTime: 15.75
+Robot Curr Position:  -185.058   4.98063
+
+GlobalTime: 16
+Robot Curr Position:  -184.821   5.05969
+
+GlobalTime: 16.25
+Robot Curr Position:  -184.584   5.13873
+
+GlobalTime: 16.5
+Robot Curr Position:  -184.347   5.21779
+
+GlobalTime: 16.75
+Robot Curr Position:  -184.11   5.29684
+
+GlobalTime: 17
+Robot Curr Position:  -183.872   5.37589
+
+GlobalTime: 17.25
+Robot Curr Position:  -183.635   5.45495
+
+GlobalTime: 17.5
+Robot Curr Position:  -183.398   5.534
+
+GlobalTime: 17.75
+Robot Curr Position:  -183.161   5.61303
+
+GlobalTime: 18
+Robot Curr Position:  -182.924   5.69209
+
+GlobalTime: 18.25
+Robot Curr Position:  -182.687   5.77113
+
+GlobalTime: 18.5
+Robot Curr Position:  -182.449   5.85019
+
+GlobalTime: 18.75
+Robot Curr Position:  -182.212   5.92924
+
+GlobalTime: 19
+Robot Curr Position:  -181.975   6.00832
+
+GlobalTime: 19.25
+Robot Curr Position:  -181.738   6.08738
+
+GlobalTime: 19.5
+Robot Curr Position:  -181.501   6.16644
+
+GlobalTime: 19.75
+Robot Curr Position:  -181.264   6.24552
+
+GlobalTime: 20
+Robot Curr Position:  -181.026   6.32458
+
+GlobalTime: 20.25
+Robot Curr Position:  -180.789   6.40365
+
+GlobalTime: 20.5
+Robot Curr Position:  -180.552   6.48272
+
+GlobalTime: 20.75
+Robot Curr Position:  -180.315   6.56178
+
+GlobalTime: 21
+Robot Curr Position:  -180.078   6.64083
+
+GlobalTime: 21.25
+Robot Curr Position:  -179.841   6.71989
+
+GlobalTime: 21.5
+Robot Curr Position:  -179.603   6.79895
+
+GlobalTime: 21.75
+Robot Curr Position:  -179.366   6.87803
+
+GlobalTime: 22
+Robot Curr Position:  -179.129   6.95711
+
+GlobalTime: 22.25
+Robot Curr Position:  -178.892   7.03616
+
+GlobalTime: 22.5
+Robot Curr Position:  -178.655   7.11522
+
+GlobalTime: 22.75
+Robot Curr Position:  -178.418   7.19427
+
+GlobalTime: 23
+Robot Curr Position:  -178.18   7.27333
+
+GlobalTime: 23.25
+Robot Curr Position:  -177.943   7.35236
+
+GlobalTime: 23.5
+Robot Curr Position:  -177.706   7.43142
+
+GlobalTime: 23.75
+Robot Curr Position:  -177.469   7.51047
+
+GlobalTime: 24
+Robot Curr Position:  -177.232   7.58955
+
+GlobalTime: 24.25
+Robot Curr Position:  -176.995   7.66859
+
+GlobalTime: 24.5
+Robot Curr Position:  -176.757   7.74763
+
+GlobalTime: 24.75
+Robot Curr Position:  -176.52   7.82668
+
+GlobalTime: 25
+Robot Curr Position:  -176.283   7.90574
+
+GlobalTime: 25.25
+Robot Curr Position:  -176.046   7.98478
+
+GlobalTime: 25.5
+Robot Curr Position:  -175.809   8.06385
+
+GlobalTime: 25.75
+Robot Curr Position:  -175.572   8.14289
+
+GlobalTime: 26
+Robot Curr Position:  -175.334   8.22194
+
+GlobalTime: 26.25
+Robot Curr Position:  -175.097   8.301
+
+GlobalTime: 26.5
+Robot Curr Position:  -174.86   8.38006
+
+GlobalTime: 26.75
+Robot Curr Position:  -174.623   8.45913
+
+GlobalTime: 27
+Robot Curr Position:  -174.386   8.53816
+
+GlobalTime: 27.25
+Robot Curr Position:  -174.149   8.61723
+
+GlobalTime: 27.5
+Robot Curr Position:  -173.911   8.69628
+
+GlobalTime: 27.75
+Robot Curr Position:  -173.674   8.77534
+
+GlobalTime: 28
+Robot Curr Position:  -173.437   8.85437
+
+GlobalTime: 28.25
+Robot Curr Position:  -173.2   8.93342
+
+GlobalTime: 28.5
+Robot Curr Position:  -172.963   9.01247
+
+GlobalTime: 28.75
+Robot Curr Position:  -172.725   9.09153
+
+GlobalTime: 29
+Robot Curr Position:  -172.488   9.17059
+
+GlobalTime: 29.25
+Robot Curr Position:  -172.251   9.24965
+
+GlobalTime: 29.5
+Robot Curr Position:  -172.014   9.32869
+
+GlobalTime: 29.75
+Robot Curr Position:  -171.777   9.40775
+
+GlobalTime: 30
+Robot Curr Position:  -171.54   9.48682
+
+GlobalTime: 30.25
+Robot Curr Position:  -171.302   9.56588
+
+GlobalTime: 30.5
+Robot Curr Position:  -171.065   9.64493
+
+GlobalTime: 30.75
+Robot Curr Position:  -170.828   9.72397
+
+GlobalTime: 31
+Robot Curr Position:  -170.591   9.80305
+
+GlobalTime: 31.25
+Robot Curr Position:  -170.354   9.8821
+
+GlobalTime: 31.5
+Robot Curr Position:  -170.117   9.96113
+
+GlobalTime: 31.75
+Robot Curr Position:  -169.879   10.0402
+
+GlobalTime: 32
+Robot Curr Position:  -169.642   10.1193
+
+GlobalTime: 32.25
+Robot Curr Position:  -169.405   10.1983
+
+GlobalTime: 32.5
+Robot Curr Position:  -169.168   10.2774
+
+GlobalTime: 32.75
+Robot Curr Position:  -168.931   10.3565
+
+GlobalTime: 33
+Robot Curr Position:  -168.693   10.4355
+
+GlobalTime: 33.25
+Robot Curr Position:  -168.456   10.5146
+
+GlobalTime: 33.5
+Robot Curr Position:  -168.219   10.5936
+
+GlobalTime: 33.75
+Robot Curr Position:  -167.982   10.6727
+
+GlobalTime: 34
+Robot Curr Position:  -167.745   10.7517
+
+GlobalTime: 34.25
+Robot Curr Position:  -167.508   10.8308
+
+GlobalTime: 34.5
+Robot Curr Position:  -167.27   10.9098
+
+GlobalTime: 34.75
+Robot Curr Position:  -167.033   10.9889
+
+GlobalTime: 35
+Robot Curr Position:  -166.796   11.0679
+
+GlobalTime: 35.25
+Robot Curr Position:  -166.559   11.147
+
+GlobalTime: 35.5
+Robot Curr Position:  -166.322   11.2261
+
+GlobalTime: 35.75
+Robot Curr Position:  -166.085   11.3051
+
+GlobalTime: 36
+Robot Curr Position:  -165.847   11.3842
+
+GlobalTime: 36.25
+Robot Curr Position:  -165.61   11.4632
+
+GlobalTime: 36.5
+Robot Curr Position:  -165.373   11.5423
+
+GlobalTime: 36.75
+Robot Curr Position:  -165.136   11.6213
+
+GlobalTime: 37
+Robot Curr Position:  -164.899   11.7004
+
+GlobalTime: 37.25
+Robot Curr Position:  -164.662   11.7795
+
+GlobalTime: 37.5
+Robot Curr Position:  -164.424   11.8585
+
+GlobalTime: 37.75
+Robot Curr Position:  -164.187   11.9376
+
+GlobalTime: 38
+Robot Curr Position:  -163.95   12.0167
+
+GlobalTime: 38.25
+Robot Curr Position:  -163.713   12.0957
+
+GlobalTime: 38.5
+Robot Curr Position:  -163.476   12.1748
+
+GlobalTime: 38.75
+Robot Curr Position:  -163.239   12.2538
+
+GlobalTime: 39
+Robot Curr Position:  -163.001   12.3329
+
+GlobalTime: 39.25
+Robot Curr Position:  -162.764   12.4119
+
+GlobalTime: 39.5
+Robot Curr Position:  -162.527   12.491
+
+GlobalTime: 39.75
+Robot Curr Position:  -162.29   12.5701
+
+GlobalTime: 40
+Robot Curr Position:  -162.053   12.6491
+
+GlobalTime: 40.25
+Robot Curr Position:  -161.816   12.7282
+
+GlobalTime: 40.5
+Robot Curr Position:  -161.578   12.8072
+
+GlobalTime: 40.75
+Robot Curr Position:  -161.341   12.8863
+
+GlobalTime: 41
+Robot Curr Position:  -161.104   12.9653
+
+GlobalTime: 41.25
+Robot Curr Position:  -160.867   13.0444
+
+GlobalTime: 41.5
+Robot Curr Position:  -160.63   13.1235
+
+GlobalTime: 41.75
+Robot Curr Position:  -160.393   13.2025
+
+GlobalTime: 42
+Robot Curr Position:  -160.155   13.2816
+
+GlobalTime: 42.25
+Robot Curr Position:  -159.918   13.3607
+
+GlobalTime: 42.5
+Robot Curr Position:  -159.681   13.4397
+
+GlobalTime: 42.75
+Robot Curr Position:  -159.444   13.5188
+
+GlobalTime: 43
+Robot Curr Position:  -159.207   13.5978
+
+GlobalTime: 43.25
+Robot Curr Position:  -158.969   13.6769
+
+GlobalTime: 43.5
+Robot Curr Position:  -158.732   13.7559
+
+GlobalTime: 43.75
+Robot Curr Position:  -158.495   13.835
+
+GlobalTime: 44
+Robot Curr Position:  -158.258   13.914
+
+GlobalTime: 44.25
+Robot Curr Position:  -158.021   13.9931
+
+GlobalTime: 44.5
+Robot Curr Position:  -157.784   14.0721
+
+GlobalTime: 44.75
+Robot Curr Position:  -157.546   14.1512
+
+GlobalTime: 45
+Robot Curr Position:  -157.309   14.2303
+
+GlobalTime: 45.25
+Robot Curr Position:  -157.072   14.3093
+
+GlobalTime: 45.5
+Robot Curr Position:  -156.835   14.3884
+
+GlobalTime: 45.75
+Robot Curr Position:  -156.598   14.4674
+
+GlobalTime: 46
+Robot Curr Position:  -156.361   14.5465
+
+GlobalTime: 46.25
+Robot Curr Position:  -156.123   14.6256
+
+GlobalTime: 46.5
+Robot Curr Position:  -155.886   14.7046
+
+GlobalTime: 46.75
+Robot Curr Position:  -155.649   14.7837
+
+GlobalTime: 47
+Robot Curr Position:  -155.412   14.8628
+
+GlobalTime: 47.25
+Robot Curr Position:  -155.175   14.9418
+
+GlobalTime: 47.5
+Robot Curr Position:  -154.938   15.0209
+
+GlobalTime: 47.75
+Robot Curr Position:  -154.7   15.0999
+
+GlobalTime: 48
+Robot Curr Position:  -154.463   15.179
+
+GlobalTime: 48.25
+Robot Curr Position:  -154.226   15.2581
+
+GlobalTime: 48.5
+Robot Curr Position:  -153.989   15.3371
+
+GlobalTime: 48.75
+Robot Curr Position:  -153.752   15.4162
+
+GlobalTime: 49
+Robot Curr Position:  -153.515   15.4952
+
+GlobalTime: 49.25
+Robot Curr Position:  -153.277   15.5743
+
+GlobalTime: 49.5
+Robot Curr Position:  -153.04   15.6533
+
+GlobalTime: 49.75
+Robot Curr Position:  -152.803   15.7324
+
+GlobalTime: 50
+Robot Curr Position:  -152.566   15.8115
+
+GlobalTime: 50.25
+Robot Curr Position:  -152.329   15.8905
+
+GlobalTime: 50.5
+Robot Curr Position:  -152.092   15.9696
+
+GlobalTime: 50.75
+Robot Curr Position:  -151.854   16.0486
+
+GlobalTime: 51
+Robot Curr Position:  -151.617   16.1277
+
+GlobalTime: 51.25
+Robot Curr Position:  -151.38   16.2068
+
+GlobalTime: 51.5
+Robot Curr Position:  -151.143   16.2858
+
+GlobalTime: 51.75
+Robot Curr Position:  -150.906   16.3649
+
+GlobalTime: 52
+Robot Curr Position:  -150.669   16.4439
+
+GlobalTime: 52.25
+Robot Curr Position:  -150.431   16.523
+
+GlobalTime: 52.5
+Robot Curr Position:  -150.194   16.602
+
+GlobalTime: 52.75
+Robot Curr Position:  -149.957   16.6811
+
+GlobalTime: 53
+Robot Curr Position:  -149.72   16.7602
+
+GlobalTime: 53.25
+Robot Curr Position:  -149.483   16.8392
+
+GlobalTime: 53.5
+Robot Curr Position:  -149.246   16.9183
+
+GlobalTime: 53.75
+Robot Curr Position:  -149.008   16.9974
+
+GlobalTime: 54
+Robot Curr Position:  -148.771   17.0764
+
+GlobalTime: 54.25
+Robot Curr Position:  -148.534   17.1555
+
+GlobalTime: 54.5
+Robot Curr Position:  -148.297   17.2345
+
+GlobalTime: 54.75
+Robot Curr Position:  -148.06   17.3136
+
+GlobalTime: 55
+Robot Curr Position:  -147.823   17.3926
+
+GlobalTime: 55.25
+Robot Curr Position:  -147.585   17.4717
+
+GlobalTime: 55.5
+Robot Curr Position:  -147.348   17.5508
+
+GlobalTime: 55.75
+Robot Curr Position:  -147.111   17.6298
+
+GlobalTime: 56
+Robot Curr Position:  -146.874   17.7089
+
+GlobalTime: 56.25
+Robot Curr Position:  -146.637   17.7879
+
+GlobalTime: 56.5
+Robot Curr Position:  -146.4   17.8669
+
+GlobalTime: 56.75
+Robot Curr Position:  -146.162   17.946
+
+GlobalTime: 57
+Robot Curr Position:  -145.925   18.0251
+
+GlobalTime: 57.25
+Robot Curr Position:  -145.688   18.1041
+
+GlobalTime: 57.5
+Robot Curr Position:  -145.451   18.1832
+
+GlobalTime: 57.75
+Robot Curr Position:  -145.214   18.2622
+
+GlobalTime: 58
+Robot Curr Position:  -144.977   18.3413
+
+GlobalTime: 58.25
+Robot Curr Position:  -144.739   18.4204
+
+GlobalTime: 58.5
+Robot Curr Position:  -144.502   18.4994
+
+GlobalTime: 58.75
+Robot Curr Position:  -144.265   18.5785
+
+GlobalTime: 59
+Robot Curr Position:  -144.028   18.6575
+
+GlobalTime: 59.25
+Robot Curr Position:  -143.791   18.7366
+
+GlobalTime: 59.5
+Robot Curr Position:  -143.553   18.8156
+
+GlobalTime: 59.75
+Robot Curr Position:  -143.316   18.8947
+
+GlobalTime: 60
+Robot Curr Position:  -143.079   18.9737
+
+GlobalTime: 60.25
+Robot Curr Position:  -142.842   19.0528
+
+GlobalTime: 60.5
+Robot Curr Position:  -142.605   19.1319
+
+GlobalTime: 60.75
+Robot Curr Position:  -142.368   19.2109
+
+GlobalTime: 61
+Robot Curr Position:  -142.13   19.29
+
+GlobalTime: 61.25
+Robot Curr Position:  -141.893   19.3691
+
+GlobalTime: 61.5
+Robot Curr Position:  -141.656   19.4481
+
+GlobalTime: 61.75
+Robot Curr Position:  -141.419   19.5272
+
+GlobalTime: 62
+Robot Curr Position:  -141.182   19.6062
+
+GlobalTime: 62.25
+Robot Curr Position:  -140.945   19.6853
+
+GlobalTime: 62.5
+Robot Curr Position:  -140.707   19.7643
+
+GlobalTime: 62.75
+Robot Curr Position:  -140.47   19.8434
+
+GlobalTime: 63
+Robot Curr Position:  -140.233   19.9224
+
+GlobalTime: 63.25
+Robot Curr Position:  -139.996   20.0015
+
+GlobalTime: 63.5
+Robot Curr Position:  -139.759   20.0806
+
+GlobalTime: 63.75
+Robot Curr Position:  -139.522   20.1596
+
+GlobalTime: 64
+Robot Curr Position:  -139.284   20.2387
+
+GlobalTime: 64.25
+Robot Curr Position:  -139.047   20.3177
+
+GlobalTime: 64.5
+Robot Curr Position:  -138.81   20.3968
+
+GlobalTime: 64.75
+Robot Curr Position:  -138.573   20.4758
+
+GlobalTime: 65
+Robot Curr Position:  -138.336   20.5549
+
+GlobalTime: 65.25
+Robot Curr Position:  -138.099   20.6339
+
+GlobalTime: 65.5
+Robot Curr Position:  -137.861   20.713
+
+GlobalTime: 65.75
+Robot Curr Position:  -137.624   20.792
+
+GlobalTime: 66
+Robot Curr Position:  -137.387   20.8711
+
+GlobalTime: 66.25
+Robot Curr Position:  -137.15   20.9502
+
+GlobalTime: 66.5
+Robot Curr Position:  -136.913   21.0292
+
+GlobalTime: 66.75
+Robot Curr Position:  -136.676   21.1082
+
+GlobalTime: 67
+Robot Curr Position:  -136.438   21.1873
+
+GlobalTime: 67.25
+Robot Curr Position:  -136.201   21.2663
+
+GlobalTime: 67.5
+Robot Curr Position:  -135.964   21.3454
+
+GlobalTime: 67.75
+Robot Curr Position:  -135.727   21.4245
+
+GlobalTime: 68
+Robot Curr Position:  -135.49   21.5035
+
+GlobalTime: 68.25
+Robot Curr Position:  -135.253   21.5826
+
+GlobalTime: 68.5
+Robot Curr Position:  -135.015   21.6616
+
+GlobalTime: 68.75
+Robot Curr Position:  -134.778   21.7407
+
+GlobalTime: 69
+Robot Curr Position:  -134.541   21.8197
+
+GlobalTime: 69.25
+Robot Curr Position:  -134.304   21.8988
+
+GlobalTime: 69.5
+Robot Curr Position:  -134.067   21.9778
+
+GlobalTime: 69.75
+Robot Curr Position:  -133.829   22.0569
+
+GlobalTime: 70
+Robot Curr Position:  -133.592   22.1359
+
+GlobalTime: 70.25
+Robot Curr Position:  -133.355   22.215
+
+GlobalTime: 70.5
+Robot Curr Position:  -133.118   22.2941
+
+GlobalTime: 70.75
+Robot Curr Position:  -132.881   22.3731
+
+GlobalTime: 71
+Robot Curr Position:  -132.644   22.4522
+
+GlobalTime: 71.25
+Robot Curr Position:  -132.406   22.5312
+
+GlobalTime: 71.5
+Robot Curr Position:  -132.169   22.6103
+
+GlobalTime: 71.75
+Robot Curr Position:  -131.932   22.6893
+
+GlobalTime: 72
+Robot Curr Position:  -131.695   22.7684
+
+GlobalTime: 72.25
+Robot Curr Position:  -131.458   22.8475
+
+GlobalTime: 72.5
+Robot Curr Position:  -131.221   22.9265
+
+GlobalTime: 72.75
+Robot Curr Position:  -130.983   23.0056
+
+GlobalTime: 73
+Robot Curr Position:  -130.746   23.0846
+
+GlobalTime: 73.25
+Robot Curr Position:  -130.509   23.1637
+
+GlobalTime: 73.5
+Robot Curr Position:  -130.272   23.2427
+
+GlobalTime: 73.75
+Robot Curr Position:  -130.035   23.3218
+
+GlobalTime: 74
+Robot Curr Position:  -129.798   23.4009
+
+GlobalTime: 74.25
+Robot Curr Position:  -129.56   23.4799
+
+GlobalTime: 74.5
+Robot Curr Position:  -129.323   23.559
+
+GlobalTime: 74.75
+Robot Curr Position:  -129.086   23.6381
+
+GlobalTime: 75
+Robot Curr Position:  -128.849   23.7171
+
+GlobalTime: 75.25
+Robot Curr Position:  -128.612   23.7962
+
+GlobalTime: 75.5
+Robot Curr Position:  -128.375   23.8752
+
+GlobalTime: 75.75
+Robot Curr Position:  -128.137   23.9543
+
+GlobalTime: 76
+Robot Curr Position:  -127.9   24.0333
+
+GlobalTime: 76.25
+Robot Curr Position:  -127.663   24.1124
+
+GlobalTime: 76.5
+Robot Curr Position:  -127.426   24.1915
+
+GlobalTime: 76.75
+Robot Curr Position:  -127.189   24.2705
+
+GlobalTime: 77
+Robot Curr Position:  -126.952   24.3496
+
+GlobalTime: 77.25
+Robot Curr Position:  -126.714   24.4286
+
+GlobalTime: 77.5
+Robot Curr Position:  -126.477   24.5077
+
+GlobalTime: 77.75
+Robot Curr Position:  -126.24   24.5867
+
+GlobalTime: 78
+Robot Curr Position:  -126.003   24.6658
+
+GlobalTime: 78.25
+Robot Curr Position:  -125.766   24.7448
+
+GlobalTime: 78.5
+Robot Curr Position:  -125.529   24.8239
+
+GlobalTime: 78.75
+Robot Curr Position:  -125.291   24.9029
+
+GlobalTime: 79
+Robot Curr Position:  -125.054   24.982
+
+GlobalTime: 79.25
+Robot Curr Position:  -124.817   25.0611
+
+GlobalTime: 79.5
+Robot Curr Position:  -124.58   25.1401
+
+GlobalTime: 79.75
+Robot Curr Position:  -124.343   25.2192
+
+GlobalTime: 80
+Robot Curr Position:  -124.105   25.2982
+
+GlobalTime: 80.25
+Robot Curr Position:  -123.868   25.3773
+
+GlobalTime: 80.5
+Robot Curr Position:  -123.631   25.4564
+
+GlobalTime: 80.75
+Robot Curr Position:  -123.394   25.5354
+
+GlobalTime: 81
+Robot Curr Position:  -123.157   25.6145
+
+GlobalTime: 81.25
+Robot Curr Position:  -122.92   25.6935
+
+GlobalTime: 81.5
+Robot Curr Position:  -122.682   25.7726
+
+GlobalTime: 81.75
+Robot Curr Position:  -122.445   25.8516
+
+GlobalTime: 82
+Robot Curr Position:  -122.208   25.9307
+
+GlobalTime: 82.25
+Robot Curr Position:  -121.971   26.0097
+
+GlobalTime: 82.5
+Robot Curr Position:  -121.734   26.0888
+
+GlobalTime: 82.75
+Robot Curr Position:  -121.497   26.1679
+
+GlobalTime: 83
+Robot Curr Position:  -121.259   26.2469
+
+GlobalTime: 83.25
+Robot Curr Position:  -121.022   26.326
+
+GlobalTime: 83.5
+Robot Curr Position:  -120.785   26.4051
+
+GlobalTime: 83.75
+Robot Curr Position:  -120.548   26.4841
+
+GlobalTime: 84
+Robot Curr Position:  -120.311   26.5632
+
+GlobalTime: 84.25
+Robot Curr Position:  -120.074   26.6422
+
+GlobalTime: 84.5
+Robot Curr Position:  -119.836   26.7213
+
+GlobalTime: 84.75
+Robot Curr Position:  -119.599   26.8003
+
+GlobalTime: 85
+Robot Curr Position:  -119.362   26.8794
+
+GlobalTime: 85.25
+Robot Curr Position:  -119.125   26.9584
+
+GlobalTime: 85.5
+Robot Curr Position:  -118.888   27.0375
+
+GlobalTime: 85.75
+Robot Curr Position:  -118.651   27.1166
+
+GlobalTime: 86
+Robot Curr Position:  -118.413   27.1956
+
+GlobalTime: 86.25
+Robot Curr Position:  -118.176   27.2747
+
+GlobalTime: 86.5
+Robot Curr Position:  -117.939   27.3537
+
+GlobalTime: 86.75
+Robot Curr Position:  -117.702   27.4328
+
+GlobalTime: 87
+Robot Curr Position:  -117.465   27.5118
+
+GlobalTime: 87.25
+Robot Curr Position:  -117.228   27.5909
+
+GlobalTime: 87.5
+Robot Curr Position:  -116.99   27.67
+
+GlobalTime: 87.75
+Robot Curr Position:  -116.753   27.749
+
+GlobalTime: 88
+Robot Curr Position:  -116.516   27.8281
+
+GlobalTime: 88.25
+Robot Curr Position:  -116.279   27.9071
+
+GlobalTime: 88.5
+Robot Curr Position:  -116.042   27.9862
+
+GlobalTime: 88.75
+Robot Curr Position:  -115.805   28.0652
+
+GlobalTime: 89
+Robot Curr Position:  -115.567   28.1443
+
+GlobalTime: 89.25
+Robot Curr Position:  -115.33   28.2234
+
+GlobalTime: 89.5
+Robot Curr Position:  -115.093   28.3024
+
+GlobalTime: 89.75
+Robot Curr Position:  -114.856   28.3815
+
+GlobalTime: 90
+Robot Curr Position:  -114.619   28.4605
+
+GlobalTime: 90.25
+Robot Curr Position:  -114.381   28.5396
+
+GlobalTime: 90.5
+Robot Curr Position:  -114.144   28.6186
+
+GlobalTime: 90.75
+Robot Curr Position:  -113.907   28.6977
+
+GlobalTime: 91
+Robot Curr Position:  -113.67   28.7767
+
+GlobalTime: 91.25
+Robot Curr Position:  -113.433   28.8558
+
+GlobalTime: 91.5
+Robot Curr Position:  -113.196   28.9348
+
+GlobalTime: 91.75
+Robot Curr Position:  -112.958   29.0139
+
+GlobalTime: 92
+Robot Curr Position:  -112.721   29.0929
+
+GlobalTime: 92.25
+Robot Curr Position:  -112.484   29.172
+
+GlobalTime: 92.5
+Robot Curr Position:  -112.247   29.2511
+
+GlobalTime: 92.75
+Robot Curr Position:  -112.01   29.3301
+
+GlobalTime: 93
+Robot Curr Position:  -111.773   29.4092
+
+GlobalTime: 93.25
+Robot Curr Position:  -111.535   29.4882
+
+GlobalTime: 93.5
+Robot Curr Position:  -111.298   29.5673
+
+GlobalTime: 93.75
+Robot Curr Position:  -111.061   29.6463
+
+GlobalTime: 94
+Robot Curr Position:  -110.824   29.7254
+
+GlobalTime: 94.25
+Robot Curr Position:  -110.587   29.8045
+
+GlobalTime: 94.5
+Robot Curr Position:  -110.35   29.8835
+
+GlobalTime: 94.75
+Robot Curr Position:  -110.112   29.9626
+
+GlobalTime: 95
+Robot Curr Position:  -109.875   30.0417
+
+GlobalTime: 95.25
+Robot Curr Position:  -109.638   30.1207
+
+GlobalTime: 95.5
+Robot Curr Position:  -109.401   30.1998
+
+GlobalTime: 95.75
+Robot Curr Position:  -109.164   30.2788
+
+GlobalTime: 96
+Robot Curr Position:  -108.926   30.3579
+
+GlobalTime: 96.25
+Robot Curr Position:  -108.689   30.4369
+
+GlobalTime: 96.5
+Robot Curr Position:  -108.452   30.516
+
+GlobalTime: 96.75
+Robot Curr Position:  -108.215   30.5951
+
+GlobalTime: 97
+Robot Curr Position:  -107.978   30.6741
+
+GlobalTime: 97.25
+Robot Curr Position:  -107.741   30.7532
+
+GlobalTime: 97.5
+Robot Curr Position:  -107.503   30.8322
+
+GlobalTime: 97.75
+Robot Curr Position:  -107.266   30.9113
+
+GlobalTime: 98
+Robot Curr Position:  -107.029   30.9903
+
+GlobalTime: 98.25
+Robot Curr Position:  -106.792   31.0694
+
+GlobalTime: 98.5
+Robot Curr Position:  -106.555   31.1484
+
+GlobalTime: 98.75
+Robot Curr Position:  -106.318   31.2275
+
+GlobalTime: 99
+Robot Curr Position:  -106.08   31.3065
+
+GlobalTime: 99.25
+Robot Curr Position:  -105.843   31.3856
+
+GlobalTime: 99.5
+Robot Curr Position:  -105.606   31.4646
+
+GlobalTime: 99.75
+Robot Curr Position:  -105.369   31.5437
+
+GlobalTime: 100
+Robot Curr Position:  -105.132   31.6227
+
+GlobalTime: 100.25
+Robot Curr Position:  -104.895   31.7018
+
+GlobalTime: 100.5
+Robot Curr Position:  -104.657   31.7808
+
+GlobalTime: 100.75
+Robot Curr Position:  -104.42   31.8599
+
+GlobalTime: 101
+Robot Curr Position:  -104.183   31.9389
+
+GlobalTime: 101.25
+Robot Curr Position:  -103.946   32.018
+
+GlobalTime: 101.5
+Robot Curr Position:  -103.709   32.097
+
+GlobalTime: 101.75
+Robot Curr Position:  -103.472   32.1761
+
+GlobalTime: 102
+Robot Curr Position:  -103.234   32.2552
+
+GlobalTime: 102.25
+Robot Curr Position:  -102.997   32.3342
+
+GlobalTime: 102.5
+Robot Curr Position:  -102.76   32.4133
+
+GlobalTime: 102.75
+Robot Curr Position:  -102.523   32.4923
+
+GlobalTime: 103
+Robot Curr Position:  -102.286   32.5714
+
+GlobalTime: 103.25
+Robot Curr Position:  -102.049   32.6505
+
+GlobalTime: 103.5
+Robot Curr Position:  -101.811   32.7295
+
+GlobalTime: 103.75
+Robot Curr Position:  -101.574   32.8086
+
+GlobalTime: 104
+Robot Curr Position:  -101.337   32.8876
+
+GlobalTime: 104.25
+Robot Curr Position:  -101.1   32.9667
+
+GlobalTime: 104.5
+Robot Curr Position:  -100.863   33.0457
+
+GlobalTime: 104.75
+Robot Curr Position:  -100.626   33.1248
+
+GlobalTime: 105
+Robot Curr Position:  -100.388   33.2038
+
+GlobalTime: 105.25
+Robot Curr Position:  -100.151   33.2829
+
+GlobalTime: 105.5
+Robot Curr Position:  -99.914   33.3619
+
+GlobalTime: 105.75
+Robot Curr Position:  -99.6769   33.441
+
+GlobalTime: 106
+Robot Curr Position:  -99.4397   33.5201
+
+GlobalTime: 106.25
+Robot Curr Position:  -99.2025   33.5991
+
+GlobalTime: 106.5
+Robot Curr Position:  -98.9653   33.6782
+
+GlobalTime: 106.75
+Robot Curr Position:  -98.7282   33.7572
+
+GlobalTime: 107
+Robot Curr Position:  -98.491   33.8363
+
+GlobalTime: 107.25
+Robot Curr Position:  -98.2539   33.9154
+
+GlobalTime: 107.5
+Robot Curr Position:  -98.0167   33.9944
+
+GlobalTime: 107.75
+Robot Curr Position:  -97.7795   34.0735
+
+GlobalTime: 108
+Robot Curr Position:  -97.5424   34.1526
+
+GlobalTime: 108.25
+Robot Curr Position:  -97.3052   34.2316
+
+GlobalTime: 108.5
+Robot Curr Position:  -97.068   34.3107
+
+GlobalTime: 108.75
+Robot Curr Position:  -96.8308   34.3897
+
+GlobalTime: 109
+Robot Curr Position:  -96.5937   34.4688
+
+GlobalTime: 109.25
+Robot Curr Position:  -96.3565   34.5478
+
+GlobalTime: 109.5
+Robot Curr Position:  -96.1193   34.6269
+
+GlobalTime: 109.75
+Robot Curr Position:  -95.8821   34.7059
+
+GlobalTime: 110
+Robot Curr Position:  -95.645   34.785
+
+GlobalTime: 110.25
+Robot Curr Position:  -95.4078   34.864
+
+GlobalTime: 110.5
+Robot Curr Position:  -95.1706   34.9431
+
+GlobalTime: 110.75
+Robot Curr Position:  -94.9335   35.0222
+
+GlobalTime: 111
+Robot Curr Position:  -94.6963   35.1012
+
+GlobalTime: 111.25
+Robot Curr Position:  -94.4591   35.1803
+
+GlobalTime: 111.5
+Robot Curr Position:  -94.2219   35.2593
+
+GlobalTime: 111.75
+Robot Curr Position:  -93.9847   35.3384
+
+GlobalTime: 112
+Robot Curr Position:  -93.7476   35.4175
+
+GlobalTime: 112.25
+Robot Curr Position:  -93.5104   35.4965
+
+GlobalTime: 112.5
+Robot Curr Position:  -93.2733   35.5756
+
+GlobalTime: 112.75
+Robot Curr Position:  -93.0361   35.6546
+
+GlobalTime: 113
+Robot Curr Position:  -92.7989   35.7337
+
+GlobalTime: 113.25
+Robot Curr Position:  -92.5617   35.8127
+
+GlobalTime: 113.5
+Robot Curr Position:  -92.3246   35.8918
+
+GlobalTime: 113.75
+Robot Curr Position:  -92.0874   35.9709
+
+GlobalTime: 114
+Robot Curr Position:  -91.8502   36.0499
+
+GlobalTime: 114.25
+Robot Curr Position:  -91.613   36.129
+
+GlobalTime: 114.5
+Robot Curr Position:  -91.3759   36.208
+
+GlobalTime: 114.75
+Robot Curr Position:  -91.1387   36.2871
+
+GlobalTime: 115
+Robot Curr Position:  -90.9015   36.3661
+
+GlobalTime: 115.25
+Robot Curr Position:  -90.6644   36.4452
+
+GlobalTime: 115.5
+Robot Curr Position:  -90.4272   36.5243
+
+GlobalTime: 115.75
+Robot Curr Position:  -90.19   36.6033
+
+GlobalTime: 116
+Robot Curr Position:  -89.9528   36.6824
+
+GlobalTime: 116.25
+Robot Curr Position:  -89.7157   36.7615
+
+GlobalTime: 116.5
+Robot Curr Position:  -89.4785   36.8405
+
+GlobalTime: 116.75
+Robot Curr Position:  -89.2413   36.9196
+
+GlobalTime: 117
+Robot Curr Position:  -89.0042   36.9986
+
+GlobalTime: 117.25
+Robot Curr Position:  -88.767   37.0777
+
+GlobalTime: 117.5
+Robot Curr Position:  -88.5298   37.1567
+
+GlobalTime: 117.75
+Robot Curr Position:  -88.2926   37.2358
+
+GlobalTime: 118
+Robot Curr Position:  -88.0555   37.3148
+
+GlobalTime: 118.25
+Robot Curr Position:  -87.8183   37.3939
+
+GlobalTime: 118.5
+Robot Curr Position:  -87.5811   37.4729
+
+GlobalTime: 118.75
+Robot Curr Position:  -87.3439   37.552
+
+GlobalTime: 119
+Robot Curr Position:  -87.1068   37.6311
+
+GlobalTime: 119.25
+Robot Curr Position:  -86.8696   37.7101
+
+GlobalTime: 119.5
+Robot Curr Position:  -86.6324   37.7892
+
+GlobalTime: 119.75
+Robot Curr Position:  -86.3952   37.8682
+
+GlobalTime: 120
+Robot Curr Position:  -86.1581   37.9472
+
+GlobalTime: 120.25
+Robot Curr Position:  -85.9209   38.0263
+
+GlobalTime: 120.5
+Robot Curr Position:  -85.6837   38.1054
+
+GlobalTime: 120.75
+Robot Curr Position:  -85.4466   38.1844
+
+GlobalTime: 121
+Robot Curr Position:  -85.2094   38.2635
+
+GlobalTime: 121.25
+Robot Curr Position:  -84.9723   38.3425
+
+GlobalTime: 121.5
+Robot Curr Position:  -84.7351   38.4216
+
+GlobalTime: 121.75
+Robot Curr Position:  -84.4979   38.5007
+
+GlobalTime: 122
+Robot Curr Position:  -84.2607   38.5797
+
+GlobalTime: 122.25
+Robot Curr Position:  -84.0236   38.6588
+
+GlobalTime: 122.5
+Robot Curr Position:  -83.7864   38.7378
+
+GlobalTime: 122.75
+Robot Curr Position:  -83.5492   38.8169
+
+GlobalTime: 123
+Robot Curr Position:  -83.3121   38.8959
+
+GlobalTime: 123.25
+Robot Curr Position:  -83.0749   38.975
+
+GlobalTime: 123.5
+Robot Curr Position:  -82.8377   39.0541
+
+GlobalTime: 123.75
+Robot Curr Position:  -82.6005   39.1331
+
+GlobalTime: 124
+Robot Curr Position:  -82.3634   39.2122
+
+GlobalTime: 124.25
+Robot Curr Position:  -82.1262   39.2912
+
+GlobalTime: 124.5
+Robot Curr Position:  -81.889   39.3703
+
+GlobalTime: 124.75
+Robot Curr Position:  -81.6518   39.4494
+
+GlobalTime: 125
+Robot Curr Position:  -81.4147   39.5284
+
+GlobalTime: 125.25
+Robot Curr Position:  -81.1775   39.6075
+
+GlobalTime: 125.5
+Robot Curr Position:  -80.9403   39.6865
+
+GlobalTime: 125.75
+Robot Curr Position:  -80.7032   39.7656
+
+GlobalTime: 126
+Robot Curr Position:  -80.466   39.8447
+
+GlobalTime: 126.25
+Robot Curr Position:  -80.2289   39.9237
+
+GlobalTime: 126.5
+Robot Curr Position:  -79.9917   40.0028
+
+GlobalTime: 126.75
+Robot Curr Position:  -79.7545   40.0819
+
+GlobalTime: 127
+Robot Curr Position:  -79.5173   40.1609
+
+GlobalTime: 127.25
+Robot Curr Position:  -79.2801   40.24
+
+GlobalTime: 127.5
+Robot Curr Position:  -79.043   40.319
+
+GlobalTime: 127.75
+Robot Curr Position:  -78.8058   40.3981
+
+GlobalTime: 128
+Robot Curr Position:  -78.5687   40.4772
+
+GlobalTime: 128.25
+Robot Curr Position:  -78.3315   40.5562
+
+GlobalTime: 128.5
+Robot Curr Position:  -78.0943   40.6353
+
+GlobalTime: 128.75
+Robot Curr Position:  -77.8572   40.7143
+
+GlobalTime: 129
+Robot Curr Position:  -77.62   40.7934
+
+GlobalTime: 129.25
+Robot Curr Position:  -77.3828   40.8724
+
+GlobalTime: 129.5
+Robot Curr Position:  -77.1456   40.9515
+
+GlobalTime: 129.75
+Robot Curr Position:  -76.9085   41.0306
+
+GlobalTime: 130
+Robot Curr Position:  -76.6713   41.1096
+
+GlobalTime: 130.25
+Robot Curr Position:  -76.4341   41.1887
+
+GlobalTime: 130.5
+Robot Curr Position:  -76.197   41.2677
+
+GlobalTime: 130.75
+Robot Curr Position:  -75.9598   41.3468
+
+GlobalTime: 131
+Robot Curr Position:  -75.7226   41.4258
+
+GlobalTime: 131.25
+Robot Curr Position:  -75.4854   41.5049
+
+GlobalTime: 131.5
+Robot Curr Position:  -75.2483   41.5839
+
+GlobalTime: 131.75
+Robot Curr Position:  -75.0111   41.663
+
+GlobalTime: 132
+Robot Curr Position:  -74.7739   41.7421
+
+GlobalTime: 132.25
+Robot Curr Position:  -74.5368   41.8211
+
+GlobalTime: 132.5
+Robot Curr Position:  -74.2996   41.9002
+
+GlobalTime: 132.75
+Robot Curr Position:  -74.0624   41.9792
+
+GlobalTime: 133
+Robot Curr Position:  -73.8307   42.0618
+
+GlobalTime: 133.25
+Robot Curr Position:  -73.6054   42.1484
+
+GlobalTime: 133.5
+Robot Curr Position:  -73.3862   42.2388
+
+GlobalTime: 133.75
+Robot Curr Position:  -73.1727   42.3329
+
+GlobalTime: 134
+Robot Curr Position:  -72.9646   42.4305
+
+GlobalTime: 134.25
+Robot Curr Position:  -72.7618   42.5314
+
+GlobalTime: 134.5
+Robot Curr Position:  -72.5637   42.6356
+
+GlobalTime: 134.75
+Robot Curr Position:  -72.37   42.743
+
+GlobalTime: 135
+Robot Curr Position:  -72.1805   42.8535
+
+GlobalTime: 135.25
+Robot Curr Position:  -71.9951   42.9665
+
+GlobalTime: 135.5
+Robot Curr Position:  -71.8135   43.0821
+
+GlobalTime: 135.75
+Robot Curr Position:  -71.6356   43.2
+
+GlobalTime: 136
+Robot Curr Position:  -71.4612   43.3202
+
+GlobalTime: 136.25
+Robot Curr Position:  -71.2899   43.4429
+
+GlobalTime: 136.5
+Robot Curr Position:  -71.1214   43.5681
+
+GlobalTime: 136.75
+Robot Curr Position:  -70.9554   43.6955
+
+GlobalTime: 137
+Robot Curr Position:  -70.7921   43.8247
+
+GlobalTime: 137.25
+Robot Curr Position:  -70.6314   43.9556
+
+GlobalTime: 137.5
+Robot Curr Position:  -70.4732   44.088
+
+GlobalTime: 137.75
+Robot Curr Position:  -70.3172   44.2221
+
+GlobalTime: 138
+Robot Curr Position:  -70.1632   44.3579
+
+GlobalTime: 138.25
+Robot Curr Position:  -70.0108   44.4956
+
+GlobalTime: 138.5
+Robot Curr Position:  -69.8599   44.635
+
+GlobalTime: 138.75
+Robot Curr Position:  -69.7107   44.7757
+
+GlobalTime: 139
+Robot Curr Position:  -69.5632   44.9174
+
+GlobalTime: 139.25
+Robot Curr Position:  -69.4173   45.0601
+
+GlobalTime: 139.5
+Robot Curr Position:  -69.2729   45.2039
+
+GlobalTime: 139.75
+Robot Curr Position:  -69.1295   45.349
+
+GlobalTime: 140
+Robot Curr Position:  -68.987   45.4956
+
+GlobalTime: 140.25
+Robot Curr Position:  -68.8453   45.6435
+
+GlobalTime: 140.5
+Robot Curr Position:  -68.7046   45.7921
+
+GlobalTime: 140.75
+Robot Curr Position:  -68.565   45.9413
+
+GlobalTime: 141
+Robot Curr Position:  -68.4264   46.0913
+
+GlobalTime: 141.25
+Robot Curr Position:  -68.2887   46.2418
+
+GlobalTime: 141.5
+Robot Curr Position:  -68.1515   46.3934
+
+GlobalTime: 141.75
+Robot Curr Position:  -68.0145   46.5462
+
+GlobalTime: 142
+Robot Curr Position:  -67.8778   46.6999
+
+GlobalTime: 142.25
+Robot Curr Position:  -67.7418   46.854
+
+GlobalTime: 142.5
+Robot Curr Position:  -67.6064   47.0085
+
+GlobalTime: 142.75
+Robot Curr Position:  -67.4716   47.1633
+
+GlobalTime: 143
+Robot Curr Position:  -67.3373   47.3184
+
+GlobalTime: 143.25
+Robot Curr Position:  -67.203   47.4745
+
+GlobalTime: 143.5
+Robot Curr Position:  -67.0685   47.6315
+
+GlobalTime: 143.75
+Robot Curr Position:  -66.9341   47.7891
+
+GlobalTime: 144
+Robot Curr Position:  -66.8   47.9469
+
+GlobalTime: 144.25
+Robot Curr Position:  -66.6663   48.1048
+
+GlobalTime: 144.5
+Robot Curr Position:  -66.5328   48.2628
+
+GlobalTime: 144.75
+Robot Curr Position:  -66.3995   48.4212
+
+GlobalTime: 145
+Robot Curr Position:  -66.2659   48.5802
+
+GlobalTime: 145.25
+Robot Curr Position:  -66.1318   48.7401
+
+GlobalTime: 145.5
+Robot Curr Position:  -65.9977   48.9002
+
+GlobalTime: 145.75
+Robot Curr Position:  -65.8637   49.0602
+
+GlobalTime: 146
+Robot Curr Position:  -65.7298   49.2203
+
+GlobalTime: 146.25
+Robot Curr Position:  -65.5961   49.3803
+
+GlobalTime: 146.5
+Robot Curr Position:  -65.4621   49.5406
+
+GlobalTime: 146.75
+Robot Curr Position:  -65.3279   49.7013
+
+GlobalTime: 147
+Robot Curr Position:  -65.1938   49.8618
+
+GlobalTime: 147.25
+Robot Curr Position:  -65.0598   50.0223
+
+GlobalTime: 147.5
+Robot Curr Position:  -64.9258   50.1827
+
+GlobalTime: 147.75
+Robot Curr Position:  -64.7919   50.343
+
+GlobalTime: 148
+Robot Curr Position:  -64.658   50.5033
+
+GlobalTime: 148.25
+Robot Curr Position:  -64.5242   50.6635
+
+GlobalTime: 148.5
+Robot Curr Position:  -64.3904   50.8236
+
+GlobalTime: 148.75
+Robot Curr Position:  -64.2567   50.9836
+
+GlobalTime: 149
+Robot Curr Position:  -64.1231   51.1436
+
+GlobalTime: 149.25
+Robot Curr Position:  -63.9895   51.3035
+
+GlobalTime: 149.5
+Robot Curr Position:  -63.856   51.4633
+
+GlobalTime: 149.75
+Robot Curr Position:  -63.7225   51.6231
+
+GlobalTime: 150
+Robot Curr Position:  -63.5891   51.7828
+
+GlobalTime: 150.25
+Robot Curr Position:  -63.4558   51.9424
+
+GlobalTime: 150.5
+Robot Curr Position:  -63.3225   52.1019
+
+GlobalTime: 150.75
+Robot Curr Position:  -63.1893   52.2614
+
+GlobalTime: 151
+Robot Curr Position:  -63.0562   52.4207
+
+GlobalTime: 151.25
+Robot Curr Position:  -62.9231   52.5801
+
+GlobalTime: 151.5
+Robot Curr Position:  -62.7901   52.7393
+
+GlobalTime: 151.75
+Robot Curr Position:  -62.6554   52.8983
+
+GlobalTime: 152
+Robot Curr Position:  -62.5197   53.0571
+
+GlobalTime: 152.25
+Robot Curr Position:  -62.3841   53.2158
+
+GlobalTime: 152.5
+Robot Curr Position:  -62.2486   53.3745
+
+GlobalTime: 152.75
+Robot Curr Position:  -62.1131   53.5331
+
+GlobalTime: 153
+Robot Curr Position:  -61.9777   53.6916
+
+GlobalTime: 153.25
+Robot Curr Position:  -61.8402   53.8497
+
+GlobalTime: 153.5
+Robot Curr Position:  -61.7017   54.0077
+
+GlobalTime: 153.75
+Robot Curr Position:  -61.5621   54.1654
+
+GlobalTime: 154
+Robot Curr Position:  -61.4225   54.323
+
+GlobalTime: 154.25
+Robot Curr Position:  -61.283   54.4805
+
+GlobalTime: 154.5
+Robot Curr Position:  -61.1436   54.638
+
+GlobalTime: 154.75
+Robot Curr Position:  -61.0043   54.7954
+
+GlobalTime: 155
+Robot Curr Position:  -60.8623   54.9524
+
+GlobalTime: 155.25
+Robot Curr Position:  -60.7198   55.1091
+
+GlobalTime: 155.5
+Robot Curr Position:  -60.5763   55.2656
+
+GlobalTime: 155.75
+Robot Curr Position:  -60.4329   55.422
+
+GlobalTime: 156
+Robot Curr Position:  -60.2895   55.5783
+
+GlobalTime: 156.25
+Robot Curr Position:  -60.1461   55.7345
+
+GlobalTime: 156.5
+Robot Curr Position:  -60.0028   55.8907
+
+GlobalTime: 156.75
+Robot Curr Position:  -59.8563   56.0462
+
+GlobalTime: 157
+Robot Curr Position:  -59.7098   56.2016
+
+GlobalTime: 157.25
+Robot Curr Position:  -59.5624   56.3568
+
+GlobalTime: 157.5
+Robot Curr Position:  -59.4151   56.5118
+
+GlobalTime: 157.75
+Robot Curr Position:  -59.2678   56.6668
+
+GlobalTime: 158
+Robot Curr Position:  -59.1205   56.8218
+
+GlobalTime: 158.25
+Robot Curr Position:  -58.9724   56.9765
+
+GlobalTime: 158.5
+Robot Curr Position:  -58.822   57.1305
+
+GlobalTime: 158.75
+Robot Curr Position:  -58.6708   57.2843
+
+GlobalTime: 159
+Robot Curr Position:  -58.5197   57.4381
+
+GlobalTime: 159.25
+Robot Curr Position:  -58.3687   57.5918
+
+GlobalTime: 159.5
+Robot Curr Position:  -58.2177   57.7454
+
+GlobalTime: 159.75
+Robot Curr Position:  -58.0668   57.8989
+
+GlobalTime: 160
+Robot Curr Position:  -57.9136   58.0518
+
+GlobalTime: 160.25
+Robot Curr Position:  -57.7595   58.2044
+
+GlobalTime: 160.5
+Robot Curr Position:  -57.6044   58.3566
+
+GlobalTime: 160.75
+Robot Curr Position:  -57.4494   58.5088
+
+GlobalTime: 161
+Robot Curr Position:  -57.2945   58.6609
+
+GlobalTime: 161.25
+Robot Curr Position:  -57.1396   58.813
+
+GlobalTime: 161.5
+Robot Curr Position:  -56.9845   58.9649
+
+GlobalTime: 161.75
+Robot Curr Position:  -56.8265   59.1159
+
+GlobalTime: 162
+Robot Curr Position:  -56.6683   59.2668
+
+GlobalTime: 162.25
+Robot Curr Position:  -56.5094   59.4174
+
+GlobalTime: 162.5
+Robot Curr Position:  -56.3507   59.5679
+
+GlobalTime: 162.75
+Robot Curr Position:  -56.1919   59.7184
+
+GlobalTime: 163
+Robot Curr Position:  -56.0333   59.8688
+
+GlobalTime: 163.25
+Robot Curr Position:  -55.873   60.0186
+
+GlobalTime: 163.5
+Robot Curr Position:  -55.7112   60.1678
+
+GlobalTime: 163.75
+Robot Curr Position:  -55.5486   60.3167
+
+GlobalTime: 164
+Robot Curr Position:  -55.3861   60.4656
+
+GlobalTime: 164.25
+Robot Curr Position:  -55.2236   60.6144
+
+GlobalTime: 164.5
+Robot Curr Position:  -55.0612   60.7631
+
+GlobalTime: 164.75
+Robot Curr Position:  -54.8987   60.9117
+
+GlobalTime: 165
+Robot Curr Position:  -54.7332   61.0592
+
+GlobalTime: 165.25
+Robot Curr Position:  -54.5676   61.2066
+
+GlobalTime: 165.5
+Robot Curr Position:  -54.4013   61.3536
+
+GlobalTime: 165.75
+Robot Curr Position:  -54.2349   61.5005
+
+GlobalTime: 166
+Robot Curr Position:  -54.0687   61.6474
+
+GlobalTime: 166.25
+Robot Curr Position:  -53.9024   61.7943
+
+GlobalTime: 166.5
+Robot Curr Position:  -53.7346   61.9404
+
+GlobalTime: 166.75
+Robot Curr Position:  -53.5653   62.0858
+
+GlobalTime: 167
+Robot Curr Position:  -53.3953   62.231
+
+GlobalTime: 167.25
+Robot Curr Position:  -53.2253   62.376
+
+GlobalTime: 167.5
+Robot Curr Position:  -53.0555   62.5211
+
+GlobalTime: 167.75
+Robot Curr Position:  -52.8856   62.666
+
+GlobalTime: 168
+Robot Curr Position:  -52.7153   62.8107
+
+GlobalTime: 168.25
+Robot Curr Position:  -52.5424   62.9542
+
+GlobalTime: 168.5
+Robot Curr Position:  -52.3689   63.0974
+
+GlobalTime: 168.75
+Robot Curr Position:  -52.1953   63.2404
+
+GlobalTime: 169
+Robot Curr Position:  -52.0218   63.3835
+
+GlobalTime: 169.25
+Robot Curr Position:  -51.8483   63.5264
+
+GlobalTime: 169.5
+Robot Curr Position:  -51.6748   63.6693
+
+GlobalTime: 169.75
+Robot Curr Position:  -51.4988   63.811
+
+GlobalTime: 170
+Robot Curr Position:  -51.3223   63.9523
+
+GlobalTime: 170.25
+Robot Curr Position:  -51.145   64.0932
+
+GlobalTime: 170.5
+Robot Curr Position:  -50.9678   64.2341
+
+GlobalTime: 170.75
+Robot Curr Position:  -50.7906   64.3748
+
+GlobalTime: 171
+Robot Curr Position:  -50.6134   64.5156
+
+GlobalTime: 171.25
+Robot Curr Position:  -50.435   64.6556
+
+GlobalTime: 171.5
+Robot Curr Position:  -50.2548   64.7947
+
+GlobalTime: 171.75
+Robot Curr Position:  -50.074   64.9333
+
+GlobalTime: 172
+Robot Curr Position:  -49.8933   65.072
+
+GlobalTime: 172.25
+Robot Curr Position:  -49.7126   65.2106
+
+GlobalTime: 172.5
+Robot Curr Position:  -49.5319   65.3491
+
+GlobalTime: 172.75
+Robot Curr Position:  -49.3507   65.4873
+
+GlobalTime: 173
+Robot Curr Position:  -49.1671   65.6241
+
+GlobalTime: 173.25
+Robot Curr Position:  -48.9828   65.7605
+
+GlobalTime: 173.5
+Robot Curr Position:  -48.7986   65.8968
+
+GlobalTime: 173.75
+Robot Curr Position:  -48.6144   66.0331
+
+GlobalTime: 174
+Robot Curr Position:  -48.4303   66.1693
+
+GlobalTime: 174.25
+Robot Curr Position:  -48.2462   66.3055
+
+GlobalTime: 174.5
+Robot Curr Position:  -48.0592   66.4399
+
+GlobalTime: 174.75
+Robot Curr Position:  -47.8722   66.5742
+
+GlobalTime: 175
+Robot Curr Position:  -47.6844   66.708
+
+GlobalTime: 175.25
+Robot Curr Position:  -47.4966   66.8417
+
+GlobalTime: 175.5
+Robot Curr Position:  -47.3089   66.9754
+
+GlobalTime: 175.75
+Robot Curr Position:  -47.1212   67.1091
+
+GlobalTime: 176
+Robot Curr Position:  -46.9315   67.2415
+
+GlobalTime: 176.25
+Robot Curr Position:  -46.7409   67.3732
+
+GlobalTime: 176.5
+Robot Curr Position:  -46.5498   67.5045
+
+GlobalTime: 176.75
+Robot Curr Position:  -46.3587   67.6357
+
+GlobalTime: 177
+Robot Curr Position:  -46.1676   67.7669
+
+GlobalTime: 177.25
+Robot Curr Position:  -45.9766   67.8981
+
+GlobalTime: 177.5
+Robot Curr Position:  -45.7841   68.0282
+
+GlobalTime: 177.75
+Robot Curr Position:  -45.5902   68.1573
+
+GlobalTime: 178
+Robot Curr Position:  -45.3957   68.2859
+
+GlobalTime: 178.25
+Robot Curr Position:  -45.2013   68.4146
+
+GlobalTime: 178.5
+Robot Curr Position:  -45.0069   68.5432
+
+GlobalTime: 178.75
+Robot Curr Position:  -44.8125   68.6717
+
+GlobalTime: 179
+Robot Curr Position:  -44.6171   68.7994
+
+GlobalTime: 179.25
+Robot Curr Position:  -44.4199   68.9258
+
+GlobalTime: 179.5
+Robot Curr Position:  -44.2222   69.0517
+
+GlobalTime: 179.75
+Robot Curr Position:  -44.0245   69.1776
+
+GlobalTime: 180
+Robot Curr Position:  -43.8269   69.3035
+
+GlobalTime: 180.25
+Robot Curr Position:  -43.6293   69.4293
+
+GlobalTime: 180.5
+Robot Curr Position:  -43.431   69.5545
+
+GlobalTime: 180.75
+Robot Curr Position:  -43.2306   69.678
+
+GlobalTime: 181
+Robot Curr Position:  -43.0297   69.8011
+
+GlobalTime: 181.25
+Robot Curr Position:  -42.8288   69.9241
+
+GlobalTime: 181.5
+Robot Curr Position:  -42.628   70.0472
+
+GlobalTime: 181.75
+Robot Curr Position:  -42.4272   70.1702
+
+GlobalTime: 182
+Robot Curr Position:  -42.2259   70.2927
+
+GlobalTime: 182.25
+Robot Curr Position:  -42.0224   70.4133
+
+GlobalTime: 182.5
+Robot Curr Position:  -41.8184   70.5335
+
+GlobalTime: 182.75
+Robot Curr Position:  -41.6144   70.6536
+
+GlobalTime: 183
+Robot Curr Position:  -41.4105   70.7737
+
+GlobalTime: 183.25
+Robot Curr Position:  -41.2066   70.8938
+
+GlobalTime: 183.5
+Robot Curr Position:  -41.0023   71.0135
+
+GlobalTime: 183.75
+Robot Curr Position:  -40.7957   71.1311
+
+GlobalTime: 184
+Robot Curr Position:  -40.5886   71.2482
+
+GlobalTime: 184.25
+Robot Curr Position:  -40.3816   71.3653
+
+GlobalTime: 184.5
+Robot Curr Position:  -40.1746   71.4825
+
+GlobalTime: 184.75
+Robot Curr Position:  -39.9677   71.5995
+
+GlobalTime: 185
+Robot Curr Position:  -39.7604   71.7162
+
+GlobalTime: 185.25
+Robot Curr Position:  -39.5508   71.8307
+
+GlobalTime: 185.5
+Robot Curr Position:  -39.3408   71.9448
+
+GlobalTime: 185.75
+Robot Curr Position:  -39.1308   72.0588
+
+GlobalTime: 186
+Robot Curr Position:  -38.9209   72.1728
+
+GlobalTime: 186.25
+Robot Curr Position:  -38.711   72.2867
+
+GlobalTime: 186.5
+Robot Curr Position:  -38.5007   72.4003
+
+GlobalTime: 186.75
+Robot Curr Position:  -38.2882   72.5116
+
+GlobalTime: 187
+Robot Curr Position:  -38.0754   72.6225
+
+GlobalTime: 187.25
+Robot Curr Position:  -37.8626   72.7332
+
+GlobalTime: 187.5
+Robot Curr Position:  -37.6497   72.844
+
+GlobalTime: 187.75
+Robot Curr Position:  -37.4369   72.9548
+
+GlobalTime: 188
+Robot Curr Position:  -37.2237   73.065
+
+GlobalTime: 188.25
+Robot Curr Position:  -37.0084   73.173
+
+GlobalTime: 188.5
+Robot Curr Position:  -36.7927   73.2806
+
+GlobalTime: 188.75
+Robot Curr Position:  -36.577   73.3881
+
+GlobalTime: 189
+Robot Curr Position:  -36.3614   73.4956
+
+GlobalTime: 189.25
+Robot Curr Position:  -36.1458   73.6031
+
+GlobalTime: 189.5
+Robot Curr Position:  -35.9296   73.7099
+
+GlobalTime: 189.75
+Robot Curr Position:  -35.7116   73.8145
+
+GlobalTime: 190
+Robot Curr Position:  -35.4932   73.9187
+
+GlobalTime: 190.25
+Robot Curr Position:  -35.2749   74.0228
+
+GlobalTime: 190.5
+Robot Curr Position:  -35.0565   74.1269
+
+GlobalTime: 190.75
+Robot Curr Position:  -34.8382   74.231
+
+GlobalTime: 191
+Robot Curr Position:  -34.6192   74.3343
+
+GlobalTime: 191.25
+Robot Curr Position:  -34.3985   74.4354
+
+GlobalTime: 191.5
+Robot Curr Position:  -34.1775   74.5361
+
+GlobalTime: 191.75
+Robot Curr Position:  -33.9565   74.6368
+
+GlobalTime: 192
+Robot Curr Position:  -33.7356   74.7375
+
+GlobalTime: 192.25
+Robot Curr Position:  -33.5146   74.8381
+
+GlobalTime: 192.5
+Robot Curr Position:  -33.2928   74.9376
+
+GlobalTime: 192.75
+Robot Curr Position:  -33.0696   75.0352
+
+GlobalTime: 193
+Robot Curr Position:  -32.846   75.1323
+
+GlobalTime: 193.25
+Robot Curr Position:  -32.6225   75.2295
+
+GlobalTime: 193.5
+Robot Curr Position:  -32.399   75.3266
+
+GlobalTime: 193.75
+Robot Curr Position:  -32.1756   75.4237
+
+GlobalTime: 194
+Robot Curr Position:  -31.951   75.5192
+
+GlobalTime: 194.25
+Robot Curr Position:  -31.7253   75.6133
+
+GlobalTime: 194.5
+Robot Curr Position:  -31.4993   75.7068
+
+GlobalTime: 194.75
+Robot Curr Position:  -31.2734   75.8003
+
+GlobalTime: 195
+Robot Curr Position:  -31.0475   75.8938
+
+GlobalTime: 195.25
+Robot Curr Position:  -30.8216   75.9873
+
+GlobalTime: 195.5
+Robot Curr Position:  -30.5943   76.0788
+
+GlobalTime: 195.75
+Robot Curr Position:  -30.3664   76.1691
+
+GlobalTime: 196
+Robot Curr Position:  -30.1381   76.2589
+
+GlobalTime: 196.25
+Robot Curr Position:  -29.9098   76.3487
+
+GlobalTime: 196.5
+Robot Curr Position:  -29.6816   76.4386
+
+GlobalTime: 196.75
+Robot Curr Position:  -29.4534   76.5284
+
+GlobalTime: 197
+Robot Curr Position:  -29.2235   76.6156
+
+GlobalTime: 197.25
+Robot Curr Position:  -28.9933   76.7021
+
+GlobalTime: 197.5
+Robot Curr Position:  -28.7628   76.7882
+
+GlobalTime: 197.75
+Robot Curr Position:  -28.5324   76.8742
+
+GlobalTime: 198
+Robot Curr Position:  -28.3019   76.9603
+
+GlobalTime: 198.25
+Robot Curr Position:  -28.0715   77.0464
+
+GlobalTime: 198.5
+Robot Curr Position:  -27.8392   77.1291
+
+GlobalTime: 198.75
+Robot Curr Position:  -27.6069   77.2118
+
+GlobalTime: 199
+Robot Curr Position:  -27.3743   77.2941
+
+GlobalTime: 199.25
+Robot Curr Position:  -27.1417   77.3763
+
+GlobalTime: 199.5
+Robot Curr Position:  -26.9092   77.4585
+
+GlobalTime: 199.75
+Robot Curr Position:  -26.6763   77.5402
+
+GlobalTime: 200
+Robot Curr Position:  -26.442   77.619
+
+GlobalTime: 200.25
+Robot Curr Position:  -26.2075   77.6975
+
+GlobalTime: 200.5
+Robot Curr Position:  -25.973   77.7759
+
+GlobalTime: 200.75
+Robot Curr Position:  -25.7386   77.8544
+
+GlobalTime: 201
+Robot Curr Position:  -25.5041   77.9328
+
+GlobalTime: 201.25
+Robot Curr Position:  -25.2689   78.0098
+
+GlobalTime: 201.5
+Robot Curr Position:  -25.0328   78.0847
+
+GlobalTime: 201.75
+Robot Curr Position:  -24.7964   78.1592
+
+GlobalTime: 202
+Robot Curr Position:  -24.56   78.2337
+
+GlobalTime: 202.25
+Robot Curr Position:  -24.3237   78.3082
+
+GlobalTime: 202.5
+Robot Curr Position:  -24.0873   78.3827
+
+GlobalTime: 202.75
+Robot Curr Position:  -23.85   78.4549
+
+GlobalTime: 203
+Robot Curr Position:  -23.6121   78.5259
+
+GlobalTime: 203.25
+Robot Curr Position:  -23.3739   78.5963
+
+GlobalTime: 203.5
+Robot Curr Position:  -23.1358   78.6668
+
+GlobalTime: 203.75
+Robot Curr Position:  -22.8977   78.7372
+
+GlobalTime: 204
+Robot Curr Position:  -22.6596   78.8077
+
+GlobalTime: 204.25
+Robot Curr Position:  -22.4203   78.8751
+
+GlobalTime: 204.5
+Robot Curr Position:  -22.1807   78.9419
+
+GlobalTime: 204.75
+Robot Curr Position:  -21.9409   79.0083
+
+GlobalTime: 205
+Robot Curr Position:  -21.7012   79.0747
+
+GlobalTime: 205.25
+Robot Curr Position:  -21.4615   79.1411
+
+GlobalTime: 205.5
+Robot Curr Position:  -21.2216   79.2072
+
+GlobalTime: 205.75
+Robot Curr Position:  -20.9806   79.2699
+
+GlobalTime: 206
+Robot Curr Position:  -20.7394   79.3323
+
+GlobalTime: 206.25
+Robot Curr Position:  -20.4982   79.3947
+
+GlobalTime: 206.5
+Robot Curr Position:  -20.257   79.4571
+
+GlobalTime: 206.75
+Robot Curr Position:  -20.0158   79.5194
+
+GlobalTime: 207
+Robot Curr Position:  -19.7741   79.5804
+
+GlobalTime: 207.25
+Robot Curr Position:  -19.5317   79.6391
+
+GlobalTime: 207.5
+Robot Curr Position:  -19.2891   79.6973
+
+GlobalTime: 207.75
+Robot Curr Position:  -19.0466   79.7555
+
+GlobalTime: 208
+Robot Curr Position:  -18.804   79.8137
+
+GlobalTime: 208.25
+Robot Curr Position:  -18.5615   79.8718
+
+GlobalTime: 208.5
+Robot Curr Position:  -18.3182   79.9277
+
+GlobalTime: 208.75
+Robot Curr Position:  -18.0746   79.9822
+
+GlobalTime: 209
+Robot Curr Position:  -17.8308   80.0361
+
+GlobalTime: 209.25
+Robot Curr Position:  -17.587   80.0901
+
+GlobalTime: 209.5
+Robot Curr Position:  -17.3432   80.1441
+
+GlobalTime: 209.75
+Robot Curr Position:  -17.0995   80.198
+
+GlobalTime: 210
+Robot Curr Position:  -16.8549   80.2487
+
+GlobalTime: 210.25
+Robot Curr Position:  -16.6101   80.2989
+
+GlobalTime: 210.5
+Robot Curr Position:  -16.3653   80.3486
+
+GlobalTime: 210.75
+Robot Curr Position:  -16.1204   80.3983
+
+GlobalTime: 211
+Robot Curr Position:  -15.8755   80.448
+
+GlobalTime: 211.25
+Robot Curr Position:  -15.6305   80.4973
+
+GlobalTime: 211.5
+Robot Curr Position:  -15.3848   80.5432
+
+GlobalTime: 211.75
+Robot Curr Position:  -15.139   80.5887
+
+GlobalTime: 212
+Robot Curr Position:  -14.8932   80.6343
+
+GlobalTime: 212.25
+Robot Curr Position:  -14.6474   80.6798
+
+GlobalTime: 212.5
+Robot Curr Position:  -14.4016   80.7253
+
+GlobalTime: 212.75
+Robot Curr Position:  -14.1555   80.7692
+
+GlobalTime: 213
+Robot Curr Position:  -13.909   80.8109
+
+GlobalTime: 213.25
+Robot Curr Position:  -13.6625   80.8524
+
+GlobalTime: 213.5
+Robot Curr Position:  -13.416   80.8939
+
+GlobalTime: 213.75
+Robot Curr Position:  -13.1694   80.9355
+
+GlobalTime: 214
+Robot Curr Position:  -12.9229   80.977
+
+GlobalTime: 214.25
+Robot Curr Position:  -12.6764   81.0185
+
+GlobalTime: 214.5
+Robot Curr Position:  -12.4298   81.0601
+
+GlobalTime: 214.75
+Robot Curr Position:  -12.1833   81.1016
+
+GlobalTime: 215
+Robot Curr Position:  -11.9368   81.1431
+
+GlobalTime: 215.25
+Robot Curr Position:  -11.6902   81.1846
+
+GlobalTime: 215.5
+Robot Curr Position:  -11.4437   81.2262
+
+GlobalTime: 215.75
+Robot Curr Position:  -11.1971   81.2677
+
+GlobalTime: 216
+Robot Curr Position:  -10.9506   81.3092
+
+GlobalTime: 216.25
+Robot Curr Position:  -10.7041   81.3508
+
+GlobalTime: 216.5
+Robot Curr Position:  -10.4576   81.3923
+
+GlobalTime: 216.75
+Robot Curr Position:  -10.2111   81.4338
+
+GlobalTime: 217
+Robot Curr Position:  -9.96453   81.4754
+
+GlobalTime: 217.25
+Robot Curr Position:  -9.718   81.5169
+
+GlobalTime: 217.5
+Robot Curr Position:  -9.47146   81.5585
+
+GlobalTime: 217.75
+Robot Curr Position:  -9.22496   81.6
+
+GlobalTime: 218
+Robot Curr Position:  -8.97842   81.6415
+
+GlobalTime: 218.25
+Robot Curr Position:  -8.73191   81.6831
+
+GlobalTime: 218.5
+Robot Curr Position:  -8.48537   81.7246
+
+GlobalTime: 218.75
+Robot Curr Position:  -8.23886   81.7661
+
+GlobalTime: 219
+Robot Curr Position:  -7.99234   81.8076
+
+GlobalTime: 219.25
+Robot Curr Position:  -7.7458   81.8492
+
+GlobalTime: 219.5
+Robot Curr Position:  -7.49926   81.8907
+
+GlobalTime: 219.75
+Robot Curr Position:  -7.25275   81.9322
+
+GlobalTime: 220
+Robot Curr Position:  -7.00624   81.9738
+
+GlobalTime: 220.25
+Robot Curr Position:  -6.75972   82.0153
+
+GlobalTime: 220.5
+Robot Curr Position:  -6.5132   82.0568
+
+GlobalTime: 220.75
+Robot Curr Position:  -6.26667   82.0983
+
+GlobalTime: 221
+Robot Curr Position:  -6.02014   82.1399
+
+GlobalTime: 221.25
+Robot Curr Position:  -5.77361   82.1814
+
+GlobalTime: 221.5
+Robot Curr Position:  -5.52707   82.2229
+
+GlobalTime: 221.75
+Robot Curr Position:  -5.28053   82.2645
+
+GlobalTime: 222
+Robot Curr Position:  -5.03399   82.306
+
+GlobalTime: 222.25
+Robot Curr Position:  -4.78748   82.3475
+
+GlobalTime: 222.5
+Robot Curr Position:  -4.54096   82.3891
+
+GlobalTime: 222.75
+Robot Curr Position:  -4.29445   82.4306
+
+GlobalTime: 223
+Robot Curr Position:  -4.04792   82.4721
+
+GlobalTime: 223.25
+Robot Curr Position:  -3.8014   82.5137
+
+GlobalTime: 223.5
+Robot Curr Position:  -3.55487   82.5552
+
+GlobalTime: 223.75
+Robot Curr Position:  -3.30833   82.5967
+
+GlobalTime: 224
+Robot Curr Position:  -3.0618   82.6382
+
+GlobalTime: 224.25
+Robot Curr Position:  -2.81528   82.6798
+
+GlobalTime: 224.5
+Robot Curr Position:  -2.56876   82.7213
+
+GlobalTime: 224.75
+Robot Curr Position:  -2.32225   82.7628
+
+GlobalTime: 225
+Robot Curr Position:  -2.07573   82.8043
+
+GlobalTime: 225.25
+Robot Curr Position:  -1.8292   82.8459
+
+GlobalTime: 225.5
+Robot Curr Position:  -1.58267   82.8874
+
+GlobalTime: 225.75
+Robot Curr Position:  -1.33615   82.9289
+
+GlobalTime: 226
+Robot Curr Position:  -1.08964   82.9705
+
+GlobalTime: 226.25
+Robot Curr Position:  -0.843105   83.012
+
+GlobalTime: 226.5
+Robot Curr Position:  -0.596585   83.0535
+
+GlobalTime: 226.75
+Robot Curr Position:  -0.350063   83.095
+
+GlobalTime: 227
+Robot Curr Position:  -0.103532   83.1366
+
+GlobalTime: 227.25
+Robot Curr Position:  0.143005   83.1781
+
+GlobalTime: 227.5
+Robot Curr Position:  0.389528   83.2197
+
+GlobalTime: 227.75
+Robot Curr Position:  0.636054   83.2612
+
+GlobalTime: 228
+Robot Curr Position:  0.882563   83.3027
+
+GlobalTime: 228.25
+Robot Curr Position:  1.12909   83.3442
+
+GlobalTime: 228.5
+Robot Curr Position:  1.37562   83.3858
+
+GlobalTime: 228.75
+Robot Curr Position:  1.62216   83.4273
+
+GlobalTime: 229
+Robot Curr Position:  1.8687   83.4688
+
+GlobalTime: 229.25
+Robot Curr Position:  2.11523   83.5104
+
+GlobalTime: 229.5
+Robot Curr Position:  2.36175   83.5519
+
+GlobalTime: 229.75
+Robot Curr Position:  2.60827   83.5934
+
+GlobalTime: 230
+Robot Curr Position:  2.8548   83.635
+
+GlobalTime: 230.25
+Robot Curr Position:  3.10135   83.6765
+
+GlobalTime: 230.5
+Robot Curr Position:  3.34787   83.718
+
+GlobalTime: 230.75
+Robot Curr Position:  3.59439   83.7595
+
+GlobalTime: 231
+Robot Curr Position:  3.84093   83.8011
+
+GlobalTime: 231.25
+Robot Curr Position:  4.08746   83.8426
+
+GlobalTime: 231.5
+Robot Curr Position:  4.33399   83.8841
+
+GlobalTime: 231.75
+Robot Curr Position:  4.58051   83.9256
+
+GlobalTime: 232
+Robot Curr Position:  4.82706   83.9672
+
+GlobalTime: 232.25
+Robot Curr Position:  5.07356   84.0087
+
+GlobalTime: 232.5
+Robot Curr Position:  5.3201   84.0502
+
+GlobalTime: 232.75
+Robot Curr Position:  5.56662   84.0918
+
+GlobalTime: 233
+Robot Curr Position:  5.81316   84.1333
+
+GlobalTime: 233.25
+Robot Curr Position:  6.05969   84.1748
+
+GlobalTime: 233.5
+Robot Curr Position:  6.30623   84.2164
+
+GlobalTime: 233.75
+Robot Curr Position:  6.55276   84.2579
+
+GlobalTime: 234
+Robot Curr Position:  6.79929   84.2994
+
+GlobalTime: 234.25
+Robot Curr Position:  7.04583   84.341
+
+GlobalTime: 234.5
+Robot Curr Position:  7.29234   84.3825
+
+GlobalTime: 234.75
+Robot Curr Position:  7.53887   84.424
+
+GlobalTime: 235
+Robot Curr Position:  7.78538   84.4656
+
+GlobalTime: 235.25
+Robot Curr Position:  8.0319   84.5071
+
+GlobalTime: 235.5
+Robot Curr Position:  8.27844   84.5486
+
+GlobalTime: 235.75
+Robot Curr Position:  8.52495   84.5901
+
+GlobalTime: 236
+Robot Curr Position:  8.77145   84.6317
+
+GlobalTime: 236.25
+Robot Curr Position:  9.01797   84.6732
+
+GlobalTime: 236.5
+Robot Curr Position:  9.2645   84.7147
+
+GlobalTime: 236.75
+Robot Curr Position:  9.51102   84.7563
+
+GlobalTime: 237
+Robot Curr Position:  9.75753   84.7978
+
+GlobalTime: 237.25
+Robot Curr Position:  10.0041   84.8393
+
+GlobalTime: 237.5
+Robot Curr Position:  10.2506   84.8809
+
+GlobalTime: 237.75
+Robot Curr Position:  10.4971   84.9224
+
+GlobalTime: 238
+Robot Curr Position:  10.7436   84.9639
+
+GlobalTime: 238.25
+Robot Curr Position:  10.9901   85.0054
+
+GlobalTime: 238.5
+Robot Curr Position:  11.2367   85.047
+
+GlobalTime: 238.75
+Robot Curr Position:  11.4832   85.0885
+
+GlobalTime: 239
+Robot Curr Position:  11.7297   85.13
+
+GlobalTime: 239.25
+Robot Curr Position:  11.9763   85.1716
+
+GlobalTime: 239.5
+Robot Curr Position:  12.2228   85.2131
+
+GlobalTime: 239.75
+Robot Curr Position:  12.4693   85.2546
+
+GlobalTime: 240
+Robot Curr Position:  12.7159   85.2962
+
+GlobalTime: 240.25
+Robot Curr Position:  12.9624   85.3377
+
+GlobalTime: 240.5
+Robot Curr Position:  13.2089   85.3792
+
+GlobalTime: 240.75
+Robot Curr Position:  13.4555   85.4208
+
+GlobalTime: 241
+Robot Curr Position:  13.702   85.4623
+
+GlobalTime: 241.25
+Robot Curr Position:  13.9485   85.5038
+
+GlobalTime: 241.5
+Robot Curr Position:  14.195   85.5454
+
+GlobalTime: 241.75
+Robot Curr Position:  14.4415   85.5869
+
+GlobalTime: 242
+Robot Curr Position:  14.688   85.6284
+
+GlobalTime: 242.25
+Robot Curr Position:  14.9346   85.6699
+
+GlobalTime: 242.5
+Robot Curr Position:  15.1811   85.7114
+
+GlobalTime: 242.75
+Robot Curr Position:  15.4276   85.753
+
+GlobalTime: 243
+Robot Curr Position:  15.6741   85.7945
+
+GlobalTime: 243.25
+Robot Curr Position:  15.9207   85.836
+
+GlobalTime: 243.5
+Robot Curr Position:  16.1672   85.8775
+
+GlobalTime: 243.75
+Robot Curr Position:  16.4137   85.9191
+
+GlobalTime: 244
+Robot Curr Position:  16.6602   85.9606
+
+GlobalTime: 244.25
+Robot Curr Position:  16.9068   86.0021
+
+GlobalTime: 244.5
+Robot Curr Position:  17.1533   86.0436
+
+GlobalTime: 244.75
+Robot Curr Position:  17.3998   86.0852
+
+GlobalTime: 245
+Robot Curr Position:  17.6463   86.1267
+
+GlobalTime: 245.25
+Robot Curr Position:  17.8929   86.1682
+
+GlobalTime: 245.5
+Robot Curr Position:  18.1394   86.2097
+
+GlobalTime: 245.75
+Robot Curr Position:  18.3859   86.2513
+
+GlobalTime: 246
+Robot Curr Position:  18.6325   86.2928
+
+GlobalTime: 246.25
+Robot Curr Position:  18.879   86.3343
+
+GlobalTime: 246.5
+Robot Curr Position:  19.1255   86.3758
+
+GlobalTime: 246.75
+Robot Curr Position:  19.372   86.4174
+
+GlobalTime: 247
+Robot Curr Position:  19.6185   86.4589
+
+GlobalTime: 247.25
+Robot Curr Position:  19.865   86.5004
+
+GlobalTime: 247.5
+Robot Curr Position:  20.1116   86.542
+
+GlobalTime: 247.75
+Robot Curr Position:  20.3581   86.5835
+
+GlobalTime: 248
+Robot Curr Position:  20.6046   86.625
+
+GlobalTime: 248.25
+Robot Curr Position:  20.8512   86.6665
+
+GlobalTime: 248.5
+Robot Curr Position:  21.0977   86.7081
+
+GlobalTime: 248.75
+Robot Curr Position:  21.3442   86.7496
+
+GlobalTime: 249
+Robot Curr Position:  21.5907   86.7912
+
+GlobalTime: 249.25
+Robot Curr Position:  21.8373   86.8327
+
+GlobalTime: 249.5
+Robot Curr Position:  22.0838   86.8742
+
+GlobalTime: 249.75
+Robot Curr Position:  22.3303   86.9158
+
+GlobalTime: 250
+Robot Curr Position:  22.5768   86.9573
+
+GlobalTime: 250.25
+Robot Curr Position:  22.8233   86.9988
+
+GlobalTime: 250.5
+Robot Curr Position:  23.0699   87.0403
+
+GlobalTime: 250.75
+Robot Curr Position:  23.3164   87.0818
+
+GlobalTime: 251
+Robot Curr Position:  23.5629   87.1234
+
+GlobalTime: 251.25
+Robot Curr Position:  23.8095   87.1649
+
+GlobalTime: 251.5
+Robot Curr Position:  24.056   87.2064
+
+GlobalTime: 251.75
+Robot Curr Position:  24.3025   87.248
+
+GlobalTime: 252
+Robot Curr Position:  24.549   87.2895
+
+GlobalTime: 252.25
+Robot Curr Position:  24.7955   87.3311
+
+GlobalTime: 252.5
+Robot Curr Position:  25.0421   87.3726
+
+GlobalTime: 252.75
+Robot Curr Position:  25.2886   87.4141
+
+GlobalTime: 253
+Robot Curr Position:  25.5351   87.4557
+
+GlobalTime: 253.25
+Robot Curr Position:  25.7817   87.4972
+
+GlobalTime: 253.5
+Robot Curr Position:  26.0282   87.5387
+
+GlobalTime: 253.75
+Robot Curr Position:  26.2747   87.5803
+
+GlobalTime: 254
+Robot Curr Position:  26.5212   87.6218
+
+GlobalTime: 254.25
+Robot Curr Position:  26.7678   87.6634
+
+GlobalTime: 254.5
+Robot Curr Position:  27.0143   87.7049
+
+GlobalTime: 254.75
+Robot Curr Position:  27.2608   87.7464
+
+GlobalTime: 255
+Robot Curr Position:  27.5074   87.7879
+
+GlobalTime: 255.25
+Robot Curr Position:  27.7539   87.8295
+
+GlobalTime: 255.5
+Robot Curr Position:  28.0004   87.871
+
+GlobalTime: 255.75
+Robot Curr Position:  28.2469   87.9126
+
+GlobalTime: 256
+Robot Curr Position:  28.4934   87.9541
+
+GlobalTime: 256.25
+Robot Curr Position:  28.7399   87.9956
+
+GlobalTime: 256.5
+Robot Curr Position:  28.9864   88.0371
+
+GlobalTime: 256.75
+Robot Curr Position:  29.233   88.0787
+
+GlobalTime: 257
+Robot Curr Position:  29.4795   88.1202
+
+GlobalTime: 257.25
+Robot Curr Position:  29.726   88.1617
+
+GlobalTime: 257.5
+Robot Curr Position:  29.9726   88.2033
+
+GlobalTime: 257.75
+Robot Curr Position:  30.2191   88.2448
+
+GlobalTime: 258
+Robot Curr Position:  30.4656   88.2863
+
+GlobalTime: 258.25
+Robot Curr Position:  30.7122   88.3279
+
+GlobalTime: 258.5
+Robot Curr Position:  30.9587   88.3694
+
+GlobalTime: 258.75
+Robot Curr Position:  31.2052   88.4109
+
+GlobalTime: 259
+Robot Curr Position:  31.4517   88.4524
+
+GlobalTime: 259.25
+Robot Curr Position:  31.6983   88.494
+
+GlobalTime: 259.5
+Robot Curr Position:  31.9448   88.5355
+
+GlobalTime: 259.75
+Robot Curr Position:  32.1913   88.577
+
+GlobalTime: 260
+Robot Curr Position:  32.4378   88.6186
+
+GlobalTime: 260.25
+Robot Curr Position:  32.6844   88.6601
+
+GlobalTime: 260.5
+Robot Curr Position:  32.9309   88.7016
+
+GlobalTime: 260.75
+Robot Curr Position:  33.1774   88.7431
+
+GlobalTime: 261
+Robot Curr Position:  33.424   88.7847
+
+GlobalTime: 261.25
+Robot Curr Position:  33.6705   88.8262
+
+GlobalTime: 261.5
+Robot Curr Position:  33.917   88.8678
+
+GlobalTime: 261.75
+Robot Curr Position:  34.1635   88.9093
+
+GlobalTime: 262
+Robot Curr Position:  34.41   88.9508
+
+GlobalTime: 262.25
+Robot Curr Position:  34.6566   88.9924
+
+GlobalTime: 262.5
+Robot Curr Position:  34.9031   89.0339
+
+GlobalTime: 262.75
+Robot Curr Position:  35.1496   89.0755
+
+GlobalTime: 263
+Robot Curr Position:  35.3961   89.117
+
+GlobalTime: 263.25
+Robot Curr Position:  35.6426   89.1585
+
+GlobalTime: 263.5
+Robot Curr Position:  35.8892   89.2
+
+GlobalTime: 263.75
+Robot Curr Position:  36.1357   89.2416
+
+GlobalTime: 264
+Robot Curr Position:  36.3822   89.2831
+
+GlobalTime: 264.25
+Robot Curr Position:  36.6287   89.3246
+
+GlobalTime: 264.5
+Robot Curr Position:  36.8753   89.3661
+
+GlobalTime: 264.75
+Robot Curr Position:  37.1218   89.4077
+
+GlobalTime: 265
+Robot Curr Position:  37.3683   89.4492
+
+GlobalTime: 265.25
+Robot Curr Position:  37.6148   89.4907
+
+GlobalTime: 265.5
+Robot Curr Position:  37.8614   89.5323
+
+GlobalTime: 265.75
+Robot Curr Position:  38.1079   89.5738
+
+GlobalTime: 266
+Robot Curr Position:  38.3544   89.6153
+
+GlobalTime: 266.25
+Robot Curr Position:  38.601   89.6568
+
+GlobalTime: 266.5
+Robot Curr Position:  38.8475   89.6984
+
+GlobalTime: 266.75
+Robot Curr Position:  39.094   89.7399
+
+GlobalTime: 267
+Robot Curr Position:  39.3406   89.7814
+
+GlobalTime: 267.25
+Robot Curr Position:  39.5871   89.823
+
+GlobalTime: 267.5
+Robot Curr Position:  39.8336   89.8645
+
+GlobalTime: 267.75
+Robot Curr Position:  40.0801   89.906
+
+GlobalTime: 268
+Robot Curr Position:  40.3267   89.9475
+
+GlobalTime: 268.25
+Robot Curr Position:  40.5732   89.9891
+
+GlobalTime: 268.5
+Robot Curr Position:  40.8197   90.0306
+
+GlobalTime: 268.75
+Robot Curr Position:  41.0662   90.0721
+
+GlobalTime: 269
+Robot Curr Position:  41.3128   90.1136
+
+GlobalTime: 269.25
+Robot Curr Position:  41.5593   90.1552
+
+GlobalTime: 269.5
+Robot Curr Position:  41.8058   90.1967
+
+GlobalTime: 269.75
+Robot Curr Position:  42.0523   90.2382
+
+GlobalTime: 270
+Robot Curr Position:  42.2989   90.2798
+
+GlobalTime: 270.25
+Robot Curr Position:  42.5454   90.3213
+
+GlobalTime: 270.5
+Robot Curr Position:  42.7919   90.3628
+
+GlobalTime: 270.75
+Robot Curr Position:  43.0384   90.4044
+
+GlobalTime: 271
+Robot Curr Position:  43.285   90.4459
+
+GlobalTime: 271.25
+Robot Curr Position:  43.5315   90.4874
+
+GlobalTime: 271.5
+Robot Curr Position:  43.778   90.529
+
+GlobalTime: 271.75
+Robot Curr Position:  44.0245   90.5705
+
+GlobalTime: 272
+Robot Curr Position:  44.2711   90.612
+
+GlobalTime: 272.25
+Robot Curr Position:  44.5176   90.6536
+
+GlobalTime: 272.5
+Robot Curr Position:  44.7641   90.6951
+
+GlobalTime: 272.75
+Robot Curr Position:  45.0107   90.7366
+
+GlobalTime: 273
+Robot Curr Position:  45.2572   90.7782
+
+GlobalTime: 273.25
+Robot Curr Position:  45.5037   90.8197
+
+GlobalTime: 273.5
+Robot Curr Position:  45.7502   90.8612
+
+GlobalTime: 273.75
+Robot Curr Position:  45.9968   90.9028
+
+GlobalTime: 274
+Robot Curr Position:  46.2433   90.9443
+
+GlobalTime: 274.25
+Robot Curr Position:  46.4899   90.9858
+
+GlobalTime: 274.5
+Robot Curr Position:  46.7364   91.0273
+
+GlobalTime: 274.75
+Robot Curr Position:  46.9829   91.0689
+
+GlobalTime: 275
+Robot Curr Position:  47.2295   91.1104
+
+GlobalTime: 275.25
+Robot Curr Position:  47.476   91.1519
+
+GlobalTime: 275.5
+Robot Curr Position:  47.7225   91.1935
+
+GlobalTime: 275.75
+Robot Curr Position:  47.969   91.235
+
+GlobalTime: 276
+Robot Curr Position:  48.2155   91.2765
+
+GlobalTime: 276.25
+Robot Curr Position:  48.462   91.318
+
+GlobalTime: 276.5
+Robot Curr Position:  48.7086   91.3596
+
+GlobalTime: 276.75
+Robot Curr Position:  48.9551   91.4011
+
+GlobalTime: 277
+Robot Curr Position:  49.2016   91.4426
+
+GlobalTime: 277.25
+Robot Curr Position:  49.4482   91.4841
+
+GlobalTime: 277.5
+Robot Curr Position:  49.6947   91.5257
+
+GlobalTime: 277.75
+Robot Curr Position:  49.9412   91.5672
+
+GlobalTime: 278
+Robot Curr Position:  50.1877   91.6087
+
+GlobalTime: 278.25
+Robot Curr Position:  50.4343   91.6503
+
+GlobalTime: 278.5
+Robot Curr Position:  50.6808   91.6918
+
+GlobalTime: 278.75
+Robot Curr Position:  50.9273   91.7333
+
+GlobalTime: 279
+Robot Curr Position:  51.1738   91.7748
+
+GlobalTime: 279.25
+Robot Curr Position:  51.4203   91.8164
+
+GlobalTime: 279.5
+Robot Curr Position:  51.6668   91.8579
+
+GlobalTime: 279.75
+Robot Curr Position:  51.9134   91.8994
+
+GlobalTime: 280
+Robot Curr Position:  52.1599   91.9409
+
+GlobalTime: 280.25
+Robot Curr Position:  52.4064   91.9825
+
+GlobalTime: 280.5
+Robot Curr Position:  52.653   92.024
+
+GlobalTime: 280.75
+Robot Curr Position:  52.8995   92.0656
+
+GlobalTime: 281
+Robot Curr Position:  53.146   92.1071
+
+GlobalTime: 281.25
+Robot Curr Position:  53.3926   92.1486
+
+GlobalTime: 281.5
+Robot Curr Position:  53.6391   92.1902
+
+GlobalTime: 281.75
+Robot Curr Position:  53.8856   92.2317
+
+GlobalTime: 282
+Robot Curr Position:  54.1321   92.2733
+
+GlobalTime: 282.25
+Robot Curr Position:  54.3787   92.3148
+
+GlobalTime: 282.5
+Robot Curr Position:  54.6252   92.3563
+
+GlobalTime: 282.75
+Robot Curr Position:  54.8717   92.3979
+
+GlobalTime: 283
+Robot Curr Position:  55.1182   92.4394
+
+GlobalTime: 283.25
+Robot Curr Position:  55.3648   92.4809
+
+GlobalTime: 283.5
+Robot Curr Position:  55.6113   92.5224
+
+GlobalTime: 283.75
+Robot Curr Position:  55.8578   92.564
+
+GlobalTime: 284
+Robot Curr Position:  56.1043   92.6055
+
+GlobalTime: 284.25
+Robot Curr Position:  56.3508   92.647
+
+GlobalTime: 284.5
+Robot Curr Position:  56.5974   92.6886
+
+GlobalTime: 284.75
+Robot Curr Position:  56.8439   92.7301
+
+GlobalTime: 285
+Robot Curr Position:  57.0904   92.7716
+
+GlobalTime: 285.25
+Robot Curr Position:  57.337   92.8131
+
+GlobalTime: 285.5
+Robot Curr Position:  57.5835   92.8547
+
+GlobalTime: 285.75
+Robot Curr Position:  57.83   92.8962
+
+GlobalTime: 286
+Robot Curr Position:  58.0765   92.9378
+
+GlobalTime: 286.25
+Robot Curr Position:  58.3231   92.9793
+
+GlobalTime: 286.5
+Robot Curr Position:  58.5696   93.0208
+
+GlobalTime: 286.75
+Robot Curr Position:  58.8161   93.0623
+
+GlobalTime: 287
+Robot Curr Position:  59.0626   93.1038
+
+GlobalTime: 287.25
+Robot Curr Position:  59.3092   93.1454
+
+GlobalTime: 287.5
+Robot Curr Position:  59.5557   93.1869
+
+GlobalTime: 287.75
+Robot Curr Position:  59.8022   93.2284
+
+GlobalTime: 288
+Robot Curr Position:  60.0487   93.27
+
+GlobalTime: 288.25
+Robot Curr Position:  60.2953   93.3115
+
+GlobalTime: 288.5
+Robot Curr Position:  60.5418   93.353
+
+GlobalTime: 288.75
+Robot Curr Position:  60.7883   93.3946
+
+GlobalTime: 289
+Robot Curr Position:  61.0349   93.4361
+
+GlobalTime: 289.25
+Robot Curr Position:  61.2814   93.4776
+
+GlobalTime: 289.5
+Robot Curr Position:  61.5279   93.5191
+
+GlobalTime: 289.75
+Robot Curr Position:  61.7744   93.5607
+
+GlobalTime: 290
+Robot Curr Position:  62.021   93.6022
+
+GlobalTime: 290.25
+Robot Curr Position:  62.2675   93.6437
+
+GlobalTime: 290.5
+Robot Curr Position:  62.514   93.6852
+
+GlobalTime: 290.75
+Robot Curr Position:  62.7605   93.7268
+
+GlobalTime: 291
+Robot Curr Position:  63.0071   93.7683
+
+GlobalTime: 291.25
+Robot Curr Position:  63.2536   93.8098
+
+GlobalTime: 291.5
+Robot Curr Position:  63.5001   93.8514
+
+GlobalTime: 291.75
+Robot Curr Position:  63.7466   93.8929
+
+GlobalTime: 292
+Robot Curr Position:  63.9931   93.9344
+
+GlobalTime: 292.25
+Robot Curr Position:  64.2397   93.9759
+
+GlobalTime: 292.5
+Robot Curr Position:  64.4862   94.0175
+
+GlobalTime: 292.75
+Robot Curr Position:  64.7327   94.059
+
+GlobalTime: 293
+Robot Curr Position:  64.9793   94.1005
+
+GlobalTime: 293.25
+Robot Curr Position:  65.2258   94.1421
+
+GlobalTime: 293.5
+Robot Curr Position:  65.4723   94.1836
+
+GlobalTime: 293.75
+Robot Curr Position:  65.7188   94.2251
+
+GlobalTime: 294
+Robot Curr Position:  65.9654   94.2666
+
+GlobalTime: 294.25
+Robot Curr Position:  66.2119   94.3081
+
+GlobalTime: 294.5
+Robot Curr Position:  66.4584   94.3497
+
+GlobalTime: 294.75
+Robot Curr Position:  66.7049   94.3912
+
+GlobalTime: 295
+Robot Curr Position:  66.9515   94.4327
+
+GlobalTime: 295.25
+Robot Curr Position:  67.198   94.4743
+
+GlobalTime: 295.5
+Robot Curr Position:  67.4445   94.5158
+
+GlobalTime: 295.75
+Robot Curr Position:  67.691   94.5574
+
+GlobalTime: 296
+Robot Curr Position:  67.9376   94.5989
+
+GlobalTime: 296.25
+Robot Curr Position:  68.1841   94.6404
+
+GlobalTime: 296.5
+Robot Curr Position:  68.4306   94.6819
+
+GlobalTime: 296.75
+Robot Curr Position:  68.6771   94.7235
+
+GlobalTime: 297
+Robot Curr Position:  68.9236   94.765
+
+GlobalTime: 297.25
+Robot Curr Position:  69.1702   94.8065
+
+GlobalTime: 297.5
+Robot Curr Position:  69.4167   94.8481
+
+GlobalTime: 297.75
+Robot Curr Position:  69.6632   94.8896
+
+GlobalTime: 298
+Robot Curr Position:  69.9097   94.9311
+
+GlobalTime: 298.25
+Robot Curr Position:  70.1563   94.9726
+
+GlobalTime: 298.5
+Robot Curr Position:  70.4028   95.0142
+
+GlobalTime: 298.75
+Robot Curr Position:  70.6493   95.0557
+
+GlobalTime: 299
+Robot Curr Position:  70.8958   95.0972
+
+GlobalTime: 299.25
+Robot Curr Position:  71.1424   95.1388
+
+GlobalTime: 299.5
+Robot Curr Position:  71.3889   95.1803
+
+GlobalTime: 299.75
+Robot Curr Position:  71.6354   95.2218
+
+GlobalTime: 300
+Robot Curr Position:  71.8819   95.2633
+
+GlobalTime: 300.25
+Robot Curr Position:  72.1284   95.3049
+
+GlobalTime: 300.5
+Robot Curr Position:  72.375   95.3464
+
+GlobalTime: 300.75
+Robot Curr Position:  72.6215   95.3879
+
+GlobalTime: 301
+Robot Curr Position:  72.868   95.4295
+
+GlobalTime: 301.25
+Robot Curr Position:  73.1145   95.471
+
+GlobalTime: 301.5
+Robot Curr Position:  73.361   95.5125
+
+GlobalTime: 301.75
+Robot Curr Position:  73.6076   95.554
+
+GlobalTime: 302
+Robot Curr Position:  73.8541   95.5956
+
+GlobalTime: 302.25
+Robot Curr Position:  74.1006   95.6371
+
+GlobalTime: 302.5
+Robot Curr Position:  74.3471   95.6786
+
+GlobalTime: 302.75
+Robot Curr Position:  74.5937   95.7202
+
+GlobalTime: 303
+Robot Curr Position:  74.8402   95.7617
+
+GlobalTime: 303.25
+Robot Curr Position:  75.0867   95.8032
+
+GlobalTime: 303.5
+Robot Curr Position:  75.3332   95.8447
+
+GlobalTime: 303.75
+Robot Curr Position:  75.5797   95.8862
+
+GlobalTime: 304
+Robot Curr Position:  75.8263   95.9278
+
+GlobalTime: 304.25
+Robot Curr Position:  76.0728   95.9693
+
+GlobalTime: 304.5
+Robot Curr Position:  76.3193   96.0108
+
+GlobalTime: 304.75
+Robot Curr Position:  76.5659   96.0524
+
+GlobalTime: 305
+Robot Curr Position:  76.8124   96.0939
+
+GlobalTime: 305.25
+Robot Curr Position:  77.0589   96.1354
+
+GlobalTime: 305.5
+Robot Curr Position:  77.3055   96.177
+
+GlobalTime: 305.75
+Robot Curr Position:  77.552   96.2185
+
+GlobalTime: 306
+Robot Curr Position:  77.7985   96.26
+
+GlobalTime: 306.25
+Robot Curr Position:  78.0451   96.3015
+
+GlobalTime: 306.5
+Robot Curr Position:  78.2916   96.3431
+
+GlobalTime: 306.75
+Robot Curr Position:  78.5381   96.3846
+
+GlobalTime: 307
+Robot Curr Position:  78.7846   96.4261
+
+GlobalTime: 307.25
+Robot Curr Position:  79.0312   96.4677
+
+GlobalTime: 307.5
+Robot Curr Position:  79.2777   96.5092
+
+GlobalTime: 307.75
+Robot Curr Position:  79.5242   96.5507
+
+GlobalTime: 308
+Robot Curr Position:  79.7707   96.5922
+
+GlobalTime: 308.25
+Robot Curr Position:  80.0173   96.6337
+
+GlobalTime: 308.5
+Robot Curr Position:  80.2638   96.6753
+

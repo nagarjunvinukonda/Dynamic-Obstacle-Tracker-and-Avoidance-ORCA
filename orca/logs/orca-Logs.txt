@@ -1,0 +1,11 @@
+ORCA Logs
+
+
+1. Varying Th-obstacle to get the best possible time horizon
+
+2. Varying robot radius to get good clearance from collision
+
+3. Changing pulisher buffer size to ensure velocities do not get clogged
+
+
+
