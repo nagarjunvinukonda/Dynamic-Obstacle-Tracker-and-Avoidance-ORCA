@@ -10,17 +10,19 @@ The package is build and tested for Ubuntu 18.04 with ROS Melodic
 
 The algorithm has been made to deploy on mobile robots with static indoor environments
 
-Simulation with hyper-parameter time-horizon-obstacle = 1200 units 
+Simulation with Laser range =10m
 <p float="center">
-<img src="animations/turtlebot3_ORCA_demo_Static_thObst1200_2020-12-02.gif" width="49%"/>
+<img src="animations/orca_10m_800th_lobbyDOUBLING_VPref.gif" width="49%"/>
 </p>
 
-Simulation with hyper-parameter time-horizon-obstacle = 1800 units 
+Simulation with Laser range =4m
 <p float="center">
-<img src="animations/turtlebot3_ORCA_demo_Static_thObst1800_2020-12-02.gif" width="49%"/>
+<img src="animations/orca_best1_4m_600thObj_Rviz2.gif" width="49%"/>
 </p>
 
+THe obstacle detctor results:
 
+![obstacle_detect](https://user-images.githubusercontent.com/49041896/101849358-89672880-3b25-11eb-8dc6-33262c6d647f.gif)
 
 ## Dependencies
 You will need [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3/tree/melodic-devel) & [turtlebot3_simulation](https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/melodic-devel) packages.
@@ -29,22 +31,9 @@ OpenCV is also needed if you wish to work with certain functionalities of this r
 
 Don't forget to configure the OpenCV_DIR in the CMakeLists.txt with {path-to-your-OpenCV-library}
 
-## Installation 
-
-Git clone this repo in the src of your ROS workspace
-
-        git clone https://github.com/KavitShah1998/DynamicObstacleAvoidance
-
-Source and build the project
-'''
-        cd .. 
-	source ./devel/setup.bash
-	catkin_make
-'''
-
 ## Package modifications
 
-
+The package is further going to be modified for dynamic obstacles. Please make sure to open issues as per the instructions provided for contributors.   
 
 ## Running
 Once you have successfully build the project you can run the executables with the following commands from inside your build directory
@@ -63,9 +52,20 @@ Once you have successfully build the project you can run the executables with th
 * To run the simulation, in another sourced terminal:
 
         rosrun orca test_sim
+	
+3. Run Obstacle detector package:
+* First run split_scan package, then obstacle tracker:
+
+```
+ 	roslaunch split_scan split_scan.launch 
+```
+```
+	roslaunch obstacle_detector detector.launch
+```
 
 
 ## For Contributors: 
+
 	
 * In order to understand more about the RVO2 library & ORCA algorithm please refer the paper and library webpage available in references
 
@@ -73,7 +73,8 @@ Once you have successfully build the project you can run the executables with th
 
 * While making any new changes, please update the CHANGELOG.rst files in the base folder and in each package about the changes made. Creating a new branch for the change would be highly adviced.
 
-* For any issues/bugs, please create a new issue in the issues section with appropriate description and tags to help other contributors narrow down & solve the problem effectively.
+
+* Note: This package is for my further modifications and testing. If you like to add issues, I recommend add it to main branch https://github.com/KavitShah1998/DynamicObstacleAvoidance/tree/human_and_obstacle_tracking. 
 
 * Your contributions are truly appreciated
 
@@ -90,4 +91,7 @@ Once you have successfully build the project you can run the executables with th
 
 * Installing [OpenCV4](https://www.learnopencv.com/install-opencv-4-on-ubuntu-18-04/) for Ubuntu 18.04
 
+* M.Przybyła, “Detection and tracking of 2d geometric obstacles from lrfdata,” in2017 11th International Workshop on Robot Motion and Control(RoMoCo). IEEE, 2017, pp. 135–141
+
+* The Obstacle detecor package created by author is found [here](https://github.com/tysik/obstacle_detector) 
 
