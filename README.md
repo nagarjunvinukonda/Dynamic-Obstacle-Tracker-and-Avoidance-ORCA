@@ -74,7 +74,7 @@ Once you have successfully build the project you can run the executables with th
 * While making any new changes, please update the CHANGELOG.rst files in the base folder and in each package about the changes made. Creating a new branch for the change would be highly adviced.
 
 
-* Note: This package is for my further modifications and testing. If you like to add issues, I recommend add it to main branch https://github.com/KavitShah1998/DynamicObstacleAvoidance/tree/human_and_obstacle_tracking. 
+* Note: This package is for my further modifications and testing. If you like to add issues, I recommend add it to main branch 
 
 * Your contributions are truly appreciated
 
