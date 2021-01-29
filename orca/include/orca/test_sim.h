@@ -72,9 +72,15 @@ class Test_Sim{
 
 	ros::Subscriber static_obstacle_sh_;     	/* Class Member subscriber for obtaining static obstacle data*/
 
+	ros::Subscriber agent_state_sh_;			/*Class Member subscriber for obtaining agent data*/
+	
 	void modelStatesCallbackFunction_(const gazebo_msgs::ModelStates::ConstPtr& );
 
 	void staticObstaclesCallBackFunction_(const sensor_msgs::LaserScanConstPtr& );
+
+	// void agentStateCallbackFunction_(const orca_msgs::AgentState::ConstPtr& );
+	void agentStateCallbackFunction_(const gazebo_msgs::ModelStates::ConstPtr& );
+
 
     double T_robot_world[3][3];
 
@@ -102,14 +108,16 @@ class Test_Sim{
 	
 	double timeHorizonAgent_{5.0f};
 	
-	double timeHorizonObstacle_{1200.00f};
+	double timeHorizonObstacle_{800.00f};
 
+	double vPrefScalingFactor_{2.0};
 	
-	std::string robotName_ {"turtlebot3_waffle"};
+	std::string robotName_ {"turtlebot3_burger"};
 	
-	RVO::Vector2 robotStart_{RVO::Vector2(-500.00f, 0.00f)};
+	RVO::Vector2 robotStart_{RVO::Vector2(-600, -500.00f)};
 	
-	RVO::Vector2 robotGoal_{RVO::Vector2(600.00f, 0.00f)};
+	RVO::Vector2 robotGoal_{RVO::Vector2(500.00f, 400.00f)};
+	// RVO::Vector2 robotGoal_{RVO::Vector2(-150.00f, 000.00f)};
 
 	// Obstacle Data
 	
@@ -119,9 +127,9 @@ class Test_Sim{
 	
 	double centerY_{0.00f};
 	
-	int angularDivisions_{360};
+	// int angularDivisions_{360};
 	
-	double radiusObstacle_{120.0f}; // in cm
+	// double radiusObstacle_{120.0f}; // in cm
 
 	float neighborDist_{};
 	
@@ -169,6 +177,8 @@ class Test_Sim{
 	
 	void velocityPublisher_(const geometry_msgs::Twist& ); 							// Alters velocity to ensure drift proof motion & finally publishes it
 
+	void forwardSimulationPosition(const geometry_msgs::Twist&, double timeHorizonObstacle_, float timeStep_);
+
     tf::Vector3 transformVelocity_(tf::Matrix3x3& mat, tf::Vector3& vel);			// Tranforms vel wrt the transformation mat
 
     geometry_msgs::Twist transformVelToRobotFrame_(geometry_msgs::Twist&);  		// Vel transformation [map -> base_footprint]
@@ -177,9 +187,17 @@ class Test_Sim{
 
 	void printObstacleVector_ (std::vector<RVO::Vector2>& );						// Prints obstacle vector
 
+	void printinfObstVector_ (std::vector<RVO::Vector2>& );	
+	
 	double norm2_(RVO::Vector2& currPoint, RVO::Vector2& prevPoint);     			// Computes distance between two scan points squared
 
-		
+	double minScan_{10.0f};	
+
+	// *****************************
+	/* Nagarjun's Code*/
+	
+	RVO::Vector2 agentPosition_;
+	// *****************************
 	public:
 
 
