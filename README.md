@@ -1,5 +1,8 @@
 # Dynamic Obstacle Avoidance in Indoor Environment using ORCA in ROS
 
+
+* ***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
+
 The repository is our project for achieving dynamic collision avoidance in indoor spaces using Optimal Reciprocal Collision Avoidance algorithm in ROS using C++
 
 The repository employs use of RVO2 library for ORCA & dynamic object tracking with LiDAR using Kalman filters
@@ -67,17 +70,7 @@ Once you have successfully build the project you can run the executables with th
 ## For Contributors: 
 
 	
-* In order to understand more about the RVO2 library & ORCA algorithm please refer the paper and library webpage available in references
-
-* To understand about interacting with the library please refer the orca->src->test_sim_Function_Information.txt
-
-* While making any new changes, please update the CHANGELOG.rst files in the base folder and in each package about the changes made. Creating a new branch for the change would be highly adviced.
-
-
-* Note: This package is for my further modifications and testing. If you like to add issues, I recommend add it to main branch 
-
-* Your contributions are truly appreciated
-
+* ***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
 
 ## References & Useful resources
 
