@@ -18,9 +18,9 @@
  */ 
 Test_Sim::Test_Sim(ros::NodeHandle& nh) : nh_(nh){
 	
-	startTimeSimulation_ = ros::Time::now();
+	
 
-	log = std::ofstream("/home/ros_ws/orca_ws/src/orca/logs/data_gazebo.txt", std::ofstream::out | std::ofstream::trunc);
+	log = std::ofstream("/home/kshah/ros_ws/orca_ws/src/orca/logs/data_gazebo.txt", std::ofstream::out | std::ofstream::trunc);
 	log << "Test_Sim Constructor \n";
 
 	// static obstacle subscriber
@@ -28,7 +28,7 @@ Test_Sim::Test_Sim(ros::NodeHandle& nh) : nh_(nh){
 	
 
 	sim = new RVO::RVOSimulator();
-
+	
 
 	// wait till obstacle info from surrounding is obtained
 	while(!b_obstacleInitialized_){
@@ -39,20 +39,25 @@ Test_Sim::Test_Sim(ros::NodeHandle& nh) : nh_(nh){
 
 
 	// publish velocity
-	velocity_pb_ = nh_.advertise <geometry_msgs :: Twist> ( "cmd_vel" , 1);
+	velocity_pb_ = nh_.advertise <geometry_msgs :: Twist> ( "cmd_vel" , 10);
 
 
 	// obtain model state for the robot (pose)info from gazebo 
 	model_state_sh_ = nh_.subscribe("/gazebo/model_states", 1, &Test_Sim::modelStatesCallbackFunction_, this);
 
+	// obtain agent state information published (ideally by human detection node)
+	// agent_state_sh_ = nh_.subscribe("/agents",1, &Test_Sim::agentStateCallbackFunction_, this);
+
+	//*****************Made agentstateCallbackfuntion to subscribe model states/////////////
+ 	agent_state_sh_ = nh_.subscribe("/gazebo/model_states",10, &Test_Sim::agentStateCallbackFunction_, this);
 
 	// publishes robot (pose) info needed by Agent.cpp
-	my_robot_state_pb_ = nh_.advertise<orca_msgs::AgentState>("/my_robot/modelStates",10);
+	my_robot_state_pb_ = nh_.advertise<orca_msgs::AgentState>("/my_robot/modelStates",1);
 
 	
 	setupScenario_();
 	
-
+	startTimeSimulation_ = ros::Time::now();
 	runORCA_();	
 }
 
@@ -81,7 +86,10 @@ Test_Sim::~Test_Sim(){
 
 	endTimeSimulation_ = ros::Time::now();
 
-	std::cout << "Total Time to completion = " << (endTimeSimulation_ - startTimeSimulation_).toSec() << " seconds \n";
+	std::cout << "Start time = " << startTimeSimulation_.toSec() << "\n";
+	std::cout << "End time = " << endTimeSimulation_.toSec() << "\n";
+	std::cout << "minScan_ = " << minScan_ << "\n";
+	std::cout << "Total Time to completion = " << endTimeSimulation_.toSec() - startTimeSimulation_.toSec() << " seconds \n";
 	std::cout << "XXXXXXX END OF ORCA XXXXXXXXXX "  << "\n";
 
 }
@@ -106,7 +114,7 @@ void Test_Sim::setupScenario_()
 #endif
 
 	/* Specify the global time step of the simulation. */
-	sim->setTimeStep(0.002f);
+	sim->setTimeStep(0.12f);
 
 	/* Setup agent attributes*/
 	setupAgent_();
@@ -223,7 +231,7 @@ void Test_Sim::setPreferredVelocities_()
 
 		// converted it into a unit vector of norm2 more than 1
 		if (RVO::absSq(goalVector) > 1.0f) 
-			goalVector = RVO::normalize(goalVector);
+			goalVector = RVO::normalize(goalVector) * vPrefScalingFactor_;
 		 
 
 
@@ -239,6 +247,7 @@ void Test_Sim::setPreferredVelocities_()
 
 		// add the change in agent velocity to current velocity 
 		RVO::Vector2 agent_updated_pref_velocity = sim->getAgentPrefVelocity(i) + agent_change_in_vel;
+		std::cout << " Set Agent Preferred Velocity : " << agent_updated_pref_velocity << "\n";
 		sim->setAgentPrefVelocity(i, agent_updated_pref_velocity);
 	}
 }
@@ -259,10 +268,15 @@ void Test_Sim::setPreferredVelocities_()
  */
 bool Test_Sim::runORCA_(){
 
+	ros::Time currTime;
+	ros::Time prevTime;
+	
 	// ORCA main loop
 	do {
 
+		currTime = ros::Time::now();
 
+		std::cout << "Delta T : " << (currTime.toSec() - prevTime.toSec()) << "\n";
 		// setup obstacles at every step
 		setupObstacle_();
 
@@ -274,10 +288,10 @@ bool Test_Sim::runORCA_(){
 		// transform from /map frame to /base_footprint
 		try{ 
 
-			listener1_.waitForTransform("/base_footprint", "/map", 
+			listener1_.waitForTransform("/base_footprint", "/odom", 
 			ros::Time(0), ros::Duration(10.0));
 			
-			listener1_.lookupTransform("/base_footprint", "/map",
+			listener1_.lookupTransform("/base_footprint", "/odom",
 			ros::Time(0), transform1_);
 
 		}
@@ -313,7 +327,7 @@ bool Test_Sim::runORCA_(){
 
 		ros::spinOnce();
 
-
+		prevTime = currTime;
 	}while (!reachedGoal_() && ros::ok());
 }
 
@@ -334,7 +348,6 @@ bool Test_Sim::runORCA_(){
  */
 bool Test_Sim::reachedGoal_()
 {
-
 	/* Check if all agents have reached their goals. */
 	for (size_t i = 0; i < sim->getNumAgents(); ++i) {
 		
@@ -402,6 +415,7 @@ void Test_Sim::modelStatesCallbackFunction_(const gazebo_msgs::ModelStates::Cons
 	auto robotData { (modelStatePtr->pose)[robotIndex] };
 	auto obsData   { (modelStatePtr->pose)[obstacleIndex]   };
 
+
 	// The data obtained is in meters, multiply by 100 to convert it into centimeters
 	robotCurrentPosition_ = RVO::Vector2(robotData.position.x*100.0f,
 										 robotData.position.y*100.0f);
@@ -450,112 +464,240 @@ void Test_Sim::modelStatesCallbackFunction_(const gazebo_msgs::ModelStates::Cons
  */
 void Test_Sim::staticObstaclesCallBackFunction_(const sensor_msgs::LaserScanConstPtr& scans){
 
-	size_t sizeOfLaserScanArray = scans->ranges.size();
+	// size_t sizeOfLaserScanArray = scans->ranges.size();
 	
 
-	// clear obstacle vector (Local as well as from ORCA) 
-	// every time on receiving new scan
-	obstData_.clear();
-	sim->clearObstacleVector();
+	// // clear obstacle vector (Local as well as from ORCA) 
+	// // every time on receiving new scan
+	// obstData_.clear();
+	// sim->clearObstacleVector();
 
 
-	// angle increment between two scans in radians
-	double d_angle = scans->angle_increment;
+	// // angle increment between two scans in radians
+	// double d_angle = scans->angle_increment;
 	
 	
-	// create transformation from /base_scan to /odom
-    try{
+	// // create transformation from /base_scan to /odom
+    // try{
 
-        listener2_.waitForTransform("/odom", "/base_scan", 
-        ros::Time(0), ros::Duration(10.0));
+    //     listener2_.waitForTransform("/odom", "/base_scan", 
+    //     ros::Time(0), ros::Duration(10.0));
         
-        listener2_.lookupTransform("/odom", "/base_scan",
-        ros::Time(0), transform2_);
+    //     listener2_.lookupTransform("/odom", "/base_scan",
+    //     ros::Time(0), transform2_);
 
-    }
-    catch (tf::TransformException &ex) {
+    // }
+    // catch (tf::TransformException &ex) {
 
-        ROS_ERROR("%s",ex.what());
-        ros::Duration(1.0).sleep();
-        return;
-    }
-
-
-	// transformation matrix (Rotational - 3x3)
-    tf::Matrix3x3 mat = transform2_.getBasis();
-
-	// origin of odom frame in base frame 
-    tf::Vector3 origin{ transform2_.getOrigin() };
+    //     ROS_ERROR("%s",ex.what());
+    //     ros::Duration(1.0).sleep();
+    //     return;
+    // }
 
 
-	// store current point & previous point
-    RVO::Vector2 pointCurr{0.0f, 0.0f},   pointPrev{0.0f, 0.0f}; 
+	// // transformation matrix (Rotational - 3x3)
+    // tf::Matrix3x3 mat = transform2_.getBasis();
+
+	// // origin of odom frame in base frame 
+    // tf::Vector3 origin{ transform2_.getOrigin() };
+
+
+	// // store current point & previous point
+    // RVO::Vector2 pointCurr{0.0f, 0.0f},   pointPrev{0.0f, 0.0f}, pointPrPrev{0.0f, 0.0f}; 
 	
 
 
-	// Allowable error is the 'ratio' distance between two 
-	// points divided by the first point's distance from 
-	// robot's position in the World
-	double allowError{(0.2f/4.0f) + 0.1f}; 
+	// // Allowable error is the 'ratio' distance between two 
+	// // points divided by the first point's distance from 
+	// // robot's position in the World
+	// double allowError{(0.2f/4.0f) + 0.1f}; 
+	// bool b_startingNewCluster{true};
+	// // bool b_afterinfCluster{false};
 
 
-	// create clusters of neighbouring obstacle points
-	// and pass it to ORCA
-    for(int j=0; j<sizeOfLaserScanArray; j++){
+	// // create clusters of neighbouring obstacle points
+	// // and pass it to ORCA
+	// std::cout<<"print obs_scan:"<<"\n";
+    // // for(int j=sizeOfLaserScanArray-1; j>=0; j--){
+	// for(int j=0;j<sizeOfLaserScanArray;j++){
 
-		int i = (j + 180) % sizeOfLaserScanArray;
+	// 	int i = (j + 180) % sizeOfLaserScanArray;
 
-		if(!isinf(scans->ranges[i])) {
+	// 	if(!isinf(scans->ranges[i])) {
 
-			double rayAngle = i * d_angle;
+	// 		double rayAngle = i * d_angle;
+	// 		double laserRange = scans->ranges[i];
+
+	// 		minScan_ = std::min(minScan_ , laserRange);
+	// 		// laser point in x,y in /base_scan frame
+	// 		double x = (scans->ranges[i]) * cos(rayAngle);
+	// 		double y = (scans->ranges[i]) * sin(rayAngle);
+
+	// 		// current point after transforming into World frame
+	// 		pointCurr = transformPointToWorldFrame(mat, origin, tf::Vector3(x,y,0) );
+
+	// 		// std::cout<< pointCurr<<"\n";
+
+		
+	// 		// double x1 = (scans->ranges[i-1]) * cos(rayAngle);
+	// 		// double y1 = (scans->ranges[i-1]) * sin(rayAngle);
+
+	// 		// pointPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x1,y1,0) );
+
+	// 		// double x2 = (scans->ranges[i-2]) * cos(rayAngle);
+	// 		// double y2 = (scans->ranges[i-2]) * sin(rayAngle);
+
+	// 		// pointPrPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x2,y2,0) );
+
+	// 		// if (norm2_(pointCurr,pointPrev)<=(norm2_(pointPrPrev,pointPrev) + 10*d_angle /*abs(scans->ranges[i]-scans->ranges[i-1])*/)){
+
+	// 		// 	obstData_.emplace_back(pointCurr);
+
+	// 		// }
+
+	// 		// pointPrPrev =pointPrev;
+	// 		// pointPrev = pointCurr;
 
 
-			// laser point in x,y in /base_scan frame
-			double x = (scans->ranges[i]) * cos(rayAngle);
-			double y = (scans->ranges[i]) * sin(rayAngle);
 
-			// current point after transforming into World frame
-			pointCurr = transformPointToWorldFrame(mat, origin, tf::Vector3(x,y,0) );
-			
-			// Cluster Logic
-			if(i!=0){
-				
-				double currentError = norm2_(pointCurr, pointPrev) / scans->ranges[i];
 
-				if( currentError < allowError){ 			// Add point to current cluster
-					obstData_.emplace_back(pointCurr);
-				}
-				else{
+	// 		// Cluster Logic
 
-					if(obstData_.size()>1){   				// Pass cluster to ORCA 
-						sim->addObstacle(obstData_);
-						obstData_.clear();
-					}
-				}
-			}
-			else{										    // Add the first scan to cluster
-				obstData_.emplace_back(pointCurr);
-			}
+    //      	if(b_startingNewCluster){ // adding new scan to the cluster
 
-			// Update previous_Point with current_Point
-			pointPrev = pointCurr;
+    //      		std::cout << "\n Starting new cluster\n";
+    //          	obstData_.emplace_back(pointCurr);
+    //        		b_startingNewCluster = false;
+    //         }
+	// 		else{
 
-		}
-		else {}
+	// 			double x1 = (scans->ranges[i-1]) * cos(rayAngle);
+	// 			double y1 = (scans->ranges[i-1]) * sin(rayAngle);
 
-    }
+	// 			pointPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x1,y1,0) );
 
-	// Pass the last set of point cluster to ORCA
-	if(obstData_.size()>1){
-		sim->addObstacle(obstData_);
-		// obstData_.clear();
-	}
+	// 			double x2 = (scans->ranges[i-2]) * cos(rayAngle);
+	// 			double y2 = (scans->ranges[i-2]) * sin(rayAngle);
+
+	// 			pointPrPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x2,y2,0) );
+
+	// 			if (norm2_(pointCurr,pointPrev)<=(norm2_(pointPrPrev,pointPrev) + 10*d_angle +0.3f/*abs(scans->ranges[i]-scans->ranges[i-1])*/)){
+
+	// 				obstData_.emplace_back(pointCurr);
+
+	// 			}
+	// 			else{
+	// 			std::cout << "Cluster Break"<<"\n";
+	// 				if(obstData_.size()>1){ // Pass cluster to ORCA 
+	// 					sim->addObstacle(obstData_); //obdtsdst.clear
+	// 					printObstacleVector_(obstData_);
+	// 				}
+	// 				obstData_.clear();
+	// 				b_startingNewCluster = true;
+	// 			}
+	// 			std::cout<<"size:"<<obstData_.size()<<"\n";
+	// 		}
+
+	// 		pointPrPrev =pointPrev;
+	// 		pointPrev = pointCurr;
+
+
+
+
+	// 		// // Cluster Logic
+
+    //      	// if(b_startingNewCluster){ // adding new scan to the cluster
+
+    //      	// 	std::cout << "\n Starting new cluster\n";
+    //         //  	obstData_.emplace_back(pointCurr);
+    //        	// 	b_startingNewCluster = false;
+    //         // }
+	// 		// else{
+
+	// 		// 	double currentError = norm2_(pointCurr, pointPrev);
+
+	// 		// 	if( currentError < allowError){ // Add point to current cluster
+
+	// 		// 		// std::cout << " Cluster Cont ";
+	// 		// 		obstData_.emplace_back(pointCurr);
+	// 		// 		}
+	// 		// 	else{
+	// 		// 	std::cout << "Cluster Break"<<"\n";
+	// 		// 		if(obstData_.size()>1){ // Pass cluster to ORCA 
+	// 		// 		sim->addObstacle(obstData_); //obdtsdst.clear
+	// 		// 		}
+	// 		// 		obstData_.clear();
+	// 		// 		b_startingNewCluster = true;
+	// 		// 	}
+	// 		// 	std::cout<<"size:"<<obstData_.size()<<"\n";
+	// 		// }
+
+	// 		// pointPrev = pointCurr;
+
+
+
+
+	// 	}
+	// 	else {
+
+	// 		std::cout<<"inf Detected"<<"\n";
+	// 		// b_afterinfCluster =true;
+
+	// 		if(obstData_.size()>1){
+	// 			sim->addObstacle(obstData_);
+	// 			printinfObstVector_(obstData_);
+	// 			obstData_.clear();
+	// 		}
+
+	// 		b_obstacleInitialized_ = true;
+
+	// 		continue;
+	// 	}
+
+    // }
+
+	// // std::cout<<"Start cluster"<<"\n";
+
+	// // printObstacleVector_(obstData_);
+
+	// // Pass the last set of point cluster to ORCA
+	// if(obstData_.size()>1){
+	// 	sim->addObstacle(obstData_);
+	// 	obstData_.clear();
+	// }
 
 	b_obstacleInitialized_ = true;
 
 }
 
 
+
+
+/*
+ * agentStateCallbackFunction_()
+ * Input : const ptr to orca_msgs::AgentState
+ * Output : void
+ * 
+ * brief : clears agent vector and fills it up with 
+ * 		   new agent info (which in turn is published
+ * 		   by human detector node)
+ */
+void Test_Sim::agentStateCallbackFunction_(const gazebo_msgs::ModelStates::ConstPtr& agentStates){
+
+
+	
+
+	RVO::Vector2 position(agentStates->pose[2].position.x,agentStates->pose[2].position.y);
+	agentPosition_=position;
+	// RVO::Vector2 position(agentStates->pose[3].position.x,agentStates->pose[3].position.y);
+	// RVO::Vector2 position(agentStates->pose[4].position.x,agentStates->pose[4].position.y);
+	// RVO::Vector2 position(agentStates->pose[5].position.x,agentStates->pose[5].position.y);
+	RVO::Vector2 vel(0.0f,0.0f);
+	sim->addAgent(position,100.0f,vel);
+	
+}
+
+// orca_msgs::AgentState::ConstPtr&
 
 
 
@@ -592,12 +734,32 @@ void Test_Sim::velocityPublisher_(const geometry_msgs::Twist& agentVel){
 
 	}
 
+
+	float timeStep = sim->getTimeStep();
+	forwardSimulationPosition(velocity, timeHorizonObstacle_, timeStep);
+
 	// publish velocity
 	velocity_pb_.publish(velocity);
 
 	//sleep
 	ros::Duration(0.1).sleep();
 	
+
+}
+
+
+void Test_Sim::forwardSimulationPosition(const geometry_msgs::Twist& velocity, double timeHorizonObstacle_, float timeStep_){
+
+	double angle;
+	angle=atan2(velocity.linear.y,velocity.linear.x)*180/M_PI;
+
+
+	RVO::Vector2 position_t1(agentPosition_.x() + velocity.linear.x*timeHorizonObstacle_*timeStep_,agentPosition_.y() + velocity.linear.y*timeHorizonObstacle_*timeStep_);
+	// position_t1.y = ;
+
+	std::cout<<"New position x:"<<position_t1.x()<<"New position y:"<<position_t1.y()<<std::endl;
+	
+
 }
 
 
@@ -744,6 +906,14 @@ void Test_Sim::printObstacleVector_(std::vector<RVO::Vector2>& obj){
 	std::cout << "\n";
 }
 
+void Test_Sim::printinfObstVector_(std::vector<RVO::Vector2>& obj){
+	std::cout << "Printing Obstalces after inf \n No. of obstacle points sent to ORCA : = " << obj.size() << "\n";
+	for(int i=0; i<obj.size(); i++){
+		std::cout << " " <<obj[i] << "\n";
+	}
+
+	std::cout << "\n";
+}
 
 
 
@@ -803,7 +973,7 @@ RVO::Vector2 Test_Sim::transformPointToWorldFrame( tf::Matrix3x3& mat,
 
 int main(int argc, char**argv)
 {		
-	ros::init(argc, argv, "simple_obstacle_orca1");
+	ros::init(argc, argv, "test_sim");
 	ros::NodeHandle nh;
 
 	Test_Sim tsim1(nh);
