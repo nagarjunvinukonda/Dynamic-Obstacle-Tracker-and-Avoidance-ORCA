@@ -35,6 +35,7 @@
 #include "orca/Agent.h"
 #include "orca/KdTree.h"
 #include "orca/Obstacle.h"
+#include <unordered_set>
 
 #ifdef _OPENMP
 #include <omp.h>
@@ -127,6 +128,26 @@ namespace RVO {
 		return agents_.size() - 1;
 	}
 
+	size_t RVOSimulator::addAgent(const Vector2 &position, float radius, const Vector2 &velocity)
+	{
+		Agent *agent = new Agent(this);
+
+		agent->position_ = position;
+		agent->maxNeighbors_ = defaultAgent_->maxNeighbors_;
+		agent->maxSpeed_ = defaultAgent_->maxSpeed_;
+		agent->neighborDist_ = defaultAgent_->neighborDist_;
+		agent->radius_ = radius;
+		agent->timeHorizon_ = defaultAgent_->timeHorizon_;
+		agent->timeHorizonObst_ = defaultAgent_->timeHorizonObst_;
+		agent->velocity_ = velocity;
+
+		agent->id_ = agents_.size();		// local agent id_ ... aka agent_index in vector
+
+		agents_.push_back(agent);
+
+		return agents_.size() - 1;
+	}
+
 	size_t RVOSimulator::addObstacle(const std::vector<Vector2> &vertices)
 	{
 		if (vertices.size() < 2) {
@@ -163,9 +184,28 @@ namespace RVO {
 			obstacles_.push_back(obstacle);
 		}
 
+
+		// printObstacleVector_(obstacles_);
+
+		std::cout << "RVO Obstalces \n No. of obst sent to RVOsim : = " << obstacles_.size() << "\n";
+		for(int i=0; i<obstacles_.size(); i++){
+			std::cout << "\n " <<obstacles_[i]->point_ << "\n";
+			}
+		std::cout << "\n";
+
 		// std::cout << "From sim: Obst size = " << obstacles_.size() << "\n";
 		return obstacleNo;
 	}
+
+	// void RVOSimulator::printObstacleVector_(std::vector<RVO::Vector2>& obj){
+	// std::cout << "RVO Obstalces \n No. of obst sent to RVOsim : = " << obj.size() << "\n";
+	// 	for(int i=0; i<obj.size(); i++){
+	// 		std::cout << " " <<obj[i] << "\n";
+	// 	}
+	// 	std::cout << "\n";
+	// }
+
+
 
 	void RVOSimulator::doStep()
 	{
@@ -384,17 +424,69 @@ namespace RVO {
 		timeStep_ = timeStep;
 	}
 
-	void RVOSimulator::clearObstacleVector(){
+	// void RVOSimulator::clearObstacleVector(){
+	// 	// std::cout << "Size of Obstacle Vector : " << obstacles_.size() << "\n";
+	// 	for (size_t i = 0; i < obstacles_.size(); ++i) {
+	// 		if(!obstacles_[i]){
+	// 			delete obstacles_[i];
+	// 			obstacles_[i] = nullptr;
+	// 		}
+	// 	}
+
+	// 	obstacles_.clear();
+
+	// }
+
+void RVOSimulator::clearObstacleVector(){
+
+	/*not this*/ // std::cout << "Size of Obstacle Vector : " << obstacles_.size() << "\n";
+
+	std::unordered_set<Obstacle*> obstSet;
+	std::cout << "Printing Obstacles from RVOSim : " << obstacles_.size() << "\n";
+	for (size_t i = 0; i < obstacles_.size(); ++i) {
+
+	// std::cout << "InFor\n";
+	if(obstacles_[i] != NULL){
+
+		obstSet.insert(obstacles_[i]);
+		std::cout << obstacles_[i]->point_ << "\n";
+		if( obstSet.find(obstacles_[i]->nextObstacle_) != obstSet.end()){
+			std::cout << " ***End of a Cluster***\n\n";
+		}	
+
+		delete obstacles_[i];
+		obstacles_[i] = nullptr;
+	}
+	else if(obstacles_[i]==NULL){
+		std::cout << "Ye to NULL HAI\n";
+		}
+	else {
+		std::cout << "Obst : " << obstacles_[i] << "\n";
+		}
+	}
+
+	obstacles_.clear();
+
+} 
+
+	void RVOSimulator::clearAgentVector(){
 		// std::cout << "Size of Obstacle Vector : " << obstacles_.size() << "\n";
-		for (size_t i = 0; i < obstacles_.size(); ++i) {
-			if(!obstacles_[i]){
-				delete obstacles_[i];
-				obstacles_[i] = nullptr;
+		std::cout << "No. Of agents : " << agents_.size() << "\n";
+		Agent* robot = agents_[0];			// store the robot agent
+
+		// clear the remaining agents
+		for (size_t i = 1; i < agents_.size(); ++i) {
+			if(!agents_[i]){
+				delete agents_[i];
+				agents_[i] = nullptr;
 			}
 		}
 
-		obstacles_.clear();
+		agents_.clear(); 					// clear the agents_ vector which wipes out every agent data
+
+		agents_.emplace_back(robot); 		// this ensures the robot agent is always there
 
 	}
 	
 }
+	
