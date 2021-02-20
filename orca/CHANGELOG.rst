@@ -48,11 +48,13 @@ Changelog for package orca
 	- Added Obstacle data manually for testing new method
 
 1.5 (2021-01-20)
+------------------
 * updated Orca
 	- Added new obstacle data collection algorithm in test_sim.cpp
 	- Made static obstacle avoidance more robust by adding static obstacles data RVO vectors feeding to ORCA algorithm.
 
 1.6 (2021-02-20)
+-----------------
 * updated Orca
 	-added forward simulation and other functions for generating velocity profiles. 
 
