@@ -31,3 +31,14 @@ Changelog for package orca
 	- Added add_dependency tag to test_sim executable
 	- Raised the order of orca_msgs includes at the start of all header files using them
 	- Made necessary changes to incorporate DetectedEntity arrays in Agent{.h & .cpp} , Test_Sim{.h & .cpp} files
+	
+1.5 (2021-01-20)
+------------------
+* updated Orca
+	- Added new obstacle data collection algorithm in test_sim.cpp
+	- Made static obstacle avoidance more robust by adding static obstacles data RVO vectors feeding to ORCA algorithm.
+
+1.6 (2021-02-20)
+-----------------
+* updated Orca
+	-added forward simulation and other functions for generating velocity profiles. 
