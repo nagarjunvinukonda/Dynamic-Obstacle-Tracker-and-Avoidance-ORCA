@@ -156,6 +156,12 @@ namespace RVO {
 		void computeObstacleNeighbors(Agent *agent, float rangeSq) const;
 
 		/**
+		 * \brief      Clears the agents_ vector so fresh vector could be build
+		 * 
+		 */
+		void clearAgentVector();
+
+		/**
 		 * \brief      Deletes the specified obstacle tree node.
 		 * \param      node            A pointer to the obstacle tree node to be
 		 *                             deleted.

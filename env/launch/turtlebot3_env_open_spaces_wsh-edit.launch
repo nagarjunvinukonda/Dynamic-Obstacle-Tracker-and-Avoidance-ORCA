@@ -3,9 +3,9 @@
  
   <!-- Robot pose -->
   <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
-  <arg name="x" default="-5.0"/>
-  <arg name="y" default="0.0"/>
-  <arg name="z" default="0"/>
+  <arg name="x" default="-6.0"/>
+  <arg name="y" default="-5.0"/>
+  <arg name="z" default="0.0"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
   <arg name="yaw" default="0"/>
@@ -17,6 +17,7 @@
 
   <!-- World File -->
   <arg name="world_file" default="$(find env)/worlds/turtlebot3_open_spaces-edit.world"/>
+  <!--arg name="world_file" default="$(find env)/worlds/turtlebot3_open_spaces22.world"/-->
 
   <!-- Launch Gazebo World -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
