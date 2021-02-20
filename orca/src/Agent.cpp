@@ -68,7 +68,6 @@ namespace RVO {
 
 			const Obstacle *obstacle1 = obstacleNeighbors_[i].second;
 			const Obstacle *obstacle2 = obstacle1->nextObstacle_;
-			//std::cout << "Obstacle" << i << " = " << obstacle1->point_ << "\n";
 			const Vector2 relativePosition1 = obstacle1->point_ - position_;
 			const Vector2 relativePosition2 = obstacle2->point_ - position_;
 

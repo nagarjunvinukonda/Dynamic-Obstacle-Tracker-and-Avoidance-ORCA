@@ -46,17 +46,26 @@ namespace RVO {
 
 	void KdTree::buildAgentTree()
 	{
+		// Trial to see if agent tree works even on deleting the tree
+		// std::cout << "KdTree:: BuildAgentTree : Before " << agents_.size() << "\n";
+		// clearAgentVector();
+		// std::cout << "KdTree:: BuildAgentTree : After " << agents_.size() << "\n";
+		agentTree_.clear();
+		// std::cout << "From Kd Tree : " << agents_.size() << "\n";
 		if (agents_.size() < sim_->agents_.size()) {
+			
 			for (size_t i = agents_.size(); i < sim_->agents_.size(); ++i) {
 				agents_.push_back(sim_->agents_[i]);
 			}
 
 			agentTree_.resize(2 * agents_.size() - 1);
 		}
-
+		// std::cout << "KdTree:: BuildAgentTree : End " << agents_.size() << "\n";
 		if (!agents_.empty()) {
 			buildAgentTreeRecursive(0, agents_.size(), 0);
 		}
+		// std::cout << "KdTree:: BuildAgentTree : End " << agents_.size() << "\n";
+
 	}
 
 	void KdTree::buildAgentTreeRecursive(size_t begin, size_t end, size_t node)
@@ -254,6 +263,12 @@ namespace RVO {
 	void KdTree::computeObstacleNeighbors(Agent *agent, float rangeSq) const
 	{
 		queryObstacleTreeRecursive(agent, rangeSq, obstacleTree_);
+	}
+
+	void KdTree::clearAgentVector(){
+		
+		//erase all but the first element
+		agents_.erase(agents_.begin()+1 , agents_.end());
 	}
 
 	void KdTree::deleteObstacleTree(ObstacleTreeNode *node)

@@ -6,7 +6,7 @@ project(orca)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-#SET(OpenCV_DIR /home/kshah/installation/OpenCV-master/installation/OpenCV-master/lib/cmake/opencv4)
+SET(OpenCV_DIR /home/nagarjunv/installation/OpenCV-master/installation/OpenCV-master/lib/cmake/opencv4)
 
 
 
@@ -27,6 +27,7 @@ find_package(catkin REQUIRED COMPONENTS
 )
 
 find_package( OpenCV REQUIRED )
+find_package( Eigen3 REQUIRED )
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -133,6 +134,7 @@ include_directories(
  include
   ${catkin_INCLUDE_DIRS}
   ${OpenCV_INCLUDE_DIRS}
+  ${Eigen3_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -240,7 +242,7 @@ target_link_libraries(map_to_odom_publisher ${catkin_LIBRARIES})
 
 
 add_executable(test_sim src/test_sim.cpp include/orca/test_sim.h ${RVO_HEADERS} ${RVO_SOURCES})
-target_link_libraries(test_sim ${catkin_LIBRARIES})
+target_link_libraries(test_sim ${catkin_LIBRARIES} ${OpenCV_LIBRARIES} ${Eigen_LIBRARIES})
 set_target_properties(test_sim PROPERTIES LINKER_LANGUAGE C)
 add_dependencies(test_sim ${ORCA_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 

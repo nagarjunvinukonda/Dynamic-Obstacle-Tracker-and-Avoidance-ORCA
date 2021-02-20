@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "dense": "cpp",
+        "core": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "regex": "cpp",
+        "array": "cpp",
+        "string_view": "cpp"
+    }
+}

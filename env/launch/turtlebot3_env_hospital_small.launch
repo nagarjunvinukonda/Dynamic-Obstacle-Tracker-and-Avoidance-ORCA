@@ -1,0 +1,85 @@
+<!-- -->
+<launch>
+ 
+  <!-- Robot pose -->
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x" default="-1.5"/>
+  <arg name="y" default="-8.0"/>
+  <arg name="z" default="0"/>
+  <arg name="roll" default="0"/>
+  <arg name="pitch" default="0"/>
+  <arg name="yaw" default="0"/>
+  <arg name="move_forward_only" default="false"/>
+  <arg name="map_file" default="$(find env)/maps/open_spaces.yaml"/>
+  <arg name="open_rviz" default="true"/>
+  <!-- Launch other relevant files-->
+  <!--include file="$(find my_robot)/launch/robot_description.launch"/-->
+
+  <!-- Set up environment -->
+  <env name="GAZEBO_MODEL_PATH" value="$(find hospital_gazebo)/models:${GAZEBO_MODEL_PATH}" />
+
+  <!-- World File -->
+  <arg name="world_file" default="$(find env)/worlds/hospital_small.world"/>
+
+  <!-- Launch Gazebo World -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="use_sim_time" value="true"/>
+    <arg name="debug" value="false"/>
+    <arg name="gui" value="true" />
+    <arg name="world_name" value="$(arg world_file)"/>
+  </include>
+
+  <!-- Find my robot Description-->
+  <!--param name="robot_description" command="$(find xacro)/xacro inorder '$(find my_robot)/urdf/my_robot.xacro'"/-->
+  <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_$(arg model).urdf.xacro" />
+
+  <!--node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf"  args="-urdf -model turtlebot3_$(arg model) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" /-->
+
+  <!-- Launch the Human-->
+  <!--include file="$(find person)/launch/spawn_standing_person.launch">
+    <arg name="x" default="4.0" />
+    <arg name="y" default="4.0" />
+    <arg name="z" default="0.0" />
+    <arg name="yaw" default="0" />
+    <arg name="sdf_robot_file" default=""/ (THIS ARGUMENT IS ALREADY PRESENT AT the next launch file.. no need to pass)>
+    <arg name="robot_name" default="standing_human_01" />
+  </include-->
+
+  <!-- Spawn My Robot -->
+  <!--node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
+        args="-urdf -model turtlebot3_$(arg model) 
+              -x $(arg x) -y $(arg y) -z $(arg z)
+              -R $(arg roll) -P $(arg pitch) -Y $(arg yaw)
+              -param robot_description"/-->
+
+  <!-- AMCL -->
+  <!--include file="$(find turtlebot3_navigation)/launch/amcl_open_spaces.launch">
+    <arg name="map_file" value="$(arg map_file)"/>
+  </include-->
+
+  <!-- move_base -->
+  <!--include file="$(find turtlebot3_navigation)/launch/move_base.launch">
+    <arg name="model" value="$(arg model)" />
+    <arg name="move_forward_only" value="$(arg move_forward_only)"/>
+  </include-->
+
+  <!-- rviz -->
+  <!--group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find env)/rviz/turtlebot3_navigation.rviz"/>
+  </group-->
+
+  <!--launch rviz-->
+  <!--node name="rviz" pkg="rviz" type="rviz" respawn="false"/-->  
+  <!--node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/kshah/ros_ws/rs_ws/src/turtlebot3_simulations/turtlebot3_gazebo/rviz/rviz_config.rviz"/-->
+
+  <!--include file="$(find env)/launch/turtlebot3_env_navigation.launch">
+    <arg name="model" value="$(arg model)"/>
+    <arg name="map_file" value="$(find env)/maps/open_spaces.yaml"/>
+    <arg name="open_rviz" value="true"/>
+    <arg name="move_forward_only" value="false"/>
+    <arg name="initial_pose_x" value="$(arg x)"/>
+    <arg name="initial_pose_y" value="$(arg y)"/>
+    <arg name="initial_pose_a" value="$(arg yaw)"/>
+  </include-->
+</launch>

@@ -41,6 +41,7 @@
 #include <cstddef>
 #include <limits>
 #include <vector>
+#include <unordered_set>
 
 #include "Vector2.h"
 //#include "orca/gazeboSO1.h"
@@ -146,7 +147,7 @@ namespace RVO {
 		size_t addAgent(const Vector2 &position);
 
 		/**
-		 * \brief      Adds a new agent to the simulation.
+		 * \brief      Adds a new agent to the simulation. // NOT SO USEFUL
 		 * \param      position        The two-dimensional starting position of
 		 *                             this agent.
 		 * \param      neighborDist    The maximum distance (center point to
@@ -190,6 +191,18 @@ namespace RVO {
 						size_t maxNeighbors, float timeHorizon,
 						float timeHorizonObst, float radius, float maxSpeed,
 						const Vector2 &velocity = Vector2());
+
+		/**
+		 * \brief      Adds a new agent to the simulation. //USEFUL
+		 * \param      position        The two-dimensional starting position of
+		 *                             this agent.
+		 * \param      radius          The radius of this agent.
+		 *                             Must be non-negative.
+		 * \param      velocity        The initial two-dimensional linear velocity
+		 *                             of this agent (optional).
+		 * \return     The number of the agent.
+		 */
+		size_t addAgent(const Vector2 &position, float radius, const Vector2 &velocity);
 
 		/**
 		 * \brief      Adds a new obstacle to the simulation.
@@ -454,7 +467,7 @@ namespace RVO {
 		 * \param      neighborDist    The default maximum distance (center point
 		 *                             to center point) to other agents a new agent
 		 *                             takes into account in the navigation. The
-		 *                             larger this number, the longer he running
+		 *                             larger this number, the longer the running
 		 *                             time of the simulation. If the number is too
 		 *                             low, the simulation will not be safe.
 		 *                             Must be non-negative.
@@ -591,6 +604,13 @@ namespace RVO {
 		 *                             
 		 */
 		void clearObstacleVector();
+
+		/**
+		 * \brief      Clears the agent vector (except the robot agent)
+		 * 			   for new vector to be build efficiently
+		 *                             
+		 */
+		void clearAgentVector();
 
 		
 	private:
