@@ -2,7 +2,7 @@
 Changelog for package orca
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1 (2020-11-19) [Kavit]
+1.1 (2020-11-19) 
 -------------------
 * Created package for orca
 * Added includes folder - contains all the header files from RVO2 library and for new files
@@ -11,7 +11,7 @@ Changelog for package orca
 
 
 
-1.2 (2020-12-02) [Kavit]
+1.2 (2020-12-02) 
 -------------------
 * Updated test_sim.cpp file 
 	- Made ORCA up and running with static world
@@ -23,7 +23,7 @@ Changelog for package orca
 * Added CHANGELOG.rst
 
 
-1.3 (2020-12-03) [Kavit]
+1.3 (2020-12-03) 
 -------------------
 * Updated CMakeLists.txt of orca package : 
 	- Removed OPENCV_DIR tag
@@ -33,7 +33,7 @@ Changelog for package orca
 	- Made necessary changes to incorporate DetectedEntity arrays in Agent{.h & .cpp} , Test_Sim{.h & .cpp} files
 
 
-1.4 (2020-12-21) [Kavit]
+1.4 (2020-12-21) 
 -------------------
 * Updated the following files (status : running for static obstacles)
 	- Agent.cpp
@@ -41,8 +41,18 @@ Changelog for package orca
 	- TestSim.cpp
 	- RVOSimulator.cpp
 
-1.4 (2020-12-21) [Kavit]
+1.4 (2020-12-21) 
 -------------------
 * Updated orca 
 	- Stopped using laser scans for static nav
 	- Added Obstacle data manually for testing new method
+
+1.5 (2021-01-20)
+* updated Orca
+	- Added new obstacle data collection algorithm in test_sim.cpp
+	- Made static obstacle avoidance more robust by adding static obstacles data RVO vectors feeding to ORCA algorithm.
+
+1.6 (2021-02-20)
+* updated Orca
+	-added forward simulation and other functions for generating velocity profiles. 
+
