@@ -10,7 +10,7 @@
 
 The algorithm has been made to deploy on mobile robots with static indoor environments
 
-Simulation with Hospital environment.
+Simulation in Hospital environment.
 <p float="center">
 <img src="animations/hospital_orca_static_env.gif" width="49%"/>
 </p>
@@ -21,11 +21,12 @@ Simulation in Hospital Lobby with Laser range =10m
 </p>
 
 
-THe obstacle detctor results:
+Obstacle detector using Kalman filter results:
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/49041896/102007586-75bfeb80-3cf8-11eb-8c87-80c70906ea4a.gif)
 
-![obstacle_detect](https://user-images.githubusercontent.com/49041896/101849358-89672880-3b25-11eb-8dc6-33262c6d647f.gif)
+***NOTE:*** For more information on Obstacle Detector visit [Master Branch](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/master)
+
 
 ## Dependencies
 You will need [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3/tree/melodic-devel) & [turtlebot3_simulation](https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/melodic-devel) packages.
