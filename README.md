@@ -10,18 +10,18 @@
 
 The algorithm has been made to deploy on mobile robots with static indoor environments
 
-Simulation in Hospital environment.
+* **Simulation in Hospital environment**.
 <p float="center">
 <img src="animations/hospital_orca_static_env.gif" width="49%"/>
 </p>
 
-Simulation in Hospital Lobby with Laser range =10m
+* **Simulation in Hospital Lobby with Laser range =10m**.
 <p float="center">
 <img src="animations/orca_10m_800th_lobbyDOUBLING_VPref.gif" width="49%"/>
 </p>
 
 
-Obstacle detector using Kalman filter results:
+* **Obstacle detector using Kalman filter results:**
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/49041896/102007586-75bfeb80-3cf8-11eb-8c87-80c70906ea4a.gif)
 
