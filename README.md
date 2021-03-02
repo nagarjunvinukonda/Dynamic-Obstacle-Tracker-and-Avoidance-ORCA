@@ -6,22 +6,24 @@
 * The repository employs use of RVO2 library for ORCA & dynamic object tracking with LiDAR using Kalman filters
 
 * The package is build and tested for Ubuntu 18.04 with ROS Melodic
-
  
 
 The algorithm has been made to deploy on mobile robots with static indoor environments
 
-Simulation with Laser range =10m
+Simulation with Hospital environment.
+<p float="center">
+<img src="animations/hospital_orca_static_env.gif" width="49%"/>
+</p>
+
+Simulation in Hospital Lobby with Laser range =10m
 <p float="center">
 <img src="animations/orca_10m_800th_lobbyDOUBLING_VPref.gif" width="49%"/>
 </p>
 
-Simulation with Laser range =4m
-<p float="center">
-<img src="animations/orca_best1_4m_600thObj_Rviz2.gif" width="49%"/>
-</p>
 
 THe obstacle detctor results:
+
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/49041896/102007586-75bfeb80-3cf8-11eb-8c87-80c70906ea4a.gif)
 
 ![obstacle_detect](https://user-images.githubusercontent.com/49041896/101849358-89672880-3b25-11eb-8dc6-33262c6d647f.gif)
 
