@@ -67,13 +67,16 @@ Once you have successfully build the project you can run the executables with th
 	roslaunch obstacle_detector detector.launch
 ```
 
+## Authors:
+[Nagarjun Vinukonda](https://nagarjunvinukonda.github.io/) & Kavit Shah
 
 ## For Contributors: 
 
 	
 * ***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
 
-## References & Useful resources
+
+## References & Useful resources:
 
 * RVO2 library for ORCA for the [code](http://gamma.cs.unc.edu/RVO2/)
 
