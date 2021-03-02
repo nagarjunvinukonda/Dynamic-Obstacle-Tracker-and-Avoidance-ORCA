@@ -1,7 +1,7 @@
 # Dynamic Obstacle Avoidance in Indoor Environment using ORCA in ROS
 
 
-***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
+* ***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
 
 * The repository employs use of RVO2 library for ORCA & dynamic object tracking with LiDAR using Kalman filters
 
@@ -10,7 +10,7 @@
 
 The algorithm has been made to deploy on mobile robots with static indoor environments
 
-Simulation with Hospital environment.
+Simulation in Hospital environment.
 <p float="center">
 <img src="animations/hospital_orca_static_env.gif" width="49%"/>
 </p>
@@ -21,11 +21,13 @@ Simulation in Hospital Lobby with Laser range =10m
 </p>
 
 
-THe obstacle detctor results:
+Obstacle detector using Kalman filter results:
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/49041896/102007586-75bfeb80-3cf8-11eb-8c87-80c70906ea4a.gif)
 
-![obstacle_detect](https://user-images.githubusercontent.com/49041896/101849358-89672880-3b25-11eb-8dc6-33262c6d647f.gif)
+
+* ***NOTE:*** For more information on Obstacle Detector visit [Master Branch](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/master)
+
 
 ## Dependencies
 You will need [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3/tree/melodic-devel) & [turtlebot3_simulation](https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/melodic-devel) packages.
@@ -66,13 +68,16 @@ Once you have successfully build the project you can run the executables with th
 	roslaunch obstacle_detector detector.launch
 ```
 
+## Authors:
+[Nagarjun Vinukonda](https://nagarjunvinukonda.github.io/) & Kavit Shah
 
 ## For Contributors: 
 
 	
 * ***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
 
-## References & Useful resources
+
+## References & Useful resources:
 
 * RVO2 library for ORCA for the [code](http://gamma.cs.unc.edu/RVO2/)
 
