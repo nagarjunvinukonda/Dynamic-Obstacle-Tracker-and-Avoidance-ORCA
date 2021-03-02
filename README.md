@@ -1,7 +1,7 @@
 # Dynamic Obstacle Avoidance in Indoor Environment using ORCA in ROS
 
 
-***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
+* ***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
 
 * The repository employs use of RVO2 library for ORCA & dynamic object tracking with LiDAR using Kalman filters
 
@@ -25,7 +25,8 @@ Obstacle detector using Kalman filter results:
 
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/49041896/102007586-75bfeb80-3cf8-11eb-8c87-80c70906ea4a.gif)
 
-***NOTE:*** For more information on Obstacle Detector visit [Master Branch](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/master)
+
+* ***NOTE:*** For more information on Obstacle Detector visit [Master Branch](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/master)
 
 
 ## Dependencies
