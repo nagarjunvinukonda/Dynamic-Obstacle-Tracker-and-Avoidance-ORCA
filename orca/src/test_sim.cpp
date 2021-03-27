@@ -517,23 +517,30 @@ void Test_Sim::modelStatesCallbackFunction_(const gazebo_msgs::ModelStates::Cons
 
 
 
-
-/*Ctrl-C to interrupt
-Done checking log file disk usage. Usage is <1GB.
-
-xacro: in-order processing became default in ROS verts laser scan points from robot 
+/*
+ * staticObstaclesCallBackFunction_()
+ * Input : const ptr to sensor_msgs::LaserScan
+ * Output : void
+ * 
+ * brief : converts laser scan points from robot 
  * 		   base frame into odom (World) frame as
  * 		   required by the ORCA algorithm
+ * 			
+ * 		   Here there are two clustering logics cluster logic-1 and logic-2. 
+ * 		   Both can be used and are similar methods, but Logic-1 yeilds more data points. 
+ * 		   Logic-1 is based on taking distance between two points is less than threshold 
+ * 		   then considered as obstacle point.
+ * 
  */
 void Test_Sim::staticObstaclesCallBackFunction_(const sensor_msgs::LaserScanConstPtr& scans){
 
-	size_t sizeOfLaserScanArray = scans->ranges.size();
+	// size_t sizeOfLaserScanArray = scans->ranges.size();
 	
 	std::cout << "staticObstaclesCallBackFunction_\n";
 	// clear obstacle vector (Local as well as from ORCA) 
 	// every time on receiving new scan
 	obstData_.clear();
-	// sim->clearObstacleVector();  // IMP
+	// sim->clearObstacleVector();
 
 
 	// angle increment between two scans in radians
@@ -566,128 +573,175 @@ void Test_Sim::staticObstaclesCallBackFunction_(const sensor_msgs::LaserScanCons
 
 
 	// store current point & previous point
-    RVO::Vector2 pointCurr{0.0f, 0.0f},   pointPrev{0.0f, 0.0f}; 
+    RVO::Vector2 pointCurr{0.0f, 0.0f},   pointPrev{0.0f, 0.0f}, pointPrPrev{0.0f, 0.0f}; 
 	
 
 
 	// Allowable error is the 'ratio' distance between two 
 	// points divided by the first point's distance from 
 	// robot's position in the World
-	// double allowError{(0.2f/4.0f) + 0.1f};
+	// double allowError{(0.2f/4.0f) + 0.1f}; 
 	double allowError{0.5f}; 
-
 	bool b_startingNewCluster{true};
+	// // bool b_afterinfCluster{false};
 
-	// std::cout << " ===============================\n";
-	// create clusters of neighbouring obstacle points
-	// and pass it to ORCA
-    // for(int j=0; j<sizeOfLaserScanArray; j++){
-	// std::cout << "Printing Obstacles in Test Sim\n";
 
-	////////***
-	
-	// for(int j=sizeOfLaserScanArray-1; j>=0; j--){
+	// create clusters of neighbouring obstacle points and pass it to ORCA
+
+	// std::cout<<"print obs_scan:"<<"\n";
+    // // for(int j=sizeOfLaserScanArray-1; j>=0; j--){
 		
+	// for(int j=0;j<sizeOfLaserScanArray;j++){
+
 	// 	int i = (j + 180) % sizeOfLaserScanArray;
 
-	// 	// std::cout << i << " ";
-
 	// 	if(!isinf(scans->ranges[i])) {
-	// 		// std::cout << " isNOTInf " ;
+
 	// 		double rayAngle = i * d_angle;
 	// 		double laserRange = scans->ranges[i];
 
 	// 		minScan_ = std::min(minScan_ , laserRange);
-	
-
-	// 		// laser point in x,y in /base_scan frame
+			// laser point in x,y in /base_scan frame
 	// 		double x = (scans->ranges[i]) * cos(rayAngle);
 	// 		double y = (scans->ranges[i]) * sin(rayAngle);
 
+			// current point after transforming into World frame
 
-	// 		// current point after transforming into World frame
 	// 		pointCurr = transformPointToWorldFrame(mat, origin, tf::Vector3(x,y,0) );
-			
-			
 
-	// 		// Cluster Logic
-	// 		if(b_startingNewCluster){						// adding new scan to the cluster
+			// std::cout<< pointCurr<<"\n";
 
-	// 			std::cout << "\n Starting new cluster\n";
-	// 			obstData_.emplace_back(pointCurr);
-	// 			b_startingNewCluster = false;
-	// 		}
+		
+			// double x1 = (scans->ranges[i-1]) * cos(rayAngle);
+			// double y1 = (scans->ranges[i-1]) * sin(rayAngle);
+
+			// pointPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x1,y1,0) );
+
+			// double x2 = (scans->ranges[i-2]) * cos(rayAngle);
+			// double y2 = (scans->ranges[i-2]) * sin(rayAngle);
+
+			// pointPrPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x2,y2,0) );
+
+			// if (norm2_(pointCurr,pointPrev)<=(norm2_(pointPrPrev,pointPrev) + 10*d_angle /*abs(scans->ranges[i]-scans->ranges[i-1])*/)){
+
+			// 	obstData_.emplace_back(pointCurr);
+
+			// }
+
+			// pointPrPrev =pointPrev;
+			// pointPrev = pointCurr;
+
+
+
+
+			// Cluster Logic 1
+
+    //      	if(b_startingNewCluster){ // adding new scan to the cluster
+
+    //      		std::cout << "\n Starting new cluster\n";
+    //          	obstData_.emplace_back(pointCurr);
+    //        		b_startingNewCluster = false;
+    //         }
 	// 		else{
-				
-	// 			double currentError = norm2_(pointCurr, pointPrev);
 
-	// 			if( currentError < allowError){ 			// Add point to current cluster
+	// 			double x1 = (scans->ranges[i-1]) * cos(rayAngle);
+	// 			double y1 = (scans->ranges[i-1]) * sin(rayAngle);
 
-	// 				// std::cout << " Cluster Cont ";
+	// 			pointPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x1,y1,0) );
+
+	// 			double x2 = (scans->ranges[i-2]) * cos(rayAngle);
+	// 			double y2 = (scans->ranges[i-2]) * sin(rayAngle);
+
+	// 			pointPrPrev = transformPointToWorldFrame(mat, origin, tf::Vector3(x2,y2,0) );
+
+	// 			if (norm2_(pointCurr,pointPrev)<=(norm2_(pointPrPrev,pointPrev) + 10*d_angle +0.3f/*abs(scans->ranges[i]-scans->ranges[i-1])*/)){
+
 	// 				obstData_.emplace_back(pointCurr);
+
 	// 			}
 	// 			else{
-	// 				// std::cout << "Cluster Break";
-	// 				if(obstData_.size()>1){   				// Pass cluster to ORCA 
-	// 					sim->addObstacle(obstData_);	//obdtsdst.clear
+	// 			std::cout << "Cluster Break"<<"\n";
+	// 				if(obstData_.size()>1){ // Pass cluster to ORCA 
+	// 					sim->addObstacle(obstData_); //obdtsdst.clear
+	// 					printObstacleVector_(obstData_);
 	// 				}
 	// 				obstData_.clear();
 	// 				b_startingNewCluster = true;
 	// 			}
+	// 			std::cout<<"size:"<<obstData_.size()<<"\n";
 	// 		}
-	// 		std::cout << "RVO::Vector2" << pointCurr << ", \n";
 
-	// 		// std::cout << "\n";
-	// 		// Update previous_Point with current_Point
-	// 		//sim->add
+	// 		pointPrPrev =pointPrev;
 	// 		pointPrev = pointCurr;
+
+
+
+
+			// Cluster Logic 2
+
+    //      	// if(b_startingNewCluster){ // adding new scan to the cluster
+
+    //      	// 	std::cout << "\n Starting new cluster\n";
+    //         //  	obstData_.emplace_back(pointCurr);
+    //        	// 	b_startingNewCluster = false;
+    //         // }
+	// 		// else{
+
+	// 		// 	double currentError = norm2_(pointCurr, pointPrev);
+
+	// 		// 	if( currentError < allowError){ // Add point to current cluster
+
+	// 		// 		// std::cout << " Cluster Cont ";
+	// 		// 		obstData_.emplace_back(pointCurr);
+	// 		// 		}
+	// 		// 	else{
+	// 		// 	std::cout << "Cluster Break"<<"\n";
+	// 		// 		if(obstData_.size()>1){ // Pass cluster to ORCA 
+	// 		// 		sim->addObstacle(obstData_); //obdtsdst.clear
+	// 		// 		}
+	// 		// 		obstData_.clear();
+	// 		// 		b_startingNewCluster = true;
+	// 		// 	}
+	// 		// 	std::cout<<"size:"<<obstData_.size()<<"\n";
+	// 		// }
+
+	// 		// pointPrev = pointCurr;
+
+
+
 
 	// 	}
 	// 	else {
-			
-			
-	// 		// std::cout << " is inf \n";
-	// 		if(obstData_.size()>1){   				// Pass cluster to ORCA 
-	// 			sim->addObstacle(obstData_);	
+
+	// 		std::cout<<"inf Detected"<<"\n";
+	// 		// b_afterinfCluster =true;
+
+	// 		if(obstData_.size()>1){
+	// 			sim->addObstacle(obstData_);
+	// 			printinfObstVector_(obstData_);
+	// 			obstData_.clear();
 	// 		}
-	// 		std::cout << "Detected Infinity" << obstData_.size() << "\n";
-	// 		obstData_.clear();
-	// 		b_startingNewCluster = true;
+
+	b_obstacleInitialized_ = true;
+
+	// 		continue;
 	// 	}
 
     // }
 
-	/////***
+	// // std::cout<<"Start cluster"<<"\n";
 
-	// std::cout << "1\n";
-	// printObstacleVector_(obstData_);
+	// // printObstacleVector_(obstData_);
 
-	// Pass the last set of point cluster to ORCA
+	// // Pass the last set of point cluster to ORCA
 	// if(obstData_.size()>1){
 	// 	sim->addObstacle(obstData_);
-	// 	// obstData_.clear();
+	// 	obstData_.clear();
 	// }
 
-	// obstData_ = b;
-	// // std::cout << "ObstData TEst SIm Size : " << obstData_.size() << "\n";
-	// sim->addObstacle(obstData_);
-
-	// obstData_ = c2;
-	// sim->addObstacle(obstData_);
-
-
-	// obstData_ = d2;
-	// obstData_.push_back(RVO::Vector2(00.0f, 00.0f));	
-	// obstData_.push_back(RVO::Vector2(-300.0f, 00.0f));
 	
-	// sim->addObstacle(obstData_);
-	// std::cout << "2\n";
-	b_obstacleInitialized_ = true;
-	// std::cout << "3\n";
-	// exit(0);
+
 }
-
-
 
 
 
@@ -706,6 +760,20 @@ void Test_Sim::agentStateCallbackFunction_(const orca_msgs::AgentState::ConstPtr
 }
 
 
+
+
+
+
+/*
+ * _occupancyGridCallback()
+ * Input : const nav_msgs::OccupancyGrid
+ * Output : void
+ * 
+ * brief : checks if the position at t+1 time lies in the 
+ * in the threshold color intensity pixel(inside proxemics)
+ * 
+ * 
+ */
 
  /*Converts the occupancy callback message into 2d CV::Mat based grid */
 void Test_Sim::_occupancyGridCallback(const nav_msgs::OccupancyGrid::ConstPtr& grid)  {
@@ -753,6 +821,8 @@ void Test_Sim::_occupancyGridCallback(const nav_msgs::OccupancyGrid::ConstPtr& g
 }
 
 
+
+
 /* Initialize the transformation matrix from Gazebo's world frame to opencv image frame */
 void Test_Sim::_initializeTransformationMatrix(){
 
@@ -782,7 +852,15 @@ void Test_Sim::_initializeTransformationMatrix(){
 
 }
 
-
+/*
+ * displayGlobalGrid()
+ * Input : None
+ * Output : void
+ * 
+ * brief : Displays grayscale image of your environment. 
+ * 
+ * 
+ */
 
 /* Displays the global grid */
 void Test_Sim::displayGlobalGrid(){
@@ -794,7 +872,7 @@ void Test_Sim::displayGlobalGrid(){
     }
 
 
-    std::cout << "Image rows : " << _occupancyGridImage.rows << "\n";
+    // std::cout << "Image rows : " << _occupancyGridImage.rows << "\n";
 
     // error if image is empty
     if(!_occupancyGridImage.data){
@@ -814,8 +892,9 @@ void Test_Sim::displayGlobalGrid(){
         // exit(0);
     // }
 
-    // cv::imwrite("/home/kshah/global.jpg", _occupancyGridImage);
+    // cv::imwrite("/home/nagarjunvinukonda/global.jpg", _occupancyGridImage);
 }
+
 
 
 
@@ -857,7 +936,7 @@ void Test_Sim::velocityPublisher_(const geometry_msgs::Twist& agentVel){
 	
 	// const nav_msgs::OccupancyGrid::ConstPtr grid;
 
-	// forwardSimulationPosition(velocity, timeHorizonObstacle_, timeStep, grid);
+	// send t+1 velocity to forwardSimulation check
 	forwardSimulationPosition(velocity, timeHorizonObstacle_, timeStep);
 
 	// publish velocity
@@ -869,9 +948,14 @@ void Test_Sim::velocityPublisher_(const geometry_msgs::Twist& agentVel){
 }
 
 
-
-
-
+/*
+ * forwardSimulationPosition()
+ * Input : geometry_msgs::Twist& , time Horizon , float timestep_
+ * Output : void
+ * 
+ * brief : checks if the velocity lies in human and obstacle proxemics
+ * 		   
+ */
 
 void Test_Sim::forwardSimulationPosition(const geometry_msgs::Twist& velocity, double timeHorizonObstacle_, float timeStep_){
 
@@ -885,7 +969,7 @@ void Test_Sim::forwardSimulationPosition(const geometry_msgs::Twist& velocity, d
 
 	std::cout<<"New position x:"<<position_t1.x()<<"New position y:"<<position_t1.y()<<std::endl;
 
-	// CheckInObstacleSpace(position_t1, grid);
+
 	CheckInObstacleSpace(position_t1);
 	
 
@@ -898,13 +982,13 @@ void Test_Sim::CheckInObstacleSpace(RVO::Vector2 position_t1){
 	Eigen::Vector3d OccupancyGridPosition = Test_Sim::_convertFromWorldFrame(position);
 
 	
-
+	// To check if the computed ORCA t+1 velocity lies in human or obstacle  
 	if(_occupancyGridImage.at<uchar>(OccupancyGridPosition[0], OccupancyGridPosition[1])>20){
 		std::cout<<"Bad velocity"<<std::endl;
 	}
 	else{
 
-		std::cout<<"Good"<<std::endl;
+		std::cout<<"Good Velocity"<<std::endl;
 	}
 
 
@@ -923,32 +1007,10 @@ Eigen::Vector3d Test_Sim::convertVec2ToVec3(const RVO::Vector2& position){
 }
 
 
-
-
-
-
 /* Converts a point from world frame to frame */
 Eigen::Vector3d Test_Sim::_convertFromWorldFrame(Eigen::Vector3d pointInWorldFrame){
     return _T_World_Image.inverse() * pointInWorldFrame;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -979,7 +1041,6 @@ tf::Vector3 Test_Sim::transformVelocity_(tf::Matrix3x3& mat,
 				   mat.getColumn(1).getZ()*velInWorld.getY() + 
 				   mat.getColumn(2).getZ()*velInWorld.getZ());
 }
-
 
 
 
