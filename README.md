@@ -4,7 +4,7 @@
 
 This package is a obstacle avoidance navigation stack developed for ROS Melodic & Ubuntu 18.04. The package uses Velocity-Obstacle method called ORCA(Optimal Reciprocal Collision Avoidance Algorithm) to avoid obstacles. It uses RVO2 library for ORCA & Kalman filters for dynamic object tracking with LiDAR. The package provides felxibility for user to choose start, goal points and planning horizon along with no. of multiple agents to avoid and provide static obstacle data of enviroment to ORCA as RVO vectors. The packages uses Proxemics theory to avoid human and obstacles area of proxemity for Social Aware Navigation through predicting the t+1 RVO velocity.
 
-The package allows user to get Dynamic Obatcle tracking data from DetectedEntity.msg from obstacle tracker package. The novality of this package is to use ORCA along with proxemics predicting whether future velocities lies in collision area or not. This can be further be used to deveop a Behaviour Module over the Motion planner.  
+The package allows user to get Dynamic Obatcle tracking data from DetectedEntity.msg from obstacle tracker package. The novality of this package is to use ORCA along with proxemics predicting whether future velocities lies in collision area or not. This can be further be used to develop a Behaviour Module over the Motion planner.  
 
 
 **Keywords:** Velocity Obstacles, ORCA, Proxemics Theory, Social-Aware-Navigation, Obstacle Avoidance. 
