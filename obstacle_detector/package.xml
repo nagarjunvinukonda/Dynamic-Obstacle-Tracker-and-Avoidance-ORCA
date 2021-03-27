@@ -3,8 +3,7 @@
   <name>obstacle_detector</name>
   <version>1.0.0</version>
   <description>Detect obstacles in form of line segments and circles from 2D laser scans.</description>
-  <maintainer email="mateusz.przybyla@put.poznan.pl">Mateusz Przybyla</maintainer>
-  <author>Mateusz Przybyla</author>
+  <maintainer email="vinukondanagarjun4@gmail.com">Nagarjun Vinukonda</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>

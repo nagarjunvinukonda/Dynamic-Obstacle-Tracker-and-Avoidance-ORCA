@@ -6,7 +6,7 @@ project(orca)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
-#SET(OpenCV_DIR /home/kshah/installation/OpenCV-master/installation/OpenCV-master/lib/cmake/opencv4)
+#SET(OpenCV_DIR /home/nagarjunvinukonda/installation/OpenCV-master/installation/OpenCV-master/lib/cmake/opencv4)
 
 
 

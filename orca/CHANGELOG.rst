@@ -31,6 +31,8 @@ Changelog for package orca
 	- Added add_dependency tag to test_sim executable
 	- Raised the order of orca_msgs includes at the start of all header files using them
 	- Made necessary changes to incorporate DetectedEntity arrays in Agent{.h & .cpp} , Test_Sim{.h & .cpp} files
+
+Nagarjun Vinukonda
 	
 1.5 (2021-01-20)
 ------------------
@@ -42,3 +44,10 @@ Changelog for package orca
 -----------------
 * updated Orca
 	-added forward simulation and other functions for generating velocity profiles. 
+
+1.7 (2021-03-26)
+----------------
+* Updated test_sim.cpp file 
+	- Added New Laser data cluster acquisition logic (Algorithm) 
+	- Removed unnecessary print statements
+	- Added breif description of functions. 
