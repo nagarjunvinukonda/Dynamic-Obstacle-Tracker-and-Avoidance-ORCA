@@ -11,7 +11,7 @@ The package allows user to get Dynamic Obatcle tracking data from DetectedEntity
 
 
 **Author: [Nagarjun Vinukonda](https://nagarjunvinukonda.github.io/), Kavit Shah**\
-**Affiliation: Worcester PolyTechnic Institute**\
+**Affiliation: Worcester Polytechnic Institute**\
 **Maintainer: Nagarjun Vinukonda, [nvinukonda@wpi.edu](https://outlook.office365.com/mail/inbox)**
 
 The algorithm has been made to deploy on mobile robots with static indoor environments. 
