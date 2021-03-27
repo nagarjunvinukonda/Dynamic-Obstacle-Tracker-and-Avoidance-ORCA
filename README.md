@@ -49,18 +49,22 @@ The algorithm has been made to deploy on mobile robots with static indoor enviro
 
 # Installation:
 
-## Dependencies
-You will need [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3/tree/melodic-devel) & [turtlebot3_simulation](https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/melodic-devel) packages.
+## Building from Source
 
-OpenCV is also needed if you wish to work with certain functionalities of this repo. You can find the installing instruction for OpenCV4 on Ubuntu 18-04 [here](https://www.learnopencv.com/install-opencv-4-on-ubuntu-18.04/)
+### Dependencies
 
-Don't forget to configure the OpenCV_DIR in the CMakeLists.txt with {path-to-your-OpenCV-library}
+- [Robot Operating System (ROS)](http://wiki.ros.org) (Melodic Preferred),
+	- You will need [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3/tree/melodic-devel) & [turtlebot3_simulation](https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/melodic-devel) packages:
 
-## Package modifications
+- [Eigen3](https://eigen.tuxfamily.org/index.php?title=Main_Page) (linear algebra library)
 
-The package is further going to be modified for dynamic obstacles. Please make sure to open issues as per the instructions provided for contributors.   
+- [OpenCV](https://learnopencv.com/install-opencv-4-on-ubuntu-18-04/) (Image Processing Library) OpenCV4 and above
+	- Don't forget to configure the OpenCV_DIR in the CMakeLists.txt with {path-to-your-OpenCV-library}
 
-## Running
+- [CMake] Version : 3.10.2 & above
+
+
+## Launch Files
 Once you have successfully build the project you can run the executables with the following commands from inside your build directory
 
 1. Launching the world file
@@ -92,8 +96,18 @@ Once you have successfully build the project you can run the executables with th
 
 ## For Contributors: 
 
-	
+* To understand about interacting with the library please refer the orca->src->test_sim_Function_Information.txt
+
+* While making any new changes, please update the CHANGELOG.rst files in the base folder and in each package about the changes made. Creating a new branch for the change would be highly adviced.
+
+* Note: This package is for my further modifications and testing. If you like to add issues, I recommend add it to main branch
+
+* Your contributions are truly appreciated
+
+<!--	
 * ***NOTE:*** This repo is under going changes for creating new dynaimic obstacle avoidance alagrithm. For stable and working repo, please visit: [static_navigation_ORCA](https://github.com/nagarjunvinukonda/Dynamic-Obstacle-Tracker-and-Avoidance-ORCA/tree/static_navigation_ORCA) Branch.
+-->
+
 
 
 ## References & Useful resources:
@@ -102,13 +116,7 @@ Once you have successfully build the project you can run the executables with th
 
 * Van Den Berg, Jur, et al. "Reciprocal n-body collision avoidance." Robotics research. Springer, Berlin, Heidelberg, 2011. 3-19.
 
-* https://github.com/ROBOTIS-GIT/turtlebot3/tree/melodic-devel
-
-* https://github.com/ROBOTIS-GIT/turtlebot3_simulations/tree/melodic-devel
-
-* Installing [OpenCV4](https://www.learnopencv.com/install-opencv-4-on-ubuntu-18-04/) for Ubuntu 18.04
-
 * M.Przybyła, “Detection and tracking of 2d geometric obstacles from lrfdata,” in2017 11th International Workshop on Robot Motion and Control(RoMoCo). IEEE, 2017, pp. 135–141
 
-* The Obstacle detecor package created by author is found [here](https://github.com/tysik/obstacle_detector) 
+* More information on Obstacle detecor package created by author is found [here](https://github.com/tysik/obstacle_detector) 
 
