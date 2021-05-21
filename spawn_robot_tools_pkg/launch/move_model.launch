@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <arg name="robot_name" default="" />
+
+    <node name="$(arg robot_name)_move" pkg="spawn_robot_tools_pkg" type="move_generic_model_script.py" args="$(arg robot_name)" output="screen"/>
+</launch>

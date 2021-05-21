@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <node name="spawn_delete_object_node"
+          pkg="spawn_robot_tools_pkg"
+          type="spawn_delete_object.py"
+          output="screen"/>
+</launch>

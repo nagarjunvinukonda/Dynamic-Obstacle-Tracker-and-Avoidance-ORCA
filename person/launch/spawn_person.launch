@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch> 
+
+    <arg name="x" default="0.0" />
+    <arg name="y" default="0.0" />
+    <arg name="z" default="0.0" />
+    <arg name="yaw" default="0.0" />
+    <arg name="sdf_robot_file" default=""/>
+    <arg name="robot_name" default="" />
+    
+    
+    <include file="$(find spawn_robot_tools_pkg)/launch/spawn_sdf.launch">
+        <arg name="sdf_robot_file" value="$(arg sdf_robot_file)"/>
+        <arg name="robot_name" default="$(arg robot_name)" />
+        <arg name="x" value="$(arg x)" />
+        <arg name="y" value="$(arg y)" />
+        <arg name="z" value="$(arg z)" />
+        <arg name="yaw" value="$(arg yaw)" />
+    </include>
+
+</launch>

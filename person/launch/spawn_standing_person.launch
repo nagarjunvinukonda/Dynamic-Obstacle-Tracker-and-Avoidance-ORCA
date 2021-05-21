@@ -1,0 +1,21 @@
+<launch>
+    <!-- 
+    roslaunch face_recognition_tc spawn_standing_person.launch model_sdf_file:="redhairman.sdf" robot_name:="redhairman"
+    roslaunch face_recognition_tc spawn_standing_person.launch model_sdf_file:="manthinkingdae.sdf" robot_name:="manthinkingdae"
+    -->
+    <arg name="sdf_robot_file" value="$(find person)/models/person_standing/model.sdf"/>
+    <arg name="robot_name" default="person_standing01" />
+    <arg name="x" default="0.0" />
+    <arg name="y" default="0.0" />
+    <arg name="z" default="0.0" />
+    <arg name="yaw" default="0.0" />
+    
+    <include file="$(find person)/launch/spawn_person.launch">
+        <arg name="sdf_robot_file" value="$(arg sdf_robot_file)"/>
+        <arg name="robot_name" value="$(arg robot_name)" />
+        <arg name="x" value="$(arg x)" />
+        <arg name="y" value="$(arg y)" />
+        <arg name="z" value="$(arg z)" />
+        <arg name="yaw" value="$(arg yaw)" />
+    </include>
+</launch>
